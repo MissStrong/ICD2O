@@ -12,9 +12,7 @@ function setup() {
 }
 ```
 
-![](../Images/StrokeWeight.png)
-
-
+![](../../Images/StrokeWeight.png)
 
 ### The `noStroke()` Function
 
@@ -31,9 +29,7 @@ function setup() {
 }
 ```
 
-
-
-![](../Images/NoStroke.png)
+![](../../Images/NoStroke.png)
 
 ### The `noFill()` Function
 
@@ -49,4 +45,4 @@ function setup() {
 }
 ```
 
-![](../Images/NoFill.png)
+![](../../Images/NoFill.png)
