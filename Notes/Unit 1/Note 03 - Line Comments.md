@@ -6,7 +6,7 @@ They can provide explanations and reminders for us so that our code is easier to
 
 ```js
 function setup() {
-  createCanvas(windowWidth, windowHeight); //  Creates the canvas to be the maximum size 
+  createCanvas(windowWidth, windowHeight); // Creates the canvas to be the maximum size 
 }
 ```
 
