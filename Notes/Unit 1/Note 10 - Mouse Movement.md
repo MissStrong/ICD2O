@@ -18,16 +18,16 @@ The `mouseX` and `mouseY` variables store the current location of your cursor. 
 
 ```javascript
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(255);
+  createCanvas(windowWidth, windowHeight);
+  background(255);
 }
 
 function draw() {
-	ellipse(mouseX, mouseY, 50);
+  ellipse(mouseX, mouseY, 50);
 }
 ```
 
-![](../Images/Basic_Example.png)
+![](../../Images/Basic_Example.png)
 
 If we want to modify it so that only one circle shows up at a time based on where the cursor currently is, we can move `background(100);` to the body of `draw()`.
 
@@ -38,11 +38,11 @@ function setup() {
 
 function draw() {
   background(100);
-	ellipse(mouseX, mouseY, 50);
+  ellipse(mouseX, mouseY, 50);
 }
 ```
 
-![](../Images/Mouse_Circle.png)
+![](../../Images/Mouse_Circle.png)
 
 The reason this works is that the `draw()` function repeatedly redraws the background and covers up the previous circle. The reason the circle isn't flickering is that the canvas updates at the end of each cycle of `draw()`, so we see the changes to the screen all at once instead of one after the other.
 
@@ -64,7 +64,7 @@ function draw() {
 
 This program will continuously draw a line every time the mouse moves, leaving a trail of the places the cursor has been to.
 
-![](../Images/Mouse_Trail.png)
+![](../../Images/Mouse_Trail.png)
 
 We can also use `mouseX` and `mouseY` to represent things other than coordinates, such as the length and width of a rectangle.
 
@@ -81,7 +81,6 @@ function draw() {
 }
 ```
 
-![](../Images/Proportional_Rectangle.png)
+![](../../Images/Proportional_Rectangle.png)
 
 This will draw a rectangle with side lengths proportaional to the coordinates of its center. For example, if you move the mouse towards the origin, it will be a small rectangle and if you move it towards the bottom-right corner, it will be large rectangle.
-
