@@ -14,12 +14,12 @@ Here is an example of a P5.js program in Replit. We'll be deconstructing it litt
 
 ```javascript
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(255);
+  createCanvas(windowWidth, windowHeight);
+  background(255);
 }
 
 function draw() {
-	ellipse(mouseX, mouseY, 50);
+  ellipse(mouseX, mouseY, 50);
 }
 ```
 
