@@ -23,7 +23,7 @@ function draw() {
 }
 ```
 
-![](../Images/Basic_Example.png)
+![](../../Images/Basic_Example.png)
 
 ### Where to Lookup Information about P5.js
 
