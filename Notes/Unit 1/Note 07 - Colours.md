@@ -27,7 +27,7 @@ function setup() {
 }
 ```
 
-![](../Images/Background.png)
+![](../../Images/Background.png)
 
 ### The `fill()` Function 
 
@@ -39,13 +39,13 @@ function setup() {
   
   fill(255, 165, 0); // makes the inside orange
   rect(130, 90, 260, 120); // rectangle
-	ellipse(370, 190, 140, 200); // ellipse
+  ellipse(370, 190, 140, 200); // ellipse
 }
 ```
 
 Here is the result:
 
-![](../Images/Fill.png)
+![](../../Images/Fill.png)
 
 ### The `stroke()` Function
 
@@ -57,10 +57,10 @@ function setup() {
   
   stroke(128, 0, 128); // makes the outlines purple
   rect(130, 90, 260, 120); // rectangle
-	ellipse(370, 190, 140, 200); // ellipse
+  ellipse(370, 190, 140, 200); // ellipse
 }
 ```
 
 Here is the result:
 
-![](../Images/Stroke.png)
+![](../../Images/Stroke.png)
