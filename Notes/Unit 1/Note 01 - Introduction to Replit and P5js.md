@@ -1,5 +1,3 @@
-
-
 ### What is Replit?
 
 [Replit](http://replit.com) is a web-based programming environment. In this course, we will be using it to write P5.js programs. 
