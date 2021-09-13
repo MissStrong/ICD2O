@@ -4,11 +4,11 @@ Coordinates in programming are usually different from coordinates in math.
 
 In math, 2-dimensional coordinates can be graphed on a Cartesian Plane like this:
 
-![img](file:///Users/Sarah/Downloads/ICS2O_Quad_4_2020-2021-main/Images/Cartesian_Plane.jpg?lastModify=1631481087)
+![](../../Images/Cartesian_Plane.jpg)
 
 In computer science, we usually don't use the Cartesian plane for coordinates. Instead, the coordinate system we use looks like this:
 
-![img](file:///Users/Sarah/Downloads/ICS2O_Quad_4_2020-2021-main/Images/Coordinate_Plane.jpg?lastModify=1631481087)
+![](../../Images/Coordinate_Plane.jpg)
 
 For example, if we are referring to a specific pixel in an image, we would use this coordinate system instead of the Cartesian plane. 
 
@@ -29,9 +29,4 @@ function setup() {
 }
 ```
 
-![](/Users/Sarah/Downloads/ICS2O_Quad_4_2020-2021-main/Images/Ellipse1.png)
-
-
-
-
-
+![](../..//Images/Ellipse1.png)
