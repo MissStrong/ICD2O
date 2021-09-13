@@ -17,5 +17,5 @@ There are three modes for the arc:
 * `PIE` (it looks like a pie)
 * `OPEN` (there is no line drawn from the start and end point)
 
-![](../Images/Arcs_In_Degrees.png)
+![](../../Images/Arcs_In_Degrees.png)
 
