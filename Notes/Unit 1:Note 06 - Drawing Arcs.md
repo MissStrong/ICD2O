@@ -18,4 +18,3 @@ There are three modes for the arc:
 * `OPEN` (there is no line drawn from the start and end point)
 
 ![](../../Images/Arcs_In_Degrees.png)
-
