@@ -1,0 +1,13 @@
+
+### Line Comments
+
+We can annotate our code by using line comments. Line comments begin with two forward slashes `//` and can be places after a line or code or on a blank line.
+They can provide explanations and reminders for us so that our code is easier to read and understand.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight); //  Creates the canvas to be the maximum size 
+}
+```
+
+We should use line comments throughout our programs to explain our thinking and make it easier for someone reading the code to understand what is going on.
