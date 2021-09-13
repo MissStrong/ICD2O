@@ -1,6 +1,6 @@
 ### The print() Function
 
-The `print()` function prints information to the console. It's useful for printing messages to ourselves during the program and to looking at what specific values are being stored in a variable at particular points in a program. 
+The `print()` function prints information to the console. It's useful for printing messages to ourselves during the program and to look at the specific values being stored in a variable at particular points in a program. 
 
 ### Arithmetic Operators
 
