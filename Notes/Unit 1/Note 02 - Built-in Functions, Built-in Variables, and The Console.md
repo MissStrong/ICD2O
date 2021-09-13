@@ -34,7 +34,7 @@ We always want to create the canvas during the setup, so we put this line in the
 
 ```javascript
 function setup() {
-	createCanvas(500, 300);
+  createCanvas(500, 300);
 }
 ```
 
@@ -46,7 +46,7 @@ A **variable** stores a value. The value can vary, hence the name *vary-able*. T
 
 ```javascript
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 ```
 
@@ -58,5 +58,4 @@ The next two built-in variables we'll be looking at are `width` and `height`. On
 
 The console is the window in the bottom-right corner that says "console" above it. It is used to interact with the program while it is running. One of the ways we can use it is to look up the values of variables. The `>` is a prompt for us to type something. If we write the name of a variable then press ENTER, it will print the value of that variable.
 
-![](../Images/Console.png)
-
+![](../../Images/Console.png)
