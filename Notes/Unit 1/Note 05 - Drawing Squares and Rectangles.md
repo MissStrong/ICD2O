@@ -10,7 +10,7 @@ function setup() {
 }
 ```
 
-![](../Images/Rectangle1.png)
+![](../../Images/Rectangle1.png)
 
 ### The `rectMode()` Function
 
@@ -25,6 +25,6 @@ function setup() {
 }
 ```
 
-![](../Images/Rectangle2.png)
+![](../../Images/Rectangle2.png)
 
 `CENTER` is a built-in **constant**. A constant is a variable that can't change. The convention in most programming languages is to write constants in all uppercase letters.
