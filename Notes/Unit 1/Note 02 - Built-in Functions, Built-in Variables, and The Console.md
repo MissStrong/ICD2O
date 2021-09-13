@@ -56,6 +56,6 @@ The next two built-in variables we'll be looking at are `width` and `height`. On
 
 ### The Console
 
-The console is the window in the bottom-right corner that says "console" above it. It is used to interact with the program while it is running. One of the ways we can use it is to look up the values of variables. The `>` is a prompt for us to type something. If we write the name of a variable then press ENTER, it will print the value of that variable.
+The console is the window in the bottom-right corner that says "console" above it. It is used to interact with the program while it is running. Whenever we get a error, we will see a red error message there. Another way we can use it is to look up the values of variables. The `>` is a prompt for us to type something. If we write the name of a variable then press ENTER, it will print the value of that variable.
 
 ![](../../Images/Console.png)
