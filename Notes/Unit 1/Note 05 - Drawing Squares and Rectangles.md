@@ -1,6 +1,6 @@
 ### The `rect()` Function
 
-We use `rect()` to draw squares and rectangles. This function takes four parameter: an *x*-value, a *y*-value, a width, and a height. If the width and height are the same, it will draw a square. By default, (*x*, *y*) is the top-left vertex of the rectangle.
+We use `rect()` to draw squares and rectangles. This function takes three or four parameter: an *x*-value, a *y*-value, a width, and an optional height. If the height is excluded or the width and height are the same, it will draw a square. By default, (*x*, *y*) is the top-left vertex of the rectangle.
 
 ```javascript
 function setup() {
@@ -28,3 +28,5 @@ function setup() {
 ![](../../Images/Rectangle2.png)
 
 `CENTER` is a built-in **constant**. A constant is a variable that can't change. The convention in most programming languages is to write constants in all uppercase letters.
+
+If we want to change it back to using the top-left corner, we can call `rectMode(CORNER)`.
