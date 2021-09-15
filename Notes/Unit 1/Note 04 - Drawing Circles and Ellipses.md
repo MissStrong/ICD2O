@@ -18,7 +18,7 @@ The coordinate (0, 0) is referred to as the **origin**. In P5.js, **the origin i
 
 ### The `ellipse()` Function
 
-We use `ellipse()` to draw circles and ellipses. Ellipses are like circles except they have a the horizontal diameter and the vertical diameter. This function takes three or four parameter: an *x*-value, a *y*-value, a horizontal diameter, and an optional vertical diameter. By default, (*x*, *y*) is the center of the circle or ellipse using the coordinate system described above
+We use `ellipse()` to draw circles and ellipses. Ellipses are like circles except they have a the horizontal diameter and the vertical diameter. This function takes three or four parameters: an *x*-value, a *y*-value, a horizontal diameter, and an optional vertical diameter. By default, (*x*, *y*) is the center of the circle or ellipse using the coordinate system described above
 
 ```javascript
 function setup() {
