@@ -12,7 +12,7 @@ function setup() {
 ```
 ![](../../Images/Testing.png)
 
-We can **concatenate** strings by using the `+` operator.
+We can **concatenate** (i.e. combine) strings with numbers and other strings by using the `+` operator.
 
 ```js
 function setup() {
@@ -75,7 +75,7 @@ function setup() {
 
 ![](../../Images/Hello_Text3.png)
 
-We can also use any font we want by uploading the `.ttf` (TrueType Font) or `.otf` (OpenType Font) file for it. We can search online to find the file for the font we want and load it similar to how we load an image. To load a font file we use `loadFont()` and to use the font we use `textFont()`.
+We can also use any font we want by uploading the `.ttf` (TrueType Font) or `.otf` (OpenType Font) file for it. We can search online to find the file for the font we want and drag it under **Files** on our Replit project. Then we load by calling `loadFont()` in the body of the `preload()` function. The `preload()` function is a function that we override, just like`setup()` and `draw()`. To use the font on a specific string and set the font size, we call `textFont()` in `setup()`.
 
 ```js
 function preload() {
