@@ -10,7 +10,7 @@ function setup() {
   print("Testing...");
 }
 ```
-![](../Images/Testing.png)
+![](../../Images/Testing.png)
 
 We can **concatenate** strings by using the `+` operator.
 
@@ -24,7 +24,7 @@ function draw() {
 }
 ```
 
-![](../Images/MouseX.png)
+![](../../Images/MouseX.png)
 
 We can also use strings to print text onto the canvas using the `text()` function. The `text()` function takes three parameters: the string, the x-coordinate, and the y-coordinate.
 
@@ -35,7 +35,7 @@ function setup() {
 }
 ```
 
-![](../Images/Hello_Text.png)
+![](../../Images/Hello_Text.png)
 
 Here are some other things we can do with text:
 
@@ -55,7 +55,7 @@ function setup() {
 }
 ```
 
-![](../Images/Hello_Text2.png)
+![](../../Images/Hello_Text2.png)
 
 * Align the text using `textAlign()` and the following constants:
   * `CENTER`, `TOP`, `BOTTOM`, `LEFT`, `RIGHT`
@@ -73,7 +73,7 @@ function setup() {
 }
 ```
 
-![](../Images/Hello_Text3.png)
+![](../../Images/Hello_Text3.png)
 
 We can also use any font we want by uploading the `.ttf` (TrueType Font) or `.otf` (OpenType Font) file for it. We can search online to find the file for the font we want and load it similar to how we load an image. To load a font file we use `loadFont()` and to use the font we use `textFont()`.
 
@@ -90,4 +90,4 @@ function setup() {
 }
 ```
 
-![](../Images/Hello_Text4.png)
+![](../../Images/Hello_Text4.png)
