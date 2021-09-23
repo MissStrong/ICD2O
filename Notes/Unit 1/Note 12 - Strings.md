@@ -24,7 +24,7 @@ function draw() {
 }
 ```
 
-![](../../Images/MouseX.png)
+![](../../Images/Mouse_X.png)
 
 We can also use strings to print text onto the canvas using the `text()` function. The `text()` function takes three parameters: the string, the x-coordinate, and the y-coordinate.
 
