@@ -1,6 +1,6 @@
 ### Built-In Variables 
 
-We've come across the following *built-in* variables. They are built into P5.js.
+We've come across the following **built-in variables**. They are built into P5.js.
 
 * `mouseX` and `mouseY`
 * `windowWidth ` and `windowHeight`
