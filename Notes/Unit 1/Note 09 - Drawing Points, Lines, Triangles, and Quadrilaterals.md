@@ -24,7 +24,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Point1.png)
+![](../../Images/Point.png)
 
 ### The `line()` Function
 
@@ -40,7 +40,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Line1.png)
+![](../../Images/Line.png)
 
 ### The `triangle()` Function
 
@@ -54,7 +54,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Triangle1.png)
+![](../../Images/Triangle.png)
 
 ### The `quad()` Function
 
@@ -68,4 +68,4 @@ function setup() {
 }
 ```
 
-![](../../Images/Quad1.png)
+![](../../Images/Quad.png)
