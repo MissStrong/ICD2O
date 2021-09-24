@@ -4,7 +4,7 @@ We've come across the following **built-in constants**. They are built into P5.j
 
 * `CENTER`, `CORNER`, and `CORNERS`
 * `DEGREES` and `RADIANS`
-* `CHORD` and `PI`, and `OPEN`
+* `CHORD`, `PI`, and `OPEN`
 
 However, we can also make our own **custom constants** too. Just like custom variables, custom constants need to be declared and assigned a value. 
 
