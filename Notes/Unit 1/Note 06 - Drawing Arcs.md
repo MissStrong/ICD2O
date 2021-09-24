@@ -2,7 +2,7 @@
 
 An **arc** is a curve along the circumference of a circle. We use `arc()` to draw arcs. This function takes the same four parameters as `ellipse()`, but it also takes three more: the starting point, the ending point, and the mode. 
 
-By default, the starting and ending points are written in **radians**. Radians are a unit used to measure the size of an angle, just like degrees. Radians usually aren't taught until Grade 12 Advanced Functions, so it'll be easier for us to use degrees. To be able to use degrees instead, call  `angleMode(DEGREES);`.
+By default, the starting and ending points are written in **radians**. Radians are a unit used to measure the size of an angle, just like degrees. Radians usually aren't taught until Grade 12 Advanced Functions, so it'll be easier for us to use degrees. To be able to use degrees instead, call `angleMode(DEGREES)`. If we want to change it back to radians, we can call `angleMode(RADIANS)`.
 
 Here are a few significant points of an ellipse:
 
