@@ -2,7 +2,7 @@
 
 We've come across the following **built-in constants**. They are built into P5.js and their values *do not change* while the program is running.
 
-* `CENTER, `CORNER`, and 'CORNERS'
+* `CENTER`, `CORNER`, and 'CORNERS'
 * `DEGREES` and `RADIANS`
 * `CHORD` and `PI`, and `OPEN`
 
