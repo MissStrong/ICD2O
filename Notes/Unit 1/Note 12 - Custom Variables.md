@@ -1,0 +1,40 @@
+### Built-In Variables 
+
+We've come across the following *built-in* variables. They are built into P5.js.
+
+* `mouseX` and `mouseY`
+* `windowWidth ` and `windowHeight`
+* `width` and `height`
+
+However, we can also make our own **custom variables** too. Custom variables need to be **declared** (i.e. given a name) and **assigned a value**. 
+
+### Variable Declaration
+
+When we declare a custom variable, we have to give it a name. Ideally, the name is a descriptive word or a few descriptive words. In Javascript, the convention is to name variables using **camel case**. If the name is just one word, it is all lowercase. If the name is multiple words, the first word is all lower case and all other words are lower case except for the first letter. The idea is that the capital letters look like humps on a camel: `thisIsCamelCase`. All built-in variables and functions follow this convention.
+
+![](../../Images/Camel_Case.png)
+
+When we declare a custom variable we also have to specify whether it's a **global variable** or a **local variable**. Global variables can be accessed and modified throughout the entire program whereas local variables can only be accessed and modified in a particular **block** (a section enclosed in curly braces `{}`). We'll look at how to distinguish global and local variables later.
+
+### Variable Assignment
+
+We assign a value to a custom variable by using the **assignment operator** `=`. It looks like an equal sign, but it's not checking for equality (i.e. it's *not* a left side vs. right side check). It takes a value and stores it into the variable.
+
+```javascript
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  coordinate = 300; // declaring a variable named coordinate and giving it the value of 300
+  ellipse(coordinate, coordinate, 200); // a circle centered at (300, 300) is drawn
+}
+```
+![](../../Images/Coordinate300.png)
+
+When we declare and assign a value to a custom variable. We must put the name to the left of the assignment operator and the value to the right of the assignment operator. If we swap the positions it won't work.
+
+```javascript
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  300 = coordinate; // // this doesn't work; the program will crash
+  ellipse(coordinate, coordinate, 200); // a circle centered at (300, 300) is drawn
+}
+```
