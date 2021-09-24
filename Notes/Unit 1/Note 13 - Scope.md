@@ -1,6 +1,6 @@
 ### Scope
 
-**Scope** refers to the places where a variable can be accessed. In JavaScript, variables can have **block scope**, **function scope**, or **global scope**.
+**Scope** refers to the places within a program where a variable can be accessed. In JavaScript, variables can have **block scope**, **function scope**, or **global scope**.
 
 A **keyword** is a reserved word that has a special purpose. The keyword for declaring a variable with block scope is `let`. This is a fairly new keyword (it was added to JavaScript in 2015) and it is the preferred way of making a local variable. When we declare a variable using `let`, that variable can only be used within the same block after it's declared. 
 
