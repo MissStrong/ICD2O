@@ -79,7 +79,7 @@ We can also use any font we want by uploading the **.ttf** (TrueType Font) or **
 
 ```js
 function preload() {
-  comicSans = loadFont("comicSans.ttf"); 
+  comicSans = loadFont("comicSans.ttf"); // there's no "let" because we need to access this in variable in setup()
   // "comicSans.ttf" is a file that was found online and uploaded
 }
 
