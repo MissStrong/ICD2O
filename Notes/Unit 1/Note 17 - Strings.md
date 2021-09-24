@@ -35,7 +35,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Hello_Text.png)
+![](../../Images/Hello_Text_1.png)
 
 Here are some other things we can do with text:
 
