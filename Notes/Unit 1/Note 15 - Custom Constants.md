@@ -12,7 +12,7 @@ However, we can also make our own **custom constants** too. Just like custom var
 
 When we declare a constant we use the keyword `const` and then we give it a name. All constants have block scope, so the location we declare it in affects where we can access it.
 
-In Javascript, the convention is to name constants using **screaming snake case**, which is a variation of **snake case**. In snake case, all words are lower case and separated by underscores `_`. In screaming snake case, all words are upper case and separated by underscores (imagine that the snake is screaming/yelling).
+In Javascript, the convention is to name constants using **screaming snake case**, which is a variation of **snake case**. In snake case, all words are lower case and separated by underscores `_`. Snake case is used in languages like Python (which happens to be type of snake). In screaming snake case, all words are upper case and separated by underscores (imagine that the snake is screaming/yelling).
 
 ```javascript
 const WEIGHT = 10; // the value of WEIGHT will never change in our program
