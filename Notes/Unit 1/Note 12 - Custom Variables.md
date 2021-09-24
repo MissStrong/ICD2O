@@ -3,6 +3,7 @@
 We've come across the following **built-in variables**. They are built into P5.js.
 
 * `mouseX` and `mouseY`
+* `pmouseX` and `pmouseY`
 * `windowWidth ` and `windowHeight`
 * `width` and `height`
 
