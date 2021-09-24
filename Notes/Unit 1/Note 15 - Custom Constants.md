@@ -29,18 +29,18 @@ function draw() {
 ```
 ![](../../Images/Constant.png)
 
-If we try to reassign the value of a constant, the console will say "TypeError: Assignment to constant variable."
+If we try to reassign the value of a constant, the console will say `TypeError: Assignment to constant variable.`.
 
 ```javascript
 const WEIGHT = 10;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  WEIGHT = 20; // this does not work since we used "const" to declare WEIGHT
 }
 
 function draw() {
   strokeWeight(WEIGHT);
   ellipse(mouseX, mouseY, 50);
-  WEIGHT = 20; // this does not work since we used "const" to declare WEIGHT
 }
 ```
