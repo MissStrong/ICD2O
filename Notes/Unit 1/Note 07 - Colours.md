@@ -63,4 +63,4 @@ function setup() {
 
 Here is the result:
 
-![](../../Images/Stroke1.png)
+![](../../Images/Stroke.png)
