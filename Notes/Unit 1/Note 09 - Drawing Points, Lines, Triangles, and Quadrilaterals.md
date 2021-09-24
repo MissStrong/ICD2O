@@ -40,7 +40,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Line.png)
+![](../../Images/Line1.png)
 
 ### The `triangle()` Function
 
