@@ -52,7 +52,7 @@ In JavaScript, we also have `===` and `!==` when we want to ensure that the two 
 
 ## Order of Operations
 
-We know that with arithmetic operators the order of operations is BEDMAS, but what about all the other operators we've seen so far?
+We know that the order of arithmetic operations is BEDMAS, but what about all the other operations we've seen so far?
 
 If we do not use any brackets, this is the order from highest precedence to lowest precedence:
 
