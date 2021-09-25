@@ -20,7 +20,7 @@ function draw() {
 
 If we want to figure out which key was being pressed, we need to learn about **keycodes**. A keycode is a number assigned to each key on the keyboard. To find the keycode for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under *key.code*.
 
-We can use `keyIsDown()` to check which keys are being pressed down. The `keyIsDown()` takes a number represeneting a keycode and returns `true` if that key is currently being pressed down and `false` otherwise. 
+We can use `keyIsDown()` to check which keys are being pressed down. The `keyIsDown()` function takes a number represeneting a keycode and returns `true` if that key is currently being pressed down and `false` otherwise. 
 
 According to [http://keycode.info](http://keycode.info/), the keycode for the enter key is 13. We should make a constant for that so that it's clear what the number 13 is for in case we forget. Now we can modify the previous example so that the circle is drawn only if the enter key is being pressed.
 
