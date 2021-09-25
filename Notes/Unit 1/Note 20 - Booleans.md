@@ -27,7 +27,7 @@ We can create **Boolean expressions** using various types of operators.
 | Less Than or Equal To | `<=` | `3 <= 5` | 3 is less than or equal to 5, so the expression is `True`.<br /> `<=` is supposed to look like the ≤ symbol. |
 | Greater Than or Equal To | `>=` | `3 >= 5` | 3 is neither greater than nor equal to 5, so the expression is false.<br />`>=` is supposed to look like the ≥ symbol. |
 
-![](../../Images/Comparision_Operator.png)
+![](../../Images/Comparison_Operator.png)
 
 **Equality operators** check whether two numbers are equal or not equal to produce a `true` or `false` statement.
 
