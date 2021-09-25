@@ -1,8 +1,8 @@
 ## Key Presses
 
-So far we've seen the built-in variable `keyIsPressed` used to detect whether a key is currently being pressed down. 
+So far we've seen the built-in variable `keyIsPressed` used to detect whether there is currently any key being pressed down. 
 
-Here's an example from before. It keeps drawing circles when we are pressing down on a key and stops drawing them when we let go of the key.
+Here's an example from before. It keeps drawing circles when we are pressing down on a key and it stops drawing them when we let go of all the keys.
 
 ```js
 function setup() {
@@ -54,3 +54,22 @@ function keyPressed() {
 ```
 
 ![](../../Images/Key_Pressed2.png)
+
+If we want something to happen when a key is released as opposed to when it's first pressed, we can use `keyReleased()` instead.
+
+This is the same example as before but with `keyPressed()` replaced with `keyReleased()`. The shapes show up when we release the keys.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  rectMode(CENTER);
+}
+
+function keyPressed() {
+  if (key == " ") { // " " is the key for spacebar
+    ellipse(random(width), random(height), 50); // random circles
+  } else if (key == "Enter") {
+    rect(random(width), random(height), 50); // random squares
+  } 
+}
+```
