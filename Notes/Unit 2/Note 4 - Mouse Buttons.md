@@ -28,4 +28,4 @@ function mousePressed() {
 
 In this example a message continously gets printed to the console as we are pressing down any of the mouse buttons.
 
-![](../../Images/Mouse_Is_Pressed.png)
+![](../../Images/Mouse_Is_Pressed1.png)
