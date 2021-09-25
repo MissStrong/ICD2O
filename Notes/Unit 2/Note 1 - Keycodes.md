@@ -18,27 +18,11 @@ function draw() {
 
 ![](../../Images/Conditional2.png)
 
-If we want to figure out which key was being pressed, we could do that by using the numerical variable `keyCode`, which stores the keycode for the most recently pressed key. To find the keycode for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under *key.code*.
+If we want to figure out which key was being pressed, we need to learn about **keycodes**. A keycode is a number assigned to each key on the keyboard. To find the keycode for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under *key.code*.
 
-According to that webpage, the keycode for the enter key is 13. We should make a constant for that so that it's clear what the number 13 is for. Now we can modify the previous example so that the circle is drawn only if the enter key is the only key being pressed.
+We can use `keyIsDown()` to check which keys are being pressed down. The `keyIsDown()` takes a number represeneting a keycode and returns `true` if that key is currently being pressed down and `false` otherwise. 
 
-```js
-const ENTER = 13;
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
-
-function draw() {
-  if (keyIsPressed && keyCode == ENTER) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up when only the ENTER key is being pressed down
-  }
-}
-```
-
-![](../../Images/Conditional_8.png)
-
-If there are multiple keys being pressed down, we can use `keyIsDown()` to check which keys are being pressed down. The `keyIsDown()` takes a number represeneting a keycode and returns `true` if that key is currently being pressed down and `false` otherwise. Here's a modification of the previous example so that the circle is drawn only if the enter key is being pressed down and it ignores all other key presses.
+According to [http://keycode.info](http://keycode.info/), the keycode for the enter key is 13. We should make a constant for that so that it's clear what the number 13 is for in case we forget. Now we can modify the previous example so that the circle is drawn only if the enter key is being pressed.
 
 ```js
 const ENTER = 13;
