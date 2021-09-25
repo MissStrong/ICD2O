@@ -34,7 +34,7 @@ function keyPressed() {
 }
 ```
 
-![](../Images/Key_Pressed1.png)
+![](../../Images/Key_Pressed1.png)
 
 We can still use the variable `key` to check which key was pressed. This example draws a circle every time the spacebar is pressed and a square every time the ENTER key is pressed.
 
@@ -53,4 +53,4 @@ function keyPressed() {
 }
 ```
 
-![](../Images/Key_Pressed2.png)
+![](../../Images/Key_Pressed2.png)
