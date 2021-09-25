@@ -12,7 +12,7 @@ function setup() {
 }
 
 function mousePressed() {
-  ellipse(random(width), random(height), 50);
+  ellipse(random(width), random(height), 50); // draws a circle every time the mouse is pressed
 }
 ```
 
@@ -49,7 +49,23 @@ function setup() {
 
 function mouseReleased() {
   if (mouseButton == LEFT) { 
-    print("You let go of a the left mouse button.");
+    print("You let go of the left mouse button.");
   }
 }
 ```
+
+![](../../Images/Mouse_Released.png)
+
+For double clicking the left mouse button, there's `doubleClicked()`.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function doubleClicked() {
+  print("You double clicked.");
+}
+```
+
+![](../../Images/Double_Clicked.png)
