@@ -1,4 +1,4 @@
-## Conditionals
+### Conditionals
 
 A **conditional structure** is a section of code in which certain blocks are only run when certain conditions are met. We use Booleans to create these conditions.
 
