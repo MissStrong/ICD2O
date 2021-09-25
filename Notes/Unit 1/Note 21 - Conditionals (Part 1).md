@@ -70,6 +70,6 @@ function draw() {
 }
 ```
 
-![](../../Images/Conditional4.png)
+![](../../Images/Conditional_4.png)
 
 
