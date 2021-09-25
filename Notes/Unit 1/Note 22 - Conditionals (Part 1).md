@@ -22,21 +22,6 @@ function draw() {
 
 ![](../../Images/Conditional1.png)
 
-Here's another example. This one draws circles in random locations when any key on the keyboard is pressed down.
-
-```js
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
-
-function draw() {
-  if (keyIsPressed) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up when a key is being pressed down
-  }
-}
-```
-
-![](../../Images/Conditional2.png)
 
 If we want the opposite value of a Boolean, we can use the **not operator**, which is the exclamation mark symbol `!`.
 
@@ -55,19 +40,3 @@ function draw() {
 ```
 
 ![](../../Images/Conditional3.png)
-
-This is a slight modification of the second example. This one draws circles in random locations when NO key on the keyboard is pressed down.
-
-```js
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
-
-function draw() {
-  if (keyIsPressed) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up when a key is NOT being pressed down
-  }
-}
-```
-
-![](../../Images/Conditional_4.png)
