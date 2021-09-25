@@ -9,7 +9,7 @@ There are two **Boolean values**:`true` and `false`. Although they are words, th
 
 ```js
 function draw() {
- print(mouseIsPressed); // continuously prints false when you are not pressing down on the mouse and true otherwise
+ print(mouseIsPressed); // continuously prints true or false depending on whether the mouse is being pressing down
 }
 ```
 ![](../../Images/Boolean.png)
@@ -27,6 +27,8 @@ We can create **Boolean expressions** using various types of operators.
 | Less Than or Equal To | `<=` | `3 <= 5` | 3 is less than or equal to 5, so the expression is `True`.<br /> `<=` is supposed to look like the ≤ symbol. |
 | Greater Than or Equal To | `>=` | `3 >= 5` | 3 is neither greater than nor equal to 5, so the expression is false.<br />`>=` is supposed to look like the ≥ symbol. |
 
+![](../../Images/Comparision_Operator.png)
+
 **Equality operators** check whether two numbers are equal or not equal to produce a `true` or `false` statement.
 
 | Operator Name | Operator Symbol | Example | Explanation |
@@ -36,6 +38,8 @@ We can create **Boolean expressions** using various types of operators.
 
 In JavaScript, we also have `===` and `!==` when we want to ensure that the two values belong to the same data type. For now we can stick with `==` and `!==`.
 
+![](../../Images/Equality_Operator.png)
+
 **Boolean operators** combine two or more boolean expressions to produce a `true` or `false` statement. By convention, their names are written in capital letters.
 
 | Operator Name | Operator Symbol | Example | Explanation |
@@ -43,3 +47,5 @@ In JavaScript, we also have `===` and `!==` when we want to ensure that the two 
 | NOT | `!` | `!(3 < 5) ` | The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
 | AND | `&&` | `(3 < 5) && (3 > 5)` | At least one of those two statements is `false`, so the expression is `false`.<br/></br>There is a similar operator, `&`, called a bitwise operator, which does something completely different. Look it up if you're interested. |
 | OR | `\|\|` | `(3 < 5) \|\|(3 > 5)` | At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `\|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
+
+![](../../Images/Boolean_Operator.png)
