@@ -45,6 +45,6 @@ function mouseReleased() {
 }
 ```
 
-![](../../Images/Mouse_Released_1.png)
+![](../../Images/Mouse_Released1.png)
 
 Next unit we'll see how to detect which mouse buttons were pressed (left, middle, or right click).
