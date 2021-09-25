@@ -50,7 +50,7 @@ In JavaScript, we also have `===` and `!==` when we want to ensure that the two 
 
 ![](../../Images/Boolean_Operator.png)
 
-## Order of Operations
+### Order of Operations
 
 We know that the order of arithmetic operations is BEDMAS, but what about all the other operations we've seen so far?
 
