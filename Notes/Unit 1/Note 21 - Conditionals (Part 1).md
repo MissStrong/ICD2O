@@ -71,5 +71,3 @@ function draw() {
 ```
 
 ![](../../Images/Conditional_4.png)
-
-
