@@ -34,7 +34,7 @@ We can create **Boolean expressions** using various types of operators.
 | Equals | `==` | `3 == 5 ` | 3 is not equal to 5, so the expression is `false`.<br/></br>Mixing up `=` and `==` is a notorious error in computer science. This applies to many programming languages, not just JavaScript. |
 | Not Equals | `!=` | `3 != 5` | 3 is not equal to 5, so the expression is `true`.<br />`!=` is supposed to look like the ≠ symbol. |
 
-In JavaScript, we also have `===` and `!==` when we want to ensure that we are comparing the same data type. For now we can stick with `==` and `!==`.
+In JavaScript, we also have `===` and `!==` when we want to ensure that the two values belong to the same data type. For now we can stick with `==` and `!==`.
 
 **Boolean operators** combine two or more boolean expressions to produce a `true` or `false` statement. By convention, their names are written in capital letters.
 
