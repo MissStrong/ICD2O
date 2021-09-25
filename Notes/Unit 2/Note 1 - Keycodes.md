@@ -38,7 +38,7 @@ function draw() {
 
 ![](../../Images/Conditional_8.png)
 
-If there are multiple keys being pressed down, we can use `keyIsDown()` to check which keys are being pressed down. The `keyIsDown()` takes a keycode and returns `true` if that key is currently being pressed down and `false` otherwise. Here's a modification of the previous example so that the circle is drawn only if the enter key is being pressed down and it ignores all other key presses.
+If there are multiple keys being pressed down, we can use `keyIsDown()` to check which keys are being pressed down. The `keyIsDown()` takes a number represeneting a keycode and returns `true` if that key is currently being pressed down and `false` otherwise. Here's a modification of the previous example so that the circle is drawn only if the enter key is being pressed down and it ignores all other key presses.
 
 ```js
 const ENTER = 13;
