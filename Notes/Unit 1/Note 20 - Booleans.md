@@ -49,3 +49,21 @@ In JavaScript, we also have `===` and `!==` when we want to ensure that the two 
 | OR | `\|\|` | `(3 < 5) \|\|(3 > 5)` | At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `\|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
 
 ![](../../Images/Boolean_Operator.png)
+
+## Order of Operations
+
+We know that with arithmetic operators the order of operations is BEDMAS, but what about all the other operators we've seen so far?
+
+If we do not use any brackets, this is the order from highest precedence to lowest precedence:
+
+1. `(` and `)`
+2. `!`
+4. `*` and `/`
+5. `+` and `-`
+6. `<`, `>`, `<=`, and `>=`
+7. `==`, `!=`, `===`, and `!==`
+8. `&&`
+9. `||`
+10. `=`
+
+In general we should use brackets when we have an expression that has many operators so that we don't have to memorize the order of operations. 
