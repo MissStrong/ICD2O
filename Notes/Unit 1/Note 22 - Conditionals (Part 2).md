@@ -21,7 +21,9 @@ function draw() {
 
 ![](../../Images/Conditional5.png)
 
-We can also have `else if` blocks. These run when a condition is met AND the previous `if` condition was *not* met.
+We can also have `else if` blocks. These run when a condition is met AND the previous `if` condition was not met. 
+
+This example draws different shapes depending on where the cursor is. 
 
 ```js
 function setup() {
@@ -43,6 +45,8 @@ function draw() {
 ![](../../Images/Conditional6.png)
 
 When we have`if`, `else if`, and `else` together.
+
+This example draws different coloured circles depending on where the cursor is. It first checks whether it's in the top-left quadrant, then if it isn't there it checks the top-right quadrant, and if it's not there it can deduce that it's in the bottom half.
 
 ```js
 function setup() {
