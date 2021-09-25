@@ -18,7 +18,7 @@ function draw() {
 
 ![](../../Images/Conditional2.png)
 
-If we want to figure out which key was being pressed, we can do that by using the numerical variable `keyCode`, which stores the keycode for the most recently pressed key. To find the keycode for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under *key.code*.
+If we want to figure out which key was being pressed, we could do that by using the numerical variable `keyCode`, which stores the keycode for the most recently pressed key. To find the keycode for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under *key.code*.
 
 According to that webpage, the keycode for the enter key is 13. We should make a constant for that so that it's clear what the number 13 is for. Now we can modify the previous example so that the circle is drawn only if the enter key is the only key being pressed.
 
