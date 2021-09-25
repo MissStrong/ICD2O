@@ -1,6 +1,6 @@
 ### Keycodes
 
-Recall that we can determine whether a key is being pressed using the Boolean variable `keyIsPressed`. 
+Recall that we can determine whether there is currently any key being pressed down using the Boolean variable `keyIsPressed`. 
 
 Here's an example from before.
 
