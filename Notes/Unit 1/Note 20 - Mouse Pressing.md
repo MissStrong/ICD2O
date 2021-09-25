@@ -33,4 +33,18 @@ function doubleClicked() {
 
 ![](../../Images/Double_Clicked.png)
 
-Next unit we'll see how to detect which mouse buttons were pressed (left click, middle click, and right click).
+If we want something to happen when a mouse button is released as opposed to when it's first pressed, we can use `mouseReleased()` instead. However, in Replit this only works for left and midde clicks, since right clicking on the canvas open a menu.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function mouseReleased() {
+   print("You let go of the left mouse button.");
+}
+```
+
+![](../../Images/Mouse_Released.png)
+
+Next unit we'll see how to detect which mouse buttons were pressed (left, middle, or right).
