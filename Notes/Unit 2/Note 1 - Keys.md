@@ -19,9 +19,9 @@ function draw() {
 ![](../../Images/Conditional2.png)
 
 If we want to figure out which key is being pressed, we can do that by using the string variable `key`, which stores the most recently pressed key. 
-To find the string for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under "key.event".
+To find the string for a particular key, go to [http://keycode.info](http://keycode.info/), press the key, and look under *key.event*.
 
-According to that webpage, the string for the enter key is "Enter" (the capitalization matters). With that information, we can modify the previous example so that the circle is drawn only if the ENTER key is pressed.
+According to that webpage, the string for the enter key is `"Enter"` (the capitalization matters). With that information, we can modify the previous example so that the circle is drawn only if the ENTER key is pressed.
 
 ```js
 function setup() {
