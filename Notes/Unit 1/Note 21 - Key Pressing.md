@@ -16,4 +16,6 @@ function keyPressed() {
 }
 ```
 
+![](../../Images/Key_Pressed.png)
+
 Next unit we'll see how to detect specific keys.
