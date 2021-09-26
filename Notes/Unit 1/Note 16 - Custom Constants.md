@@ -22,7 +22,6 @@ function setup() {
 }
 
 function draw() {
-  createCanvas(windowWidth, windowHeight);
   strokeWeight(WEIGHT); // this is equivalent to strokeWeight(10);
   ellipse(mouseX, mouseY, 50);
 }
