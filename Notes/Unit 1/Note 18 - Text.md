@@ -49,17 +49,17 @@ function setup() {
 
 ![](../../Images/Hello_Text3.png)
 
-We can also use any font we want by uploading the **.ttf** (TrueType Font) or **.otf** (OpenType Font) file for it. We can use sites like [Font Squirrel](https://www.fontsquirrel.com) to legally download these files. Once we download one we can drag it under **Files** on our Replit project. Then we load by calling `loadFont()` in the body of the `preload()` function. The `preload()` function is a function that we override, just like`setup()` and `draw()`. The `preload()` function runs only once (right befores `setup()`)and it is used to preloading any external files smoothly. To use the font on a specific string and set the font size, we call `textFont()` in `setup()`.
+We can also use any commercial-use font by uploading the **.ttf** (TrueType Font) or **.otf** (OpenType Font) file for it. We can use sites like [Google Fonts](https://fonts.google.com) to legally download these files. Once we download one we can drag it under **Files** on our Replit project. Then we load by calling `loadFont()` in the body of the `preload()` function. The `preload()` function is a function that we override, just like`setup()` and `draw()`. The `preload()` function runs only once (right befores `setup()`)and it is used to preloading any external files smoothly. To use the font on a specific string and set the font size, we call `textFont()` in `setup()`.
 
 ```js
 function preload() {
-  comicSans = loadFont("comicSans.ttf"); // there's no "let" because we need to access this in variable in setup()
-  // "comicSans.ttf" is a file that was found online and uploaded
+  ephesis = loadFont("ephesis.ttf"); // "ephesis.ttf" is a file from Google Font
+  // there's no "let" because we need to access this in variable in setup()
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textFont(comicSans, 100); // we can put the font size here instead of using textSize()
+  textFont(ephesis, 100); // we can put the font size here instead of using textSize()
   fill(0, 0, 255); // makes the text blue
   textStyle(ITALIC); // makes the text italicized
   textAlign(CENTER, CENTER); 
