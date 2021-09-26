@@ -12,7 +12,7 @@ function setup() {
 }
 
 function mousePressed() {
-  ellipse(random(width + 1), random(height + 1), 50); // draws a circle every time the mouse is pressed
+  ellipse(mouseX, mouseY, 50); // draws a circle every time the mouse is pressed
 }
 ```
 
