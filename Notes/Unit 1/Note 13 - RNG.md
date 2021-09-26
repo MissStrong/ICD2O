@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   fill(random(256), random(256), random(256)); // the RGB values are random
-  ellipse(mouseX, mouseY, 50, 50);
+  ellipse(mouseX, mouseY, 50);
 }
 ```
 
@@ -27,7 +27,7 @@ function setup() {
 
 function draw() {
   fill(random(256), random(256), random(256)); // the RGB values are random
-  ellipse(mouseX, mouseY, 50, 50);
+  ellipse(mouseX, mouseY, 50);
 }
 ```
 
@@ -44,7 +44,7 @@ function setup() {
 
 function draw() {
   fill(random(256), random(256), random(256)); // the RGB values are random
-  ellipse(random(width + 1), random(height + 1), 50, 50);
+  ellipse(random(width + 1), random(height + 1), 50);
 }
 ```
 
