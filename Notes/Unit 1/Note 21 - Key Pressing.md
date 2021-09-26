@@ -12,7 +12,7 @@ function setup() {
 }
 
 function keyPressed() {
-  ellipse(random(width), random(height), 50);
+  ellipse(random(width + 1), random(height + 1), 50);
 }
 ```
 
