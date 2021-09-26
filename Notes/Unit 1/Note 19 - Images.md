@@ -46,4 +46,4 @@ function setup() {
 }
 ```
 
-![](../../Images/Doge3.png)
+![](../../Images/Doge_3.png)
