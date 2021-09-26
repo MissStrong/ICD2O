@@ -16,7 +16,7 @@ function keyPressed() {
 }
 ```
 
-![](../../Images/Key_Pressed.png)
+![](../../Images/Key_Pressed_1.png)
 
 If we want the circle to show up when we release a key, we can use `keyReleased()`.
 
