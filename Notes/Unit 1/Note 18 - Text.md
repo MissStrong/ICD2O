@@ -36,12 +36,12 @@ function setup() {
 
 ```js
 function setup() {
-  createCanvas(width, height);
+  createCanvas(windowWidth, windowHeight);
   textSize(50);
   textAlign(LEFT, TOP);
   text("Hello!", 0, 0); // top-left
   textAlign(CENTER, CENTER);
-  text("Hello!", width/2, hHeight/2); // center
+  text("Hello!", width/2, height/2); // center
   textAlign(RIGHT, BOTTOM);
   text("Hello!", width, height); // bottom-right
 }
