@@ -31,7 +31,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Doge2.png)
+![](../../Images/Doge_2.png)
 
 By default, the image keeps its original dimensions. If we want to change the dimensions of the image, we can pass them as the fourth and fifth arugments in `image()`.
 
