@@ -16,7 +16,7 @@ function setup() {
 function mousePressed() {
   if (mouseButton == LEFT) { 
     print("You left clicked.");
-  } else if (mouseButton == CENTER) {
+  } else if (mouseButton == RIGHT) {
     print("You middle clicked.");
   } else {
     print("You right clicked.");
@@ -24,7 +24,7 @@ function mousePressed() {
 }
 ```
 
-![](../../Images/Mouse_Pressed2.png)
+![](../../Images/Mouse_Pressed_2.png)
 
 In this example a message continously gets printed to the console as we are pressing down any of the mouse buttons.
 
