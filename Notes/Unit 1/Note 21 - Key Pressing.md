@@ -18,4 +18,18 @@ function keyPressed() {
 
 ![](../../Images/Key_Pressed.png)
 
+If we want the circle to show up when we release a key, we can use `keyReleased()`.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function keyReleased() {
+  ellipse(random(width + 1), random(height + 1), 50);
+}
+```
+
+![](../../Images/Key_Released.png)
+
 Next unit we'll see how to detect specific keys.
