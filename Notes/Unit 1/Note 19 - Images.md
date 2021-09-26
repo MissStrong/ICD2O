@@ -2,7 +2,7 @@
 
 We can upload images and display them on the canvas. 
 
-After we drag an image file under Files, we can call 'loadImage()` in `preload()` and `image()` in `setup()`.
+After we drag an image file under Files, we can call `loadImage()` in `preload()` and `image()` in `setup()`.
 
 ```js
 function preload() {
