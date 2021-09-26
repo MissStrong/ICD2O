@@ -5,7 +5,7 @@ We can use strings to print text onto the canvas using the `text()` function. Th
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  text("Hello!", windowWidth/2, windowHeight/2);
+  text("Hello!", width/2, height/2);
 }
 ```
 
@@ -25,7 +25,7 @@ function setup() {
   textSize(100); // makes the font size 100
   textStyle(ITALIC); // makes the text italicized
   textAlign(CENTER, CENTER); 
-  text("Hello!", windowWidth/2, windowHeight/2);
+  text("Hello!", width/2, height/2);
 }
 ```
 
@@ -36,14 +36,14 @@ function setup() {
 
 ```js
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(width, height);
   textSize(50);
   textAlign(LEFT, TOP);
   text("Hello!", 0, 0); // top-left
   textAlign(CENTER, CENTER);
-  text("Hello!", windowWidth/2, windowHeight/2); // center
+  text("Hello!", width/2, hHeight/2); // center
   textAlign(RIGHT, BOTTOM);
-  text("Hello!", windowWidth, windowHeight); // bottom-right
+  text("Hello!", width, height); // bottom-right
 }
 ```
 
@@ -61,7 +61,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(comicSans, 100); // we can put the font size here instead of using textSize()
   textAlign(CENTER, CENTER);
-  text("Hello!", windowWidth/2, windowHeight/2);
+  text("Hello!", width/2, height/2);
 }
 ```
 
