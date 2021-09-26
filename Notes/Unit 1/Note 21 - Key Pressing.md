@@ -30,6 +30,6 @@ function keyReleased() {
 }
 ```
 
-![](../../Images/Key_Released.png)
+![](../../Images/Key_Released_1.png)
 
 Next unit we'll see how to detect specific keys.
