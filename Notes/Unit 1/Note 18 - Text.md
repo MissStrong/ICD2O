@@ -60,7 +60,9 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(comicSans, 100); // we can put the font size here instead of using textSize()
-  textAlign(CENTER, CENTER);
+  fill(0, 0, 255); // makes the text blue
+  textStyle(ITALIC); // makes the text italicized
+  textAlign(CENTER, CENTER); 
   text("Hello!", width/2, height/2);
 }
 ```
