@@ -49,3 +49,9 @@ function draw() {
 ```
 
 ![](../../Images/Random_Colours3.png)
+
+
+If we want to generate a random number between two values there are at last two ways we can do that.
+
+1. Add or subtract a number to the random number. For example, `128 + random(128)` generates a random number between 128 and 255.
+2. Use two arguments instead of one. For example, `random(128, 256)` generates a random number between 128 and 255.
