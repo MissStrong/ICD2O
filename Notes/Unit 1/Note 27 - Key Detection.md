@@ -52,10 +52,10 @@ function setup() {
 function keyPressed() {
   if (keyIsDown(ENTER)) {
     ellipse(random(width + 1), random(height + 1), 50);
-  } else if (keyIsDown(SPACE_BAR)) {
+  } if (keyIsDown(SPACE_BAR)) {
     rect(random(width + 1), random(height + 1), 50);
   }
 }
 ```
 
-![](../../Images/Key_Is_Down_1.png)
+![](../../Images/Key_Is_Down1.png)
