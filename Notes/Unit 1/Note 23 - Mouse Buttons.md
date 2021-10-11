@@ -16,10 +16,10 @@ function setup() {
 function mousePressed() {
   if (mouseButton == LEFT) { 
     print("You left clicked.");
-  } else if (mouseButton == RIGHT) {
-    print("You middle clicked.");
-  } else {
+  } if (mouseButton == RIGHT) {
     print("You right clicked.");
+  } if (mouseButton == CENTER) {
+    print("You middle clicked.");
   }
 }
 ```
