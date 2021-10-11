@@ -58,4 +58,4 @@ function keyPressed() {
 }
 ```
 
-![](../../Images/Key_Is_Down1.png)
+![](../../Images/Key_Is_Down.png)
