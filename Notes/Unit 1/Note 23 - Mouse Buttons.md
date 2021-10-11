@@ -15,13 +15,13 @@ function setup() {
 
 function mousePressed() {
   if (mouseButton == LEFT) { 
-    print("You left clicked.");
+    print("You did a left click.");
   } if (mouseButton == RIGHT) {
-    print("You right clicked.");
+    print("You did a right click.");
   } if (mouseButton == CENTER) {
-    print("You middle clicked.");
+    print("You did a middle click.");
   }
 }
 ```
 
-![](../../Images/Mouse_Pressed_2.png)
+![](../../Images/Mouse_Pressed_3.png)
