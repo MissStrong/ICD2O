@@ -13,7 +13,7 @@ function setup() {
 }
   
 function draw() {
-  ellipse(coordinate, coordinate, 20, 20); 
+  ellipse(coordinate, coordinate, 20); 
   coordinate += 10; 
 }
 ```
@@ -45,7 +45,7 @@ function setup() {
 }
   
 function draw() {
-  ellipse(circle.coordinate, circle.coordinate, circle.diameter, circle.diameter); // dot syntax is used to get the values in the circle object
+  ellipse(circle.coordinate, circle.coordinate, circle.diameter); // dot syntax is used to get the values in the circle object
   circle.coordinate += 10; // increments work on object keys
 }
 ```
@@ -72,7 +72,7 @@ function setup() {
 }
   
 function draw() {
-  ellipse(circle.coordinate, circle.coordinate, circle.diameter, circle.diameter); 
+  ellipse(circle.coordinate, circle.coordinate, circle.diameter); 
   circle.coordinate += 10; 
 }
 ```
