@@ -52,7 +52,7 @@ function randomCoordinate() { // custom function
 }
 ```
 
-![](../Images/Slope_1.png)
+![](../../Images/Slope_1.png)
 
 We can create a function that calculates the slope of a line and we can use that to draw only lines with positive slopes. Since we need to know the two coordinates in order to calculate the slope, we need parameters for them.
 
@@ -84,4 +84,4 @@ function slope(x1, y1, x2, y2) { // custom function with 4 parameters
 }
 ```
 
-![](../Images/Slope_2.png)
+![](../../Images/Slope_2.png)
