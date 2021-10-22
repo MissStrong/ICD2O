@@ -1,12 +1,12 @@
 ### Arrays
 
-Suppose we want to generate a random multiple of 10 between 10 and 50.
+Suppose we want to generate a random multiple of 10 between 0 and 50.
 
-One solution is to generate a random integer between 1 and 5, then multiply that result by 10:
+One solution is to generate a random integer between 0 and 5, then multiply that result by 10:
 
 ```js
 function setup() {
-  print(10*int(random(1, 6))); // prints a random multiple of 10 between 1 and 50
+  print(10*int(random(0, 6))); // prints a random multiple of 10 between 0 and 50
 }
 ```
 
@@ -16,7 +16,7 @@ Arrays are enclosed in square brackets `[]` and their items are separated by com
 
 ```js
 function setup() {
-  let numbers = [10, 20, 30, 40, 50]; // an array
+  let numbers = [0, 10, 20, 30, 40, 50]; // an array
   print(random(numbers)); // prints a random number from the array
 }
 ```
