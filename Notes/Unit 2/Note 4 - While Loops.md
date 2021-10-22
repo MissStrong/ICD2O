@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   frameRate(5); // slows down the frame rate so that we can see the squares
-  rect(coordinate, coordinate, 50, 50); // draws a square
+  rect(coordinate, coordinate, 50); // draws a square
   coordinate += 50; // updates the coordinates for the next square
 }
 ```
@@ -71,7 +71,7 @@ function setup() {
   background(255);
   fill(0);
   while (coordinate < 600) { // the next two lines will keep repeating as long as coordinate < 600
-    rect(coordinate, coordinate, 50, 50); 
+    rect(coordinate, coordinate, 50); 
     coordinate += 50 
   }
   // right at this point, everything shows up on the canvas
