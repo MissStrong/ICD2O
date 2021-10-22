@@ -28,13 +28,13 @@ The structure of a *while* loop is almost identical to an *if* statement. The di
 
 ```js
 if (mouseY <= windowHeight/2) { 
-  ellipse(mouseX, mouseY, 20, 20); // draw a circle if the cursor is in the top half
+  ellipse(mouseX, mouseY, 20); // draw a circle if the cursor is in the top half
 } 
 ```
 
 ```js
 while (mouseY <= windowHeight/2) { 
-  ellipse(mouseX, mouseY, 20, 20); // keep drawing a circle as long as the cursor is in the top half
+  ellipse(mouseX, mouseY, 20); // keep drawing a circle as long as the cursor is in the top half
 }
 ```
 
