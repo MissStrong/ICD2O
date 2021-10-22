@@ -36,4 +36,4 @@ function draw() {
 }
 ```
 
-![](../Images/Falling_Circles.png)
+![](../../Images/Falling_Circles.png)
