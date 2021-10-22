@@ -18,7 +18,7 @@ function draw() {
 }
 ```
 
-![](../Images/Diagonal_Squares.png)
+![](../../Images/Diagonal_Squares.png)
 
 If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: ***while* loops* and ***for* loops*.
 
@@ -45,23 +45,23 @@ function setup() {
   createCanvas(600, 600);
   background(255);
   fill(0);
-  rect(0, 0, 50, 50); // Note: Don't actually do it this way!
-  rect(50, 50, 50, 50);
-  rect(100, 100, 50, 50);
-  rect(150, 150, 50, 50);
-  rect(200, 200, 50, 50);
-  rect(250, 250, 50, 50);
-  rect(300, 300, 50, 50);
-  rect(350, 350, 50, 50);
-  rect(400, 400, 50, 50);
-  rect(450, 450, 50, 50);
-  rect(500, 500, 50, 50);
-  rect(550, 550, 50, 50);
+  rect(0, 0, 50); // Note: Don't actually do it this way!
+  rect(50, 50, 50);
+  rect(100, 100, 50);
+  rect(150, 150, 50);
+  rect(200, 200, 50);
+  rect(250, 250, 50);
+  rect(300, 300, 50);
+  rect(350, 350, 50);
+  rect(400, 400, 50);
+  rect(450, 450, 50);
+  rect(500, 500, 50);
+  rect(550, 550, 50);
   // right at this point, everything shows up on the canvas
 }
 ```
 
-Each line is almost identical with the exception of the coordinates. What we can do is store the coordinate as a variable and repeatedly call `rect(coordinate, coordinate, 50, 50)` and `coordinate += 50`.
+Each line is almost identical with the exception of the coordinates. What we can do is store the coordinate as a variable and repeatedly call `rect(coordinate, coordinate, 50)` and `coordinate += 50`.
 
 ```js
 let coordinate = 0; // the coordinate of the first square is (0, 0)
@@ -92,8 +92,8 @@ function setup() {
   background(255);
   fill(0);
   while (0 <= coordinate) { // the next two lines will keep repeating as long as 0 <= coordinate (which is always!)
-    rect(coordinate, coordinate, 50, 50); 
-    coordinate += 50 
+    rect(coordinate, coordinate, 50); 
+    coordinate += 50;
   }
   // right at this point, everything should show up on the canvas (but it doesn't!)
 }
