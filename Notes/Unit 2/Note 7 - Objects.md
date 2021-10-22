@@ -16,7 +16,7 @@ function setup() {
 
 If we call `print(doge)` within `setup()`, here's what shows up in the console:
 
-![](../Images/Print_1.png)
+![](../../Images/Print_1.png)
 
 It tells us that `doge` is an `Object`. 
 
@@ -28,7 +28,7 @@ We can access the properties within an object using **dot syntax** (a.k.a. **dot
 
 If we want to see the full output of `print(doge)` from before, we can right-click in the browser, go to *Inspect Element*, and click on *Console*.
 
-![](../Images/Print_2.png)
+![](../../Images/Print_2.png)
 
 We can see that image objects have many properties and that several of the properties are objects that contain even more properties. That's because the image objects store all in the information needed to display the image, including the colour of each individual pixel. 
 
