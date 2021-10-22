@@ -13,7 +13,7 @@ function setup() {
 }
 ```
 
-An array is a type of **object**. Objects have **properties** (variables) and **methods** (functions). To access properties and methods, we use **dot notation**.
+An array is a type of **object**. Objects have **properties** (variables) and **methods** (functions). To access properties and methods, we use **dot notation** (`objectName.property` or `objectName.method()`).
 
 We can get the number of items in an array using the `length` property. 
 
