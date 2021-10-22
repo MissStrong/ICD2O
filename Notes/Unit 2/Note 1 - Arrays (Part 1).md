@@ -5,7 +5,9 @@ Suppose we want to generate a random multiple of 10 between 10 and 50.
 One solution is to generate a random integer between 1 and 5, then multiply that result by 10:
 
 ```js
-print(10*int(random(1, 6))); // prints a random multiple of 10 between 1 and 50
+function setup() {
+  print(10*int(random(1, 6))); // prints a random multiple of 10 between 1 and 50
+}
 ```
 
 Another solution is to use an **array**. An array is a data structure that stores a list of values called **items** or **elements**. If we call `random()` and give it an **array** as argument, it will generate a random item from the array.
@@ -13,13 +15,17 @@ Another solution is to use an **array**. An array is a data structure that store
 Arrays are enclosed in square brackets `[]` and their items are separated by commas.
 
 ```js
-let numbers = [10, 20, 30, 40, 50]; // an array
-print(random(numbers)); // prints a random number from the array
+function setup() {
+  let numbers = [10, 20, 30, 40, 50]; // an array
+  print(random(numbers)); // prints a random number from the array
+}
 ```
 
 If we use an array that has duplicates, we can change the probabilities of each outcome.
 
 ```js
-let numbers = [10, 20, 20, 30, 30, 30]; // an array with duplicate items
-print(random(numbers)); // 1/2 chance of 30, 1/3 chance of 20, 1/6 chance of 10
+function setup() {
+  let numbers = [10, 20, 20, 30, 30, 30]; // an array with duplicate items
+  print(random(numbers)); // 1/2 chance of 30, 1/3 chance of 20, 1/6 chance of 10
+}
 ```
