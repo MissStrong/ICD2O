@@ -72,7 +72,7 @@ function setup() {
   fill(0);
   while (coordinate < 600) { // the next two lines will keep repeating as long as coordinate < 600
     rect(coordinate, coordinate, 50); 
-    coordinate += 50 
+    coordinate += 50;
   }
   // right at this point, everything shows up on the canvas
 }
