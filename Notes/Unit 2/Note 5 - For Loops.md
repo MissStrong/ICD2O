@@ -16,7 +16,7 @@ function setup() {
   background(255);
   fill(0);
   while (coordinate < 600) { // we're checking if the coordinate is still less than 600
-    rect(coordinate, coordinate, 50, 50); 
+    rect(coordinate, coordinate, 50); 
     coordinate += 50 // the coordinate variable is getting updated
   }
 }
@@ -32,7 +32,7 @@ function setup() {
   background(255);
   fill(0);
   for (let coordinate = 0; coordinate < 600; coordinate += 50) { // the three parts are all here
-    rect(coordinate, coordinate, 50, 50); 
+    rect(coordinate, coordinate, 50); 
   }
 }
 ```
@@ -50,5 +50,3 @@ function setup() {
   }
 }
 ```
-
- 
