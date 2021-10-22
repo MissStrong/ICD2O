@@ -1,3 +1,62 @@
 ### Arrays
 
-TODO
+Each item in an array is assigned an **index**. The index tells us which position the item is at. The first position is index 0, the second position is index 1, the third position is index 2, and so on. The plural of index is **indices** or **indexes**.
+
+**In computer science, we often start counting at 0 instead of 1**. Being "off by one" is a common phenomenon when programming.
+
+When we want to access an item in an array, we can do that by calling the name of the array and putting the item's index in square brackets. For example:
+
+```js
+function setup() {
+  let numbers = [10, 20, 30, 40, 50];  // an array
+  print(numbers[1])  // prints 20
+}
+```
+
+An array is a type of **object**. Objects have **properties** (variables) and **methods** (functions). To access properties and methods, we use **dot notation**.
+
+We can get the number of items in an array using the `length` property. 
+
+```js
+function setup() {
+  let numbers = [10, 20, 30, 40, 50]; 
+  let length = numbers.length // the number of items in the array
+  print(length)  // prints 5
+  print(numbers[length - 1])  // prints the last number in the array, 50
+}
+```
+
+We can find the index of an array using the `indexOf()` method.
+
+```js
+function setup() {
+  let numbers = [10, 20, 30, 40, 50]; 
+  print(numbers.indexOf(30))  // prints 2
+  print(numbers.indexOf(50))  // prints 4
+  print(numbers.indexOf(60))  // prints -1 (which means it's not in the array)
+}
+```
+
+### Modifying Items in an Array
+
+We can add items to an array or remove items from an array at any point after we initialize it. 
+
+We can add items to the back of the array using the `push()`method. 
+
+```js
+function setup() {
+  let numbers = [10, 20, 30, 40, 50]; 
+  numbers.push(60); // puts 60 at the end of the array
+  print(numbers); // prints [10, 20, 30, 40, 50, 60]
+}
+```
+
+We can remove the last item using the `pop()` method.
+
+```js
+function setup() {
+  let numbers = [10, 20, 30, 40, 50]; 
+  numbers.pop(); // removes the 50 at the end of the array
+  print(numbers); // prints [10, 20, 30, 40]
+}
+```
