@@ -7,12 +7,11 @@ let coordinate = 0;
 
 function setup() {
   createCanvas(700, 700);
-  background(255);
+  frameRate(5); // slows down the frame rate so that we can see the squares
   fill(0);
 }
 
 function draw() {
-  frameRate(5); // slows down the frame rate so that we can see the squares
   rect(coordinate, coordinate, 50); // draws a square
   coordinate += 50; // updates the coordinates for the next square
 }
