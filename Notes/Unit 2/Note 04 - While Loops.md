@@ -20,11 +20,7 @@ function draw() {
 
 ![](../../Images/Diagonal_Squares1.png)
 
-If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: ***while* loops* and ***for* loops*.
-
-### While Loops
-
-Suppose we want all the squares to appear all at once rather than one by one. If we do write out each square separately, it would look like this.
+If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. 
 
 ```js
 function setup() {
@@ -47,9 +43,13 @@ function setup() {
 }
 ```
 
-Each line is almost identical with the exception of the coordinates. What we can do is store the coordinate as a variable and repeatedly call `rect(coordinate, coordinate, 50)` and `coordinate += 50`.
+### While Loop
+
+What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: ***while* loops* and ***for* loops*.
 
 The structure of a *while* loop is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is true.
+
+In the previous example, each line is almost identical with the exception of the coordinates. What we can do is store the coordinate as a variable and repeatedly call `rect(coordinate, coordinate, 50)` and `coordinate += 50`.
 
 ```js
 let coordinate = 0; // the coordinate of the first square is (0, 0)
