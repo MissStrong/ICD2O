@@ -39,7 +39,7 @@ function setup() {
 
 Suppose we want to coloured circles to show up in a specific order. We can use an array to store the colours and their indices to access them in order.
 
-```
+```js
 let colours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
 function setup() {
