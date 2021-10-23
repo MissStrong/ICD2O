@@ -15,17 +15,23 @@ Some functions provide an *output*, called a **return value**. For example, `ran
 
 We can create our own functions for us to use. This is a convenient thing to do when we have the same lines of code repeated many times throughout our program. 
 
-When we want to create a function that has an output, we use the keyword `return`.
-
 ```js
-function randomCoordinate() { // custom function that generates a coordinate object
-  let coordinate = {
-    x: int(random(width + 1)),
-    y: int(random(height + 1))
-  }
-  return coordinate;
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+  makeRandomCircle(); // calling our custom function
+}
+
+function makeRandomCircle() { // custom function
+  fill(random(256), random(256), random(256));
+  stroke(random(256), random(256), random(256));
+  ellipse(random(width + 1), random(height + 1), random([30, 50, 70]));
 }
 ```
+
+![](../../Images/Function1.png)
 
 We can alse functions to perform calculations for us. Suppose we want a program that draws random lines with positive slopes.
 
@@ -34,54 +40,41 @@ The program below draws lines at random, which have negative, zero, or positive 
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(100);
 }
 
 function draw() {
-  let c1 = randomCoordinate(); // calling our custom function
-  let c2 = randomCoordinate();
-  line(c1.x, c1.y, c2.x, c2.y); // draws a line using our random coordinates
-}
-
-function randomCoordinate() { // custom function
-  let coordinate = {
-    x: int(random(width + 1)),
-    y: int(random(height + 1))
-  }
-  return coordinate;
+  let x1 = random(width + 1); 
+  let y1 = random(height + 1); 
+  let x2 = random(width + 1); 
+  let y2 = random(height + 1); 
+  line(x1, y1, x2, y2); // draws a line using our random coordinates
 }
 ```
 
-![](../../Images/Slope_1.png)
+![](../../Images/Function2.png)
 
 We can create a function that calculates the slope of a line and we can use that to draw only lines with positive slopes. Since we need to know the two coordinates in order to calculate the slope, we need parameters for them.
 
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(100);
 }
 
 function draw() {
-  let c1 = randomCoordinate();
-  let c2 = randomCoordinate();
-  let m = slope(c1.x, c1.y, c2.x, c2.y);
-  if (0 < m) {
-    line(c1.x, c1.y, c2.x, c2.y); // draws the line only if the slope is positive
-  }
-}
+  let x1 = random(width + 1); 
+  let y1 = random(height + 1); 
+  let x2 = random(width + 1); 
+  let y2 = random(height + 1); 
 
-function randomCoordinate() { // custom function with no parameters
-  let coordinate = {
-    x: int(random(windowWidth + 1)),
-    y: int(random(windowHeight + 1))
+  if (0 < slope(x1, y1, x2, y2)) { // checks to see whether the slope is positive
+    line(x1, y1, x2, y2); // draws a line using our random coordinates
   }
-  return coordinate;
 }
 
 function slope(x1, y1, x2, y2) { // custom function with 4 parameters
   return (y1 - y2) / (x2 - x1); // the numerator is "backwards" because of direction of the y-axis
 }
+
 ```
 
-![](../../Images/Slope_2.png)
+![](../../Images/Function3.png)
