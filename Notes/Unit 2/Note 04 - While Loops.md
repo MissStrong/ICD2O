@@ -6,7 +6,7 @@ We have the built-in function `draw()` that is called repeatedly until the progr
 let coordinate = 0;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(700, 700);
   background(255);
   fill(0);
 }
@@ -18,7 +18,7 @@ function draw() {
 }
 ```
 
-![](../../Images/Diagonal_Squares.png)
+![](../../Images/Diagonal_Squares1.png)
 
 If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: ***while* loops* and ***for* loops*.
 
@@ -77,6 +77,9 @@ function setup() {
   // right at this point, everything shows up on the canvas
 }
 ```
+
+![](../../Images/Diagonal_Squares1.png)
+
 
 Now the program will show the diagonal squares all at once. This is because the canvas is updated once all the lines in `setup()` have been executed.
 
