@@ -37,7 +37,7 @@ function setup() {
 }
 ```
 
-![](../../Images/Diagonal_Squares2.png)
+![](../../Images/Diagonal_Squares_2.png)
 
 ### Using For Loops with Arrays
 
