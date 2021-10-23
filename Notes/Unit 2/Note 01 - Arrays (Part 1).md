@@ -43,4 +43,4 @@ function draw() {
 }
 ```
 
-![](../../Images/Array1.png)
+![](../../Images/Array_1.png)
