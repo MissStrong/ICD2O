@@ -29,3 +29,18 @@ function setup() {
   print(random(numbers)); // 1/2 chance of 30, 1/3 chance of 20, 1/6 chance of 10
 }
 ```
+
+We can use this idea to make circles of various sizes.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  sizes = [10, 20, 20, 30, 30, 30]; // these will be the all possible sizes for the circles
+}
+
+function draw() {
+  ellipse(random(width + 1), random(height + 1), random(sizes));
+}
+```
+
+![](../../Images/Array1.png)
