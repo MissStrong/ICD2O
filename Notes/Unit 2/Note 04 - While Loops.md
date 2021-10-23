@@ -24,21 +24,7 @@ If we wanted the squares to show up all at once, one option is to type out `rect
 
 ### While Loops
 
-The structure of a *while* loop is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is true.
-
-```js
-if (mouseY <= windowHeight/2) { 
-  ellipse(mouseX, mouseY, 20); // draw a circle if the cursor is in the top half
-} 
-```
-
-```js
-while (mouseY <= windowHeight/2) { 
-  ellipse(mouseX, mouseY, 20); // keep drawing a circle as long as the cursor is in the top half
-}
-```
-
-Let's go back to the original example, with the diagonal squares. Suppose we want all the squares to appear all at once rather than one by one. If we do write out each square separately, it would look like this.
+Suppose we want all the squares to appear all at once rather than one by one. If we do write out each square separately, it would look like this.
 
 ```js
 function setup() {
@@ -62,6 +48,8 @@ function setup() {
 ```
 
 Each line is almost identical with the exception of the coordinates. What we can do is store the coordinate as a variable and repeatedly call `rect(coordinate, coordinate, 50)` and `coordinate += 50`.
+
+The structure of a *while* loop is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is true.
 
 ```js
 let coordinate = 0; // the coordinate of the first square is (0, 0)
