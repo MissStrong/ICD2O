@@ -51,7 +51,7 @@ function setup() {
 
 function draw() {
   fill(colours[index % colours.length]); // the "% colours.length" changes the index if it's too big by repeatedly subtracting the length
-  ellipse(mouseX, mouseY, 50;
+  ellipse(mouseX, mouseY, 50);
   index++;
 }
 ```
