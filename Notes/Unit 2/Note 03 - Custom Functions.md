@@ -6,7 +6,7 @@ A function performs a sequence of steps used to accomplish a task. There are 289
 *  `ellipse()` is a function used to draw an ellipse on the canvas
 *  `fill()` is a function used to indicate what colour to fill in shapes and text
 *  `random()` is a function that is used to generate a random value
-*  
+
 ### Custom Function
 
 We can create our own functions for us to use. This allows us to separate different parts of our code to make the program more readable. It's especially convenienet for preventing the same blocks of code repeated many times throughout our program. 
