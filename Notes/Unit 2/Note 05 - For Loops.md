@@ -37,6 +37,8 @@ function setup() {
 }
 ```
 
+![](../../Images/Diagonal_Squares2.png)
+
 ### Using For Loops with Arrays
 
 We can "go through" each item in an array using a *for* loop.
@@ -50,3 +52,4 @@ function setup() {
   }
 }
 ```
+![](../../Images/For_Loop1.png)
