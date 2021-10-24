@@ -45,6 +45,7 @@ function setup() {
 }
 
 function draw() {
+  background(0);
   for (let index = 0; index < numCircles; index++) { // goes through each of the 20 circles
   let circle = circles[index];
     ellipse(circle.x, circle.y, circle.diameter); 
@@ -56,4 +57,4 @@ function draw() {
 }
 ```
 
-![](../../Images/Falling_Circles.png)
+![](../../Images/Falling_Circles_1.png)
