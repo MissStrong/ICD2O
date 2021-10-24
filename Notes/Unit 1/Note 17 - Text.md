@@ -49,7 +49,7 @@ function setup() {
 
 ![](../../Images/Hello_Text__3.png)
 
-We can also use any commercial-use font by uploading the **.ttf** (TrueType Font) or **.otf** (OpenType Font) file for it. We can use sites like [Google Fonts](https://fonts.google.com) to legally download these files. Once we download one we can drag it under **Files** on our Replit project. Then we load by calling `loadFont()` in the body of the `preload()` function. The `preload()` function is a function that we override, just like`setup()` and `draw()`. The `preload()` function runs only once (right befores `setup()`)and it is used to preloading any external files smoothly. To use the font on a specific string and set the font size, we call `textFont()` in `setup()`.
+We can also use any commercial-use font by uploading the **.ttf** (TrueType Font) or **.otf** (OpenType Font) file for it. We can use sites like [Google Fonts](https://fonts.google.com) to legally download these files. Once we download one we can drag it under **Files** on our Replit project. Then we load by calling `loadFont()` in the body of the `preload()` function. The `preload()` function is a function that we override, just like`setup()` and `draw()`. The `preload()` function runs only once (right befores `setup()`)and it is used to load external files smoothly. The  `setup()` function isn't called until all the files in `preload()` are done loading. To use the font on a specific string and set the font size, we call `textFont()` in `setup()`.
 
 ```js
 function preload() {
