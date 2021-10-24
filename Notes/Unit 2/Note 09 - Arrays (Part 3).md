@@ -29,8 +29,8 @@ If we wanted several shapes with different properties on our canvas, we can use 
 For example, this program shows 20 different circles "falling" down.
 
 ```js
+const numCircles = 20; // there will be 20 circles altogether
 let circles = []; // this will store all the circles
-let numCircles = 20; // there will be 20 circles altogether
 
 function setup() {
   createCanvas(500, 500);
@@ -57,6 +57,6 @@ function draw() {
 }
 ```
 
-![](../../Images/Falling_Circles_1.png)
+![](../../Images/Falling_Circles_2.png)
 
 ![](../../Images/Falling_Circles.gif)
