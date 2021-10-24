@@ -57,3 +57,5 @@ function draw() {
 ```
 
 ![](../../Images/Array_2.png)
+
+Here is the [full list of colour names](https://www.w3schools.com/colors/colors_names.asp) that are recognized by HTML/CSS/Javascript.
