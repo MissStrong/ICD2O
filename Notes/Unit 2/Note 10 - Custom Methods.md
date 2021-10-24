@@ -34,10 +34,3 @@ function draw() {
 ```
 
 ![](../../Images/Custom_Methods.png)
-
-<iframe id="p5.js web editor embed"
-    title="p5.js web editor embed"
-    width="800"
-    height="600"
-    src="https://editor.p5js.org/">
-</iframe>
