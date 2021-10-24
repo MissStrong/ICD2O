@@ -19,6 +19,8 @@ function draw() {
 
 ![](../../Images/Diagonal_Squares_1.png)
 
+![](../../Images/Diagonal_Squares.gif)
+
 If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. 
 
 ```js
