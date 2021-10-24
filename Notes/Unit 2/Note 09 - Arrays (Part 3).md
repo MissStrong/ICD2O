@@ -57,7 +57,6 @@ function draw() {
 }
 ```
 
-![](../../Images/Falling_Circles1.png)
-
+<!-- ![](../../Images/Falling_Circles1.png) -->
 
 ![](../../Images/Falling_Circles.gif)
