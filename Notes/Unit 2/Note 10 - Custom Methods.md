@@ -33,4 +33,4 @@ function draw() {
 }
 ```
 
-![](../../Images/Custom_Method.png)
+![](../../Images/Custom_Methods.png)
