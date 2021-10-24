@@ -1,3 +1,36 @@
 ### Custom Methods
 
-TODO
+A method is a function that is performed on an object. Methods use dot notation: `objectName.methodName()`.
+
+We can create our own methods inside of our own objects. Inside the object, we write the the name of the method followed by a set of parentheses and a set of curly braces. Inside the parentheses we put any parameters and inside the curly braces we write the body of the method.
+
+```js
+let circle = { 
+  coordinate: 0,
+  diameter: 100,
+  colour: {
+    r: 50,
+    g: 205,
+    b: 50
+  },
+  move(amount) { // custom method for moving the circle towards the bottom-right
+    this.coordinate += amount; 
+  },
+  grow(increment) { // custom method for increasing the diameter
+    this.diameter += increment;
+  }
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  fill(circle.colour.r, circle.colour.g, circle.colour.b) 
+}
+  
+function draw() {
+  ellipse(circle.coordinate, circle.coordinate, circle.diameter); 
+  circle.move(50); // the circle moves 50 pixels right and down
+  circle.grow(40); // the circle's diameter grows by 40 pixels
+}
+```
+
+![](../../Images/Custom_Method.png)
