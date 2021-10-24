@@ -37,7 +37,7 @@ If we update a variable in `draw()`, we can repeatedly change its value.
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  coordinate = 0; // declares the global variable coordinate and assign a value of 200
+  coordinate = 0; // declares the global variable coordinate and assign a value of 0
 }
 
 function draw() {
