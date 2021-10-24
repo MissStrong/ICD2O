@@ -50,7 +50,7 @@ One more possibility is to use a `color` object, whcih is built into P5.js.
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  orange = color(255, 165, 0); // orange is a color object
+  let orange = color(255, 165, 0); // orange is a color object
   background(orange); // makes the background orange
 }
 ```
@@ -61,11 +61,11 @@ We can get the RGB values of a color object using `red()`, `green()`, `blue()` a
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  mysteryColour = color(random(256), random(256), random(256)); 
+  let mysteryColour = color(random(256), random(256), random(256)); 
   fill(mysteryColour);
   rect(0, 0, width/2, height);
   
-  invertedColour = color(0); // initialize to black
+  let invertedColour = color(0); // initialize to black
   invertedColour.setRed(255 - red(mysteryColour));
   invertedColour.setGreen(255 - green(mysteryColour));
   invertedColour.setBlue(255 - blue(mysteryColour));
@@ -75,5 +75,3 @@ function setup() {
 ```
 
 ![](../../Images/Inverted_Colours.png)
-
-
