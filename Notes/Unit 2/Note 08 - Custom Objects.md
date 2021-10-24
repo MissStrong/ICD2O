@@ -23,7 +23,7 @@ The syntax for a custom object looks like this:
 ```js
 let circle = { // "let" followed by the object name, the assignment operator, and an opening brace
   coordinate: 0, // the list of properties, with the key and value separated by a colon
-  diameter: 20 
+  diameter: 100 
 } // a closing brace after all the properties are listed
 ```
 
