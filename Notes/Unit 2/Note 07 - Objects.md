@@ -22,9 +22,9 @@ These are the properties of the image object.
 
 An **object** is a data type, just like numbers, strings, and booleans. Objects contain **properties**. A property is an association between a **key** and a **value**. For example, one of the properties of `doge` is `width: 525`, where `width` is the key and `525` is the value.
 
-### Dot Syntax
+### Dot Notation
 
-We can access the properties within an object using **dot syntax** (a.k.a. **dot notation**). We write the object name followed by a dot followed by the key we want to use. This will give us the value that is associated with that key. For example, `doge.width` gives us `525`, and `doge.height` gives us `394` (since the dimensions of the image are 525 pixels by 394 pixels).
+We can access the properties within an object using **dot notation** (a.k.a. **dot syntax**). We write the object name followed by a dot followed by the key we want to use. This will give us the value that is associated with that key. For example, `doge.width` gives us `525`, and `doge.height` gives us `394` (since the dimensions of the image are 525 pixels by 394 pixels).
 
 We can use `.width` and `.height` to scale the size of an image.
 
