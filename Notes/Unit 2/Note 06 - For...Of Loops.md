@@ -1,6 +1,6 @@
 ### Using For Loops with Arrays
 
-We can "go through" each item in an array using a *for* loop.
+We can "go through" each item in an array using a *for* loop by iterating on the indices.
 
 ```js
 function setup() {
@@ -14,7 +14,7 @@ function setup() {
 
 ![](../../Images/For_Loop1.png)
 
-This is useful when we need to keep track of the indices. In this case we didn't need them, so we can use a different strategy.
+This is useful when we need to keep track of the index of each item. Since we didn't use the indices, we could use a different strategy.
 
 ### For...Of Loops
 
