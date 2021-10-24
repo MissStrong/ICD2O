@@ -64,10 +64,10 @@ let circle = { // circle is an object
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  fill(circle.colour.r, circle.colour.g, circle.colour.b) // dot notation looks like this when you have an object inside an object
 }
   
 function draw() {
-  fill(circle.colour.r, circle.colour.g, circle.colour.b) // dot notation looks like this when you have an object inside an object
   ellipse(circle.coordinate, circle.coordinate, circle.diameter); 
   circle.coordinate += 50; 
 }
