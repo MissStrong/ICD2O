@@ -36,8 +36,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  image(doge, 0, 0);
-  doge.loadPixels();
+  doge.loadPixels(); // we need to call this in order to use .set()
   for (let x = 0; x < doge.width; x++) {
     for (let y = 0; y < doge.height; y++) { // this goes through all the pixels in the image
       pixelColour = doge.get(x, y);
@@ -48,7 +47,7 @@ function setup() {
       doge.set(x, y, newPixelColour); // the new pixel colour is the inverse of what it was before
     }
   }
-  doge.updatePixels();
+  doge.updatePixels(); // we need to call this in order for the pixels to update
   image(doge, 0, 0);
 }
 ```
