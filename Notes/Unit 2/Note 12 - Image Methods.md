@@ -27,7 +27,7 @@ function draw() {
 ![](../../Images/Image_Get.gif)
 
 
-The example below inverts the colours of all the pixels by changing its RGB values to their inverses (255 minus the original number).
+The example below inverts the colours of all the pixels in the image by changing its RGB values to their inverses (255 minus the original number).
 
 ```js
 function preload() {
