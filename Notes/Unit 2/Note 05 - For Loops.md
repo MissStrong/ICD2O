@@ -13,7 +13,6 @@ let coordinate = 0; // the coordinate variable is getting initialized
 
 function setup() {
   createCanvas(600, 600);
-  background(255);
   fill(0);
   while (coordinate < 600) { // we're checking if the coordinate is still less than 600
     rect(coordinate, coordinate, 50); 
@@ -29,7 +28,6 @@ Here is the example from above rewritten using a *for* loop instead.
 ```js
 function setup() {
   createCanvas(600, 600);
-  background(255);
   fill(0);
   for (let coordinate = 0; coordinate < 600; coordinate += 50) { // the three parts are all here
     rect(coordinate, coordinate, 50); 
