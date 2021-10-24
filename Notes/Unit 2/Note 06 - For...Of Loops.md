@@ -11,6 +11,7 @@ function setup() {
   }
 }
 ```
+
 ![](../../Images/For_Loop1.png)
 
 This is useful when we need to keep track of the indices. In this case we didn't need them, so we can use a different strategy.
@@ -30,6 +31,8 @@ function setup() {
 ```
 This gives the same output as the example above. We can replace `n` with any variable name if we want.
 
+![](../../Images/For_Of_Loop1.png)
+
 *For...of* loops also work on strings.
 
 ```js
@@ -41,5 +44,5 @@ function setup() {
   }
 }
 ```
-```
 
+![](../../Images/For_Of_Loop2.png)
