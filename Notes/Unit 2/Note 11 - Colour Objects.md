@@ -55,7 +55,7 @@ function setup() {
 }
 ```
 
-We can get the RGB values of a color object `red()`, `green()`, `blue()` and we can update them using `.setRed()`, `setGreen()`, and `setBlue()`.
+We can get the RGB values of a color object using `red()`, `green()`, `blue()` and we can update them using `.setRed()`, `setGreen()`, and `setBlue()`.
 
 ```js
 function setup() {
