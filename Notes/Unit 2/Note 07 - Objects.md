@@ -20,7 +20,7 @@ If we call `print(doge)` within `setup()`, here's what shows up in the console:
 
 These are the properties of the image object.
 
-An **object** is a data type, just like numbers, strings, and booleans. Objects contain **properties**. A property is an association between a **key** and a **value**. For example, one of the properties of `doge` is `"width: 525`, where `width` is the key and `525` is the value.
+An **object** is a data type, just like numbers, strings, and booleans. Objects contain **properties**. A property is an association between a **key** and a **value**. For example, one of the properties of `doge` is `"width": 525`, where `"width"` is the key and `525` is the value.
 
 ### Dot Syntax
 
