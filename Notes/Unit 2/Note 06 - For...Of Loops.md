@@ -31,7 +31,7 @@ function setup() {
 ```
 This gives the same output as the example above. We can replace `n` with any variable name if we want.
 
-![](../../Images/For_Of_Loop1.png)
+![](../../Images/For_Of_Loop_1.png)
 
 *For...of* loops also work on strings.
 
@@ -45,4 +45,4 @@ function setup() {
 }
 ```
 
-![](../../Images/For_Of_Loop2.png)
+![](../../Images/For_Of_Loop_2.png)
