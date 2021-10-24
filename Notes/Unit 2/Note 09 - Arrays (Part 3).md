@@ -51,7 +51,7 @@ function draw() {
     ellipse(circle.x, circle.y, circle.diameter); 
     circle.y++; // increases the y coordinate so that it looks like the circle is falling
     if (circle.y - circle.diameter/2 > 500) { // when the circle falls off the screen, it goes back to the top
-      circle.y = 0;
+      circle.y = -50;
     }
   }
 }
