@@ -59,3 +59,6 @@ function draw() {
 ![](../../Images/Array_2.png)
 
 Here is the [full list of colour names](https://www.w3schools.com/colors/colors_names.asp) that are recognized by HTML/CSS/Javascript.
+
+To get an array to wrap around on both ends, we can use `index = (index + array.length) % array.length`. This strategy is covered in more detail in the Grade 11 computer science course.
+
