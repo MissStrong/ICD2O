@@ -37,7 +37,7 @@ function setup() {
 
 ![](../../Images/Diagonal_Squares_2.png)
 
-Getting the syntax correct is important. For example, putting a semicolon before the curly brace the block to run exactly once.
+Getting the syntax correct is important. For example, putting a semicolon between the `)` and the `{` causes the block to run exactly once and could cause scope problems.
 
 ```js
 function setup() {
