@@ -35,4 +35,16 @@ function setup() {
 }
 ```
 
-![](../../Images/Diagonal_Squares_2.png)
+Getting the syntax correct is important. For example, putting a semicolon before the curly brace the block to run exactly once.
+
+```js
+function setup() {
+  createCanvas(600, 600);
+  fill(0);
+  for (let coordinate = 0; coordinate < 600; coordinate += 50); { // the extra semicolon causes the problem
+    rect(coordinate, coordinate, 50); 
+  }
+}
+```
+
+![](../../Images/Diagonal_Squares_3.png)
