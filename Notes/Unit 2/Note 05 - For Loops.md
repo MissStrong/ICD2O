@@ -35,6 +35,8 @@ function setup() {
 }
 ```
 
+![](../../Images/Diagonal_Squares_2.png)
+
 Getting the syntax correct is important. For example, putting a semicolon before the curly brace the block to run exactly once.
 
 ```js
