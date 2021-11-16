@@ -41,21 +41,3 @@ function setup() {
 ```
 
 ![](../../Images/Quarter_Doge.png)
-
-### Array Objects
-
-An array is a type of object. That's why we use dot notation for accessing the length and adding or deleting items.
-
-```js
-function setup() {
-  let numbers = [10, 20, 30, 40, 50]; 
-  print(numbers.length)  // prints 5
-  print(numbers[length - 1])  // prints the last number in the array, 50
-  print(numbers.indexOf(30))  // prints 2
-  numbers.push(60); // puts 60 at the end of the array
-  print(numbers); // prints [10, 20, 30, 40, 50, 60]
-  numbers.pop(); // removes the 60 at the end of the array
-  numbers.pop(); // removes the 50 at the end of the array
-  print(numbers); // prints [10, 20, 30, 40]
-}
-```
