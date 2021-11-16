@@ -47,7 +47,7 @@ function setup() {
 function draw() {
   background(0);
   for (let index = 0; index < numCircles; index++) { // goes through each of the 20 circles
-  let circle = circles[index];
+    let circle = circles[index];
     ellipse(circle.x, circle.y, circle.diameter); 
     circle.y++; // increases the y coordinate so that it looks like the circle is falling
     if (circle.y - circle.diameter/2 > 500) { // when the circle falls off the screen, it goes back to the top
