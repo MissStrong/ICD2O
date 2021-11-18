@@ -29,7 +29,7 @@ function setup() {
   }
 }
 ```
-This gives the same output as the example above. We can replace `n` with any variable name if we want.
+This gives the same output as the example above. We can replace `n` with any variable name we want.
 
 ![](../../Images/For_Of_Loop_1.png)
 
