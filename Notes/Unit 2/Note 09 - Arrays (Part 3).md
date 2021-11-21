@@ -2,7 +2,7 @@
 
 We can add items to an array or remove items from an array at any point after we initialize it. 
 
-We can add items to the back of the array using the `push()` **method**. A method is a function that's a property of an object.
+We can add items to the back of the array using the `push()` **method**. A method is a function that belongs an object.
 
 ```js
 function setup() {
