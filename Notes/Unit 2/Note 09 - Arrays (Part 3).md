@@ -21,3 +21,12 @@ function setup() {
   print(numbers); // prints [10, 20, 30, 40]
 }
 ```
+
+If we use `pop()` on an empty array, it doesn't do anything.
+
+```js
+function setup() {
+  let nothing = []; 
+  nothing.pop(); // removes nothing since the array is empty
+  print(nothing); // prints []
+}
