@@ -1,6 +1,6 @@
 ### Image Methods
 
-We can get update the colours of the individual pixels in an image object using `.get()` and `.set()`.
+We can get update the colours of the individual pixels in an image object using `get()` and `set()`.
 
 
 The example below gets the colour of the pixel the mouse is on and magnifies it.
@@ -27,7 +27,7 @@ function draw() {
 ![](../../Images/Image_Get.gif)
 
 
-The example below inverts the colours of all the pixels in the image by changing its RGB values to their inverses (255 minus the original number).
+The example below inverts the colours of all the pixels in the image by changing its RGB values to their inverses (255 minus the original number). There are two more image methods here: `loadPixels()` and `updatePixels()`.
 
 ```js
 function preload() {
