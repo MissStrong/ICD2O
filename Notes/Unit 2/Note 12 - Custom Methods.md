@@ -13,8 +13,8 @@ let circle = {
     g: 205,
     b: 50
   },
-  move(amount) { // custom method for moving the circle towards the bottom-right
-    this.coordinate += amount; 
+  move(increment) { // custom method for moving the circle towards the bottom-right
+    this.coordinate += increment; 
   },
   grow(increment) { // custom method for increasing the diameter
     this.diameter += increment;
