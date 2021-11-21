@@ -10,7 +10,7 @@ function setup() {
   numbers.push(60); // puts 60 at the end of the array
   print(numbers); // prints [10, 20, 30, 40, 50, 60]
 }
-```å
+```
 
 We can remove the last item using the `pop()` method.
 
