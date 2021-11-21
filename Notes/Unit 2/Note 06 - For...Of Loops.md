@@ -24,7 +24,7 @@ We can also use a *for...of* loop to go through arrays.
 function setup() {
   let numbers = [10, 20, 30, 40, 50]; 
 
-  for (n of numbers) { // the loop is executed once per number, which we named n
+  for (let n of numbers) { // the loop is executed once per number, which we named n
     print(n); // prints each number in the array one at a time
   }
 }
@@ -39,7 +39,7 @@ This gives the same output as the example above. We can replace `n` with any var
 function setup() {
   let word = "potato";
 
-  for (letter of word) { // the loop is executed once per character 
+  for (let letter of word) { // the loop is executed once per character 
     print(letter); // prints each letter in the string one at a time
   }
 }
