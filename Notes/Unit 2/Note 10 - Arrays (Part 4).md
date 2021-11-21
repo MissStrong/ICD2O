@@ -1,4 +1,4 @@
-### Using Arrays to Store Objects
+### Using Arrays to Store Custom Objects
 
 If we wanted several shapes with different properties on our canvas, we can use an array to keep track of each individual one.
 
