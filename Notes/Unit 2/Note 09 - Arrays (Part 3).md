@@ -51,3 +51,13 @@ function setup() {
   print(numbers); // prints [10, 20, 30, 50]
 }
 ```
+
+By changing the second argument from `1` to a larger number, we can remove many consecutive items at once.
+
+```js
+function setup() {
+  let numbers = [10, 20, 30, 40, 50]; 
+  numbers.splice(1, 3); // removes three items starting at index 2
+  print(numbers); // prints [10, 50]
+}
+```
