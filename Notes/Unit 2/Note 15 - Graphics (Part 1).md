@@ -48,9 +48,11 @@ We're going to see how we can have a sketch with one shape that leaves a trail a
 
 ### Graphics
 
-A **graphic** object in P5.js is like a canvas. So far we've been putting everything all on one canvas but we can simulate having multiple canvases by creating graphic objects. The function for creating a graphic is `createGraphics()`, which takes two numbers representing its width and height.
+A **graphic** object in P5.js is like a canvas. So far we've been putting everything all on one canvas but we can simulate having multiple canvases by creating graphic objects. The function for creating a graphic is `createGraphics()`, which takes two numbers representing its width and height. 
 
 A graphic is treated like an image object, so we can put it on the main canvas using `image()`. We can create a graphic whenever we need a layer that has shapes leaves a trail when there are other shapes that don't leave trails. This works for both background layers and foreground layers.
+
+Whenever we want to call a function that affects something on the canvas but we want it to affect only the graphic, we use dot notation on the name of the graphic.
 
 Here is another variation of the examples above. The circle doesn't leave a trail and the rectangles are drawn on a graphic representing the background layer.
 
