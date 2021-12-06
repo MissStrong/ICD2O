@@ -8,7 +8,7 @@ One way of doing that is to draw them separately.
 function setup() {
   createCanvas(windowWidth, windowHeight);
   halfWidth = width/2;
-  line(width/2, 0, width/2, height); // line to separate the left and right half
+  line(halfWidth, 0, halfWidth, height); // line to separate the left and right half
 }
 
 function draw() {
