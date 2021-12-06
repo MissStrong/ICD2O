@@ -29,7 +29,7 @@ function setup() {
   img.loadPixels();
   for (let x = 0; x < img.width; x++) {
     for (let y = 0; y < img.height; y++) {
-      newColour = color(y*2, x*2, x*y/255);
+      newColour = color(y*2, x*2, x*y/256);
       img.set(x, y, newColour);
     }
   }
@@ -47,7 +47,7 @@ function setup() {
   img.loadPixels();
   for (let x = 0; x < img.width; x++) {
     for (let y = 0; y < img.height; y++) {
-      newColour = color(x*x/16, x*y/255, y*y/16);
+      newColour = color(x*x/16, x*y/256, y*y/16);
       img.set(x, y, newColour);
     }
   }
@@ -65,7 +65,7 @@ function setup() {
   img.loadPixels();
   for (let x = 0; x < img.width; x++) {
     for (let y = 0; y < img.height; y++) {
-      newColour = color(255-x, 255-y, x*y/255);
+      newColour = color(255-x, 255-y, x*y/256);
       img.set(x, y, newColour);
     }
   }
