@@ -127,5 +127,56 @@ function draw() {
 }
 ```
 
-
 ![](../../Images/Graphics_8.png)
+
+We could modify the example above to a more object-oriented approach by creating an object for each section.
+
+```javascript
+function setup() {
+  createCanvas(500, 500);
+  halfWidth = width/2;
+  halfHeight = height/2;
+
+  topLeft = {
+    graphic: createGraphics(halfWidth, halfHeight),
+    bg: color(255, 255, 0), // yellow background for top left quadrant
+    xPos: 0,
+    yPos: 0
+  }
+
+  topRight = {
+    graphic: createGraphics(halfWidth, halfHeight),
+    bg: color(255, 0, 255), // magenta background for top right quadrant
+    xPos: halfWidth,
+    yPos: 0
+  }
+  
+  bottomLeft = {
+    graphic: createGraphics(halfWidth, halfHeight),
+    bg: color(0, 255, 255), // teal background for bottom left quadrant
+    xPos: 0,
+    yPos: halfHeight
+  }
+
+  bottomRight = {
+    graphic: createGraphics(halfWidth, halfHeight),
+    bg: color(255, 0, 0), // red background for bottom right quadrant
+    xPos: halfWidth,
+    yPos: halfHeight
+  }
+
+  sections = [topLeft, topRight, bottomLeft, bottomRight];
+  
+  for (section of sections) {
+    section.graphic.background(section.bg); // sets all the background colours
+  }
+}
+
+function draw() {
+  for (section of sections) {
+    section.graphic.ellipse(mouseX, mouseY, 30); // puts the circle on all the graphics
+    image(section.graphic, section.xPos, section.yPos); // displays all the graphics in the correct location
+  }
+}
+```
+
