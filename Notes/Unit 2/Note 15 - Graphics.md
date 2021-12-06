@@ -8,11 +8,11 @@ Here is sketch that has a blue circle and a green square following the mouse. Bo
 function setup() {
   createCanvas(500, 500);
   rectMode(CENTER);
-  background(255); // since background() is in setup(), the shapes leave trails
+  background(100); // since background() is in setup(), the shapes leave trails
 }
 
 function draw() {
-  fill(0, 255, 0); // green for the rectangles
+  fill(0, 255, 0); // green for the squares
   rect(mouseX, mouseY, 50)
 
   fill(0, 0, 255); // blue for the circles
@@ -20,7 +20,7 @@ function draw() {
 }
 ```
 
-![](../../Images/Graphics1.png)
+![](../../Images/Graphics_1.png)
 
 Here is the same program, but with `background()` moved to `draw()` so that neither shapes leave a trail.
 
@@ -31,9 +31,9 @@ function setup() {
 }
 
 function draw() {
-  background(255); // since background() is in draw(), the shapes don't leave trails
+  background(100); // since background() is in draw(), the shapes don't leave trails
   
-  fill(0, 255, 0); // green for the rectangles
+  fill(0, 255, 0); // green for the squares
   rect(mouseX, mouseY, 50)
 
   fill(0, 0, 255); // blue for the circles
@@ -41,7 +41,7 @@ function draw() {
 }
 ```
 
-![](../../Images/Graphics2.png)
+![](../../Images/Graphics_2.png)
 
 We're going to see how we can have a sketch with one shape that leaves a trail and another one that doesn't.
 
@@ -59,40 +59,41 @@ function setup() {
   createCanvas(500, 500);
   fill(0, 0, 255);
 	
-  bg = createGraphics(width, height); // the background layer with the rectangles
+  bg = createGraphics(width, height); // the background layer with the squares
   bg.fill(0, 255, 0);
   bg.rectMode(CENTER);
 }
 
 function draw() {
-  bg.rect(mouseX, mouseY, 50); // put a new rectangle onto the background layer
+  bg.rect(mouseX, mouseY, 50); // put a new square onto the background layer
   
-  background(255); // clears the foreground layer to remove the previous blue circle
-  image(bg, 0, 0); // puts all the rectangles on the canvas
+  background(100); // clears the foreground layer to remove the previous blue circle
+  image(bg, 0, 0); // puts all the squares on the canvas again
   ellipse(mouseX, mouseY, 50) // put the blue circle on the canvas
 }
 ```
 
-![](../../Images/Graphics3.png)
+![](../../Images/Graphics_3.png)
 
 Here is one more variation. The rectangle doesn't leave a trail and circles are drawn on a graphic representing the foreground layer.
+
 ```javascript
 function setup() {
   createCanvas(500, 500);
   fill(0, 255, 0)
   rectMode(CENTER);
 	
-  fg = createGraphics(width, height); // the background layer with the rectangles
+  fg = createGraphics(width, height); // the foreground layer with the cirles
   fg.fill(0, 0, 255);
 }
 
 function draw() {
-  background(255); // clears the foreground layer to remove the previous blue circle
-  rect(mouseX, mouseY, 50); // put the blue circle on the canvas
+  background(100); // clears the background layer to remove the previous green square
+  rect(mouseX, mouseY, 50); // put the green square on the canvas
 
-  fg.ellipse(mouseX, mouseY, 50); // put a new rectangle onto the background layer
-  image(fg, 0, 0); // puts all the rectangles on the canvas
+  fg.ellipse(mouseX, mouseY, 50); // put a new circle onto the foreground layer
+  image(fg, 0, 0); // puts all the circles on the canvas
 }
 ```
 
-![](../../Images/Graphics4.png)
+![](../../Images/Graphics_4.png)
