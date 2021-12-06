@@ -12,8 +12,8 @@ function setup() {
 }
 
 function draw() {
-	fill(0, 255, 0); // green for the rectangles
-	rect(mouseX, mouseY, 50)
+  fill(0, 255, 0); // green for the rectangles
+  rect(mouseX, mouseY, 50)
 
   fill(0, 0, 255); // blue for the circles
   ellipse(mouseX, mouseY, 50); 
@@ -33,8 +33,8 @@ function setup() {
 function draw() {
   background(255); // since background() is in draw(), the shapes don't leave trails
   
-	fill(0, 255, 0); // green for the rectangles
-	rect(mouseX, mouseY, 50)
+  fill(0, 255, 0); // green for the rectangles
+  rect(mouseX, mouseY, 50)
 
   fill(0, 0, 255); // blue for the circles
   ellipse(mouseX, mouseY, 50); 
@@ -57,19 +57,19 @@ Here is another variation of the examples above. The circle doesn't leave a trai
 ```javascript
 function setup() {
   createCanvas(500, 500);
-	fill(0, 0, 255);
+  fill(0, 0, 255);
 	
-	bg = createGraphics(width, height); // the background layer with the rectangles
-	bg.fill(0, 255, 0);
-	bg.rectMode(CENTER);
+  bg = createGraphics(width, height); // the background layer with the rectangles
+  bg.fill(0, 255, 0);
+  bg.rectMode(CENTER);
 }
 
 function draw() {
-	bg.rect(mouseX, mouseY, 50); // put a new rectangle onto the background layer
-	
-	background(255); // clears the foreground layer to remove the previous blue circle
-	image(bg, 0, 0); // puts all the rectangles on the canvas
-	ellipse(mouseX, mouseY, 50) // put the blue circle on the canvas
+  bg.rect(mouseX, mouseY, 50); // put a new rectangle onto the background layer
+  
+  background(255); // clears the foreground layer to remove the previous blue circle
+  image(bg, 0, 0); // puts all the rectangles on the canvas
+  ellipse(mouseX, mouseY, 50) // put the blue circle on the canvas
 }
 ```
 
@@ -79,19 +79,19 @@ Here is one more variation. The rectangle doesn't leave a trail and circles are 
 ```javascript
 function setup() {
   createCanvas(500, 500);
-	fill(0, 255, 0)
+  fill(0, 255, 0)
   rectMode(CENTER);
 	
-	fg = createGraphics(width, height); // the background layer with the rectangles
-	fg.fill(0, 0, 255);
+  fg = createGraphics(width, height); // the background layer with the rectangles
+  fg.fill(0, 0, 255);
 }
 
 function draw() {
-	background(255); // clears the foreground layer to remove the previous blue circle
-	rect(mouseX, mouseY, 50); // put the blue circle on the canvas
+  background(255); // clears the foreground layer to remove the previous blue circle
+  rect(mouseX, mouseY, 50); // put the blue circle on the canvas
 
-	fg.ellipse(mouseX, mouseY, 50); // put a new rectangle onto the background layer
-	image(fg, 0, 0); // puts all the rectangles on the canvas
+  fg.ellipse(mouseX, mouseY, 50); // put a new rectangle onto the background layer
+  image(fg, 0, 0); // puts all the rectangles on the canvas
 }
 ```
 
