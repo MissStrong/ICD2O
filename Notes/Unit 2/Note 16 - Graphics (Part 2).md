@@ -24,4 +24,6 @@ function draw() {
 
 Another way is to place both of them on a graphic, display it twice, and mirror one of them. We can do that since graphics are like image objects.
 
-TODO
+```javascript
+// TODO
+```
