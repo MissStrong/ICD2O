@@ -10,7 +10,7 @@ HTML code consists of **tags**. Tags use angular brackets `<>`. There are two ty
 
 * `<!DOCTYPE html>` tells the browser that we're using HTML5. The exclamation point indicates that this tag is a **declaration** (it declares information to the browser). The convention is to write declaration using all upper case letters.
 * `<html>` and `</html>` indicate the part of the file that contains HTML code. The declaration is not a part of the HTML, but everything else should be inside these tags.
-* `<head>` and `</head>` indicate the part of the file that contains information about the webpage. This includes the title
+* `<head>` and `</head>` indicate the part of the file that contains information about the webpage. This includes the title, encoding information, and other **metadata**.
 * `<title>` and `</title>` indicate the title of the webpage. This title appears on the tab in your browser.
 * `<body>` and `</body>` indicate the part of the file that contains the content of the webpage. Most of your code would be inside here when there is a lot of information on the webpage.
 
