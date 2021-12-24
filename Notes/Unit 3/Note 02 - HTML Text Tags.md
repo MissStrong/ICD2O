@@ -44,7 +44,7 @@ If we want to put headers on our webpage, we can use the **header** tags: `<h1>`
 
 ![](../../Images/Headers_HTML.png)
 
-We can style text in <p> tags using these tags:
+We can style text in `<p>` tags using these tags:
 * `<b>` or `<strong>` for bold
 * `<i>` or `<em>` (emphasis) for italics
 * `<u>` for underline
