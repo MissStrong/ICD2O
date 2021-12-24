@@ -14,7 +14,7 @@ HTML code consists of **tags**. Tags use angular brackets `<>`. There are two ty
 * `<title>` and `</title>` indicate the title of the webpage. This title appears on the tab in your browser.
 * `<body>` and `</body>` indicate the part of the file that contains the content of the webpage. Most of your code would be inside here.
 
-Here's what it looks like all together. Whenever we have a tag inside a tag, the inner tag begins with an additional indent. Depending on how much information is between an opening tag and its corresponding closing tag, the opening and closing tags could be on the same line or on different lines.
+Here's what it looks like all together. Whenever we have a tag inside a tag, the inner tag begins with an additional indent. Depending on how much information is between an opening tag and its corresponding closing tag, the opening and closing tags could be on the same line or on separates lines.
 
 ```html
 <!DOCTYPE html>
