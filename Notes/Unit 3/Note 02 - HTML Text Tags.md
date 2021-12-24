@@ -48,7 +48,7 @@ We can style text in `<p>` tags using these tags:
 * `<em>` (emphasis) or `<i>` for italics
 * `<u>` for underline
 
-The tags `<strong>` and `<em>` are better than `<b>` and `<i>` for accessibility purposes (screen readers would pronounce the words with a different intonation).
+The tags `<strong>` and `<em>` are better than `<b>` and `<i>` for accessibility purposes. For example, screen readers would pronounce the words within these tags with a different intonation.
   
 ```html
 <!DOCTYPE html>
