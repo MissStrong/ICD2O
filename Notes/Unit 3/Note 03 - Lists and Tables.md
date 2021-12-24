@@ -33,7 +33,7 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tables/title>
+    <title>Tables</title>
   </head>
   <body>
     <table>
