@@ -30,4 +30,4 @@ Here's what it looks like all together. Whenever we have a tag inside a tag, the
 
 Here's what this webpage looks like:
 
-![../../Images/Hello_World_HTML.png]()
+![](../../Images/Hello_World_HTML.png)
