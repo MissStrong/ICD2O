@@ -43,13 +43,15 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
       </tr>
       <tr>
         <td>Red</td>
-        <td>Green</td> 
-        <td>Blue</td> 
+        <td>(255, 0, 0)</td>
       </tr>
       <tr>
-        <td>(255, 0, 0)</td>
+        <td>Green</td> 
         <td>(0, 255, 0)</td> 
-        <td>(0, 0, 255)</td> 
+      </tr>
+      <tr>
+        <td>Blue</td> 
+        <td>(0, 0, 255)</td>
       </tr>
     </table>
   </body>
