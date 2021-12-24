@@ -1,13 +1,12 @@
 ### HTML Text Tags
 
-So far we've seen the following tags:
-* `<!DOCTYPE html>`
+So far we've seen the following HTML tags:
 * `<html>` and `</html>`
 * `<head>` and `</head>` 
 * `<title>` and `</title>`
 * `<body>` and `</body>`
 
-In the example shown earlier, we had the text `"Hello World"` inside the `<body>` tags. Although this is valid, text is usually written inside `<p>` tags, where *p* stands for **paragraph**.
+In the example shown earlier, we had the text `"Hello World"` inside the `<body>` tag. Although this is valid, text is usually written inside `<p>` tags, where *p* stands for **paragraph**.
 
 
 ```html
@@ -22,7 +21,7 @@ In the example shown earlier, we had the text `"Hello World"` inside the `<body>
 </html>
 ```
 
-If we want to put headers on our webpage, we can use the **header** tags: `<h1>`, `<h2>`, `<h3>`, all the way up to `<h6>`. The largest is h1 and the smallest one is h6.
+If we want to put headers on our webpage, we can use the **header** tags: `<h1>`, `<h2>`, `<h3>`, all the way up to `<h6>`. The largest is `<h1>` and the smallest one is `<h6>`.
   
 ```html
 <!DOCTYPE html>
@@ -45,9 +44,11 @@ If we want to put headers on our webpage, we can use the **header** tags: `<h1>`
 ![](../../Images/Headers_HTML.png)
 
 We can style text in `<p>` tags using these tags:
-* `<b>` or `<strong>` for bold
-* `<i>` or `<em>` (emphasis) for italics
+* `<strong>` or `<b>` for bold
+* `<em>` (emphasis) or `<i>` for italics
 * `<u>` for underline
+
+The tags `<strong>` and `<em>` are better than `<b>` and `<i>` for accessibility purposes (screen readers would pronounce the words with a different intonation).
   
 ```html
 <!DOCTYPE html>
@@ -56,8 +57,8 @@ We can style text in `<p>` tags using these tags:
     <title>Text Styling</title>
   </head>
   <body>
-    <p>This is <b>bolded</b>.</p>
-    <p>This is <i>italicized</i>.</p>
+    <p>This is <strong>bolded</strong>.</p>
+    <p>This is <em>italicized</em>.</p>
     <p>This is <u>underlined</u>.</p>
   </body>
 </html>
