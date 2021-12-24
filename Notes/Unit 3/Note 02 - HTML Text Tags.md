@@ -21,7 +21,7 @@ In the example shown earlier, we had the text `"Hello World"` inside the `<body>
 </html>
 ```
 
-If we want to put headers on our webpage, we can use the **header** tags: `<h1>`, `<h2>`, `<h3>`, all the way up to `<h6>`. The largest is `<h1>` and the smallest one is `<h6>`.
+If we want to put headers on our webpage, we can use the **header** tags: `<h1>`, `<h2>`, `<h3>`, all the way up to `<h6>`. The largest header is `<h1>` and the smallest header is `<h6>`.
   
 ```html
 <!DOCTYPE html>
