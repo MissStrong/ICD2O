@@ -41,7 +41,7 @@ If we want to put headers on our webpage, we can use the **header** tags: `<h1>`
 </html>
 ```
 
-![](../../Images/Headers_HTML.png)
+![](../../Images/HTML_Headers.png)
 
 We can style text in `<p>` tags using these tags:
 * `<strong>` or `<b>` for bold
@@ -64,4 +64,4 @@ The tags `<strong>` and `<em>` are better than `<b>` and `<i>` for accessibility
 </html>
 ```
 
-![](../../Images/Text_Styling_HTML.png)
+![](../../Images/HTML_Text_Styling.png)
