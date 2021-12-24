@@ -60,5 +60,5 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
 
 ![](../../Images/HTML_Tables.png)
 
-By default, <th> tags have centered text and <tr> tags have left-aligned text. We'll see soon how to change the text alignment.
+By default, <th> tags have centered text and <tr> tags have left-aligned text. We'll see soon how to change the text alignment and other table properties.
   
