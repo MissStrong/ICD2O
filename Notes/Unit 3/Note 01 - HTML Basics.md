@@ -4,9 +4,9 @@
 
 There are several versions of HTML. The current one is called HTML5.
 
-### HTML Tags
+### Required HTML Tags
 
-HTML code consists of **tags**. Tags use angular brackets `<>`. There are two types of tags: opening tags and closing tags. Information typically goes between an opening tag and closing tag. All HTML5 files should include the following tags:
+HTML code consists of **tags**. Tags use angular brackets `<>`. There are two types of tags: opening tags and closing tags. Information typically goes between an opening tag and closing tag. All HTML5 files require the following tags:
 
 * `<!DOCTYPE html>` tells the browser that we're using HTML5. The exclamation point indicates that this tag is a **declaration** (it declares information to the browser). The convention is to write declaration using all upper case letters.
 * `<html>` and `</html>` indicate the part of the file that contains HTML code. The declaration is not a part of the HTML, but everything else should be inside these tags.
