@@ -23,7 +23,7 @@
 </html>
 ```
 
-![](../../Images/HTML_Lists.png)
+![](../../Images/HTML_List.png)
 
 ### Tables
 
@@ -58,7 +58,7 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
 </html>
 ```
 
-![](../../Images/HTML_Tables.png)
+![](../../Images/HTML_Table.png)
 
-By default, <th> tags have centered text and <tr> tags have left-aligned text. We'll see soon how to change the text alignment and other table properties.
+By default, `<th>` tags have centered text and `<tr>` tags have left-aligned text. We'll see soon how to change the text alignment and other table properties.
   
