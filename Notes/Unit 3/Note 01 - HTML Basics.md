@@ -4,6 +4,8 @@
 
 There are several versions of HTML. The current one is called HTML5.
 
+HTML files have the extention `.html`. The filename `index.html` indicates a homepage of a website (Try adding */index.html* at the end of a homepage URL to see what happens!).
+
 ### Required HTML Tags
 
 HTML code consists of **tags**. Tags use angular brackets `<>`. There are two types of tags: **opening tags** and **closing tags**. Every closing tag matches an opening tag. Closing tags contain a forward slash `/` whereas opening tags do not. All HTML5 files require the following tags:
