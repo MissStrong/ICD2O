@@ -8,7 +8,7 @@ HTML files have the extention `.html`. The filename `index.html` indicates a hom
 
 ### Required HTML Tags
 
-HTML code consists of **tags**. Tags use angular brackets `<>`. There are two types of tags: **opening tags** and **closing tags**. Every closing tag matches an opening tag. Closing tags contain a forward slash `/` whereas opening tags do not. All HTML5 files require the following tags:
+HTML code consists of **tags**. Tags use angular brackets `<>`. There are two types of tags: **opening tags** and **closing tags**. Every closing tag matches an opening tag. Closing tags contain a forward slash `/` whereas opening tags do not. Every set of opening and closing tags create an **element**. All HTML5 files require the following tags:
 
 * `<!DOCTYPE html>` tells the browser that we're using HTML5. The exclamation point indicates that this tag is a **declaration** (it declares information to the browser).
 * `<html>` and `</html>` indicate the part of the file that contains the HTML code, except for the `DOCTYPE` declaration. 
@@ -33,3 +33,13 @@ Here's what it looks like all together. Whenever we have a tag inside a tag, the
 Here's what this webpage looks like:
 
 ![](../../Images/HTML_Hello_World.png)
+
+### Attributes
+
+An attribute is a parameter that is placed within an opening tag. It causes the element to behave in specific way.
+
+For example, it's good practice to specifiy the language of a webpage. We can do that by using the `lang` attribute in the `<html>` tag. The value for English is `"en"`. We can find values of other languages by looking up the [ISO 639-1 Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+
+```html
+<html lang="en">
+```
