@@ -1,6 +1,6 @@
 ### What is HTML?
 
-**Hypertext Markup Language** (HTML) is a language used to display **hypertext** on a webpage. Hypertext is text that can include links to other sites. All webpages on the Internet are stored and sent as HTML files.
+**Hypertext Markup Language** (HTML) is a language used to display **hypertext** on a webpage. Hypertext is formatted and/or styled text that can include links to other sites. All webpages on the Internet are stored and sent as HTML files.
 
 There are several versions of HTML. The current one is called HTML5.
 
