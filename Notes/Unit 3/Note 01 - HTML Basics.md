@@ -36,10 +36,14 @@ Here's what this webpage looks like:
 
 ### Attributes
 
-An attribute is a parameter that is placed within an opening tag. It causes the element to behave in specific way.
+An attribute is a parameter in a tag that causes the element to behave in specific way. 
 
-For example, it's good practice to specifiy the language of a webpage. We can do that by using the `lang` attribute in the `<html>` tag. The value for English is `"en"`. We can find values of other languages by looking up the [ISO 639-1 Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+Attributes are written inside the opening tag. They precede then tag name are are followed by a `=` and the value of the attribute.
+
+Here is an example:
 
 ```html
 <html lang="en">
 ```
+
+The attribute `lang` within an `<html>` tag specifies the language of the webpage. The value for English is `"en"`. We can find values of other languages by looking up the [ISO 639-1 Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
