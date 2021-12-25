@@ -1,4 +1,4 @@
-### HTML Text Tags
+### HTML Text
 
 So far we've seen the following HTML tags:
 * `<html>` and `</html>`
