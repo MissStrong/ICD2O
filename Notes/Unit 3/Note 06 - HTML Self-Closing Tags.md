@@ -6,16 +6,14 @@ Here are some examples:
 * `<br />` is a line break (it puts vertical space between content).
 * `<hr />` is a horizontal rule (a black horizontal line that goes across the page).
 * `<meta />` is for metadata within the header.
-* `<img />` is for images.
-* `<embed />` is for embedded content such as videos.
 
-The forward slash `/` at the end are optional, but it is conventional to put them in to remind ourselves that they don't need a separate closing tag.
+The forward slash `/` at the end is optional, but it is conventional to put them in to remind ourselves that they don't need a separate closing tag.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Self-Closing Tags</title>
   </head>
   <body>
@@ -23,4 +21,5 @@ The forward slash `/` at the end are optional, but it is conventional to put the
   </body>
 </html>
 ```
-The line `<meta charset="utf-8">` ...
+
+The line `<meta charset="utf-8" />` allows all Unicode characters to display correctly on the webpage. Without this line, some symbols, might not display correctly.
