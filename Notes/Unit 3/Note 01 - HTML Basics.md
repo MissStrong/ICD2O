@@ -33,17 +33,3 @@ Here's what it looks like all together. Whenever we have a tag inside a tag, the
 Here's what this webpage looks like:
 
 ![](../../Images/HTML_Hello_World.png)
-
-### Attributes
-
-An attribute is a parameter in a tag that causes the element to behave in specific way. 
-
-Attributes are written inside the opening tag. They precede then tag name are are followed by a `=` and the value of the attribute.
-
-Here is an example:
-
-```html
-<html lang="en">
-```
-
-The attribute `lang` within an `<html>` tag specifies the language of the webpage. The value for English is `"en"`. We can find values of other languages by looking up the [ISO 639-1 Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
