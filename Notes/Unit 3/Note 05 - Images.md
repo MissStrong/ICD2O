@@ -41,7 +41,7 @@ If we are uploading the image ourselves and the image file is in the same folder
     <title>Image</title>
   </head>
   <body>
-    <img src="images/doge.jpg" />
+    <img src="doge.jpg" />
   </body>
 </html>
 ```
