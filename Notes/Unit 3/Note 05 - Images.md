@@ -25,12 +25,28 @@ If the image is already on the Internet, we can use the image's URL. We can get 
     <title>Image</title>
   </head>
   <body>
-    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg" />
+    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"/>/>
   </body>
 </html>
 ```
 
-![](../../Images/HTML_Image_1.png)
+![](../../Images/HTML_Image1.png)
+
+We can also modify the width and height of an image using the `width` and `height` attributes.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image</title>
+  </head>
+  <body>
+    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"  width="480px" height="270px" />/>
+  </body>
+</html>
+```
+
+![](../../Images/HTML_Image2.png)
 
 If we are uploading the image ourselves and the image file is in the same folder as the HTML file, we just need to write the filename. 
 
@@ -41,16 +57,15 @@ If we are uploading the image ourselves and the image file is in the same folder
     <title>Image</title>
   </head>
   <body>
-    <img src="doge.jpg" />
+    <img src="doge.jpeg" width="480px" height="270px" />
   </body>
 </html>
 ```
 
-![](../../Images/HTML_Image_2.png)
+![](../../Images/HTML_Image3.png)
 
 If the image is in a folder then we need to specify the filepath. We write the folder name followed by a forward slash followed by the filename.
 
-We can also modify the width and height of an image using the `width` and `height` attributes.
 
 ```html
 <!DOCTYPE html>
@@ -64,5 +79,4 @@ We can also modify the width and height of an image using the `width` and `heigh
 </html>
 ```
 
-![](../../Images/HTML_Image_3.png)
-
+![](../../Images/HTML_Image4.png)
