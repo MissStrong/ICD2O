@@ -25,7 +25,7 @@ If the image is already on the Internet, we can use the image's URL. We can get 
     <title>Image</title>
   </head>
   <body>
-    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"/>/>
+    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"/>
   </body>
 </html>
 ```
@@ -41,7 +41,7 @@ We can also modify the width and height of an image using the `width` and `heigh
     <title>Image</title>
   </head>
   <body>
-    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"  width="480px" height="270px" />/>
+    <img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"  width="480px" height="270px" />
   </body>
 </html>
 ```
