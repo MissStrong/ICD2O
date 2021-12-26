@@ -5,6 +5,7 @@ All of the opening tags we've seen have a closing tag to match it. There are als
 Here are some examples:
 * `<br />` is a line break (it puts vertical space between content).
 * `<hr />` is a horizontal rule (a black horizontal line that goes across the page).
+* `<meta />` is for metadata within the header.
 * `<img />` is for images.
 * `<embed />` is for embedded content such as videos.
 
@@ -14,6 +15,7 @@ The forward slash `/` at the end are optional, but it is conventional to put the
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Self-Closing Tags</title>
   </head>
   <body>
@@ -21,3 +23,4 @@ The forward slash `/` at the end are optional, but it is conventional to put the
   </body>
 </html>
 ```
+The line `<meta charset="utf-8">` ...
