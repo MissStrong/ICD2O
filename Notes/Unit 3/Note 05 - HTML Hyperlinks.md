@@ -12,7 +12,7 @@ Here is is the previous "click me" example:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Hyperlink</title>
   </head>
@@ -21,4 +21,5 @@ Here is is the previous "click me" example:
   </body>
 </html>
 ```
+
 ![](../../Images/HTML_Hyperlink.png)
