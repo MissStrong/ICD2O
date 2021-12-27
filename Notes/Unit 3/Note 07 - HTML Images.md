@@ -8,7 +8,7 @@ If the image is already on the Internet, we can use the image's URL. We can get 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Image</title>
   </head>
@@ -24,7 +24,7 @@ We can also modify the width and height of an image using the `width` and `heigh
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Image</title>
   </head>
@@ -40,7 +40,7 @@ If we are uploading the image ourselves and the image file is in the same folder
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Image</title>
   </head>
@@ -57,7 +57,7 @@ If the image is in a folder then we need to specify the filepath. We write the f
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Image</title>
   </head>
