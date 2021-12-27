@@ -22,4 +22,4 @@ The forward slash `/` at the end is optional, but it is conventional to put them
 </html>
 ```
 
-The line `<meta charset="utf-8" />` allows all Unicode characters to display correctly on the webpage. Without this line, some symbols, might not display correctly.
+The line `<meta charset="utf-8" />` allows all Unicode characters to display correctly on the webpage. Without this line, some symbols might not show up or might show up as just a □.
