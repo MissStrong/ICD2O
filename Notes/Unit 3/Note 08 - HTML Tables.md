@@ -4,7 +4,7 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Tables</title>
   </head>
@@ -37,11 +37,11 @@ We can change some of the properties of the table using attributes. Here are a f
 * The `align` attribute changes the horizontal text alignment. By default, `<th>` tags have centered text and `<tr>` tags have left-aligned text. The values for `align` include `left`, `right`, and `center`.
 * The `width` attribute changes the horizontal length of the cell. The values are strings that contain the number of pixels followed by `px`.
 * The `height` attribute changes the vertical length of the cell. The values are strings that contain the number of pixels followed by `px`.
-* The `bgcolour` attribute changes the background colour of the cell. The values are strings that are either hexadecimal values or ...
+* The `bgcolour` attribute changes the background colour of the cell. The values are strings that are either hexadecimal values or [colour names](https://www.w3schools.com/colors/colors_names.asp).
   
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Tables</title>
   </head>
