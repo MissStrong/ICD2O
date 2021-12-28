@@ -1,11 +1,11 @@
 ### CSS Basics
 
-A CSS file can be used to add styling to a webpage. CSS stands for Cascade Style Sheet.
+A CSS file can be used to add styling to a webpage. CSS stands for Cascading Style Sheets.
 
-To link a CSS file to an HTML file, we use the self-closing `<link>` tag and the following attributes:
-* `href` (hypertext reference – the name of the css file, usually `style.css`)
+To link an HTML file to a CSS file, we use the self-closing `<link>` tag and the following attributes:
+* `href` (hypertext reference – the name of the CSS file, usually `style.css`)
 * `rel` (relationship – the connection between the HTML and CSS file, `stylesheet`)
-* `type` (file type – the filetype of the CSS file `text/css`)
+* `type` (filetype – the filetype of the CSS file `text/css`)
 
 This line goes in the header.
 
@@ -41,7 +41,7 @@ On the left is text without any styling and on the right is text that uses the s
 
 ### IDs
 
-If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once in different elemetns.
+If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once on different elements.
 
 ```html
 <!DOCTYPE html>
