@@ -21,7 +21,11 @@ This line goes in the header.
 </html>
 ```
 
-Within a CSS file, we can specify the styling we want to apply to specific tags. For example, here's how we can make all the text within a `<p>` tag blue.
+Within a CSS file, we can specify the styling we want to apply to specific tags. We start by writing the name of the tag without the angular brackets. Then we put a set of curly braces `{}` after it and put the styling inside these braces. The syntax for each styling is `property: value;`.
+
+Here is [a list of the most common properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference). We can click on a property to find the list of its possible values.
+
+For example, here's how we can make all the text within a `<p>` tag use the Tahoma font with a font size of 24 and a font colour of blue.
 
 ```css
 p {
@@ -30,9 +34,6 @@ p {
   font-size: 24px;
 }
 ```
-We start by writing the name of the tag without the angular brackets. Then we put a set of curly braces `{}` after it and put the styling inside these braces. The syntax for each styling is `property: value;`.
-
-Here is [a list of the most common properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference). We can click on a property to find the list of its possible values.
 
 On the left is text without any styling and on the right is text that uses the styling above. 
 
