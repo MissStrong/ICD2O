@@ -39,7 +39,7 @@ On the left is text without any styling and on the right is text that uses the s
 
 ![](../../Images/CSS_Basics_1.png)
 
-## IDs
+### IDs
 
 If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once in different elemetns.
 
