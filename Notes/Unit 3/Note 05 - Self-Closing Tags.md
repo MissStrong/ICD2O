@@ -7,7 +7,7 @@ Here are some examples:
 * `<hr />` is a horizontal rule (a black horizontal line that goes across the page).
 * `<meta />` is for metadata within the header.
 
-The forward slash `/` at the end is optional, but it is conventional to put them in to remind ourselves that they don't need a separate closing tag.
+The forward slash `/` at the end is optional, but it is conventional to put them in to remind ourselves that we don't need a separate closing tag.
 
 ```html
 <!DOCTYPE html>
