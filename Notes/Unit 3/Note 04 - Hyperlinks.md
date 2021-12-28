@@ -6,9 +6,9 @@ Anchor tags require a **hypertext reference** `href` attribute to tell the brows
 
 We can also specify whether clicking on the link will open the webpage in a new tab or the same tab. By default they will open in the same tab, but we can specify the `target` attribute to be a new tab `"_blank"`.
 
-When a tag has more than one attribute, they can be placed in any order and are separated by spaces. 
+When a tag has more than one attribute, they can be placed in any order separated by spaces. 
 
-Here is is the previous "click me" example:
+Here is the previous "click me" example:
 
 ```html
 <!DOCTYPE html>
