@@ -16,7 +16,7 @@ If the image file is in the same folder as the HTML file, the file source is jus
 </html>
 ```
 
-![](../../Images/HTML_Image2.png)
+![](../../Images/HTML_Image1.png)
 
 It's common practice to include an `alt` tag, which indicates the text that appears when we hover over the image. We can also modify the width and height of an image using the `width` and `height` attributes.
 
@@ -30,8 +30,9 @@ It's common practice to include an `alt` tag, which indicates the text that appe
     <img src="doge.jpg"  width="480px" height="270px" alt="doge" />
   </body>
 </html>
+```
 
-![](../../Images/HTML_Image3.png)
+![](../../Images/HTML_Image2.png)
 
 If the image is in a folder then we need to specify the filepath. We write the folder name followed by a forward slash followed by the filename.
 
@@ -47,4 +48,4 @@ If the image is in a folder then we need to specify the filepath. We write the f
 </html>
 ```
 
-![](../../Images/HTML_Image4.png)
+![](../../Images/HTML_Image3.png)
