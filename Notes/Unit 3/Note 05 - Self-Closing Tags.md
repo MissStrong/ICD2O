@@ -21,5 +21,6 @@ The forward slash `/` at the end is optional, but it is conventional to put them
   </body>
 </html>
 ```
+![](../../Images/HTML_Self_Closing_Tags.png)
 
 The line `<meta charset="utf-8" />` allows all Unicode characters to display correctly on the webpage. Without this line, some symbols might not show up or might show up as just a □.
