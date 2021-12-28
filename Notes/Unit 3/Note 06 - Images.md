@@ -16,6 +16,10 @@ If the image file is in the same folder as the HTML file, the file source is jus
 </html>
 ```
 
+![](../../Images/HTML_Image__3.png)
+
+Here's what the webpage looks like:
+
 ![](../../Images/HTML_Image1.png)
 
 It's common practice to include an `alt` tag, which indicates the text that appears when we hover over the image. We can also modify the width and height of an image using the `width` and `height` attributes.
@@ -48,4 +52,4 @@ If the image is in a folder then we need to specify the filepath. We write the f
 </html>
 ```
 
-![](../../Images/HTML_Image3.png)
+![](../../Images/HTML_Image__4.png)
