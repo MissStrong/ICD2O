@@ -41,7 +41,18 @@ On the left is text without any styling and on the right is text that uses the s
 If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once in different elemetns.
 
 ```html
-<p id="big-blue">This is a sentence.</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Styling Example</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <p id="big-blue">This is a sentence.</p>
+    </div>
+  </body>
+</html>
 ```
 
 In the CSS file, instead of writing the tag name, we put a hash `#` followed by the id.
@@ -57,10 +68,23 @@ In the CSS file, instead of writing the tag name, we put a hash `#` followed by 
 If we want to apply styling to a specific set of elements, we can add a `class` attribute to the elements in the HTML file. This will group them together so that we can apply a styling to all of them at once.
 
 ```html
-<p class="big-blue">This is a sentence written in big, blue letters.</p>
-<p class="small-orange">This is a sentence written in small, orange letters.</p>
-<p class="bold-green">This is a sentence written in bold, green letters.</p>
-<p class="big-blue">This is a sentence written in big, blue letters.</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Styling Example</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <p class="big-blue">This is a sentence written in big, blue letters.</p>
+      <p class="small-orange">This is a sentence written in small, orange letters.</p>
+      <p class="bold-green">This is a sentence written in bold, green letters.</p>
+      <p class="small-orange">This is another sentence written in small, orange letters.</p>
+      <p class="bold-green">This is another sentence written in bold, green letters.</p>
+      <p class="big-blue">This is another sentence written in big, blue letters.</p>
+    </div>
+  </body>
+</html>
 ```
 
 In the CSS file, we put a dot `.` followed by the class.
@@ -79,7 +103,7 @@ In the CSS file, we put a dot `.` followed by the class.
 }
 
 .bold-green {
-  color: blue;
+  color: green;
   font-family: Garamond;
   font-weight: bold;
 }
