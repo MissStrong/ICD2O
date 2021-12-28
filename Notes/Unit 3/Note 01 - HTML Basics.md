@@ -4,7 +4,7 @@
 
 There are several versions of HTML. The current one is called HTML5.
 
-HTML files have the extention `.html`. The filename `index.html` indicates a homepage of a website (Try adding */index.html* at the end of a homepage URL to see what happens!).
+HTML files have the extention `.html`. The filename `index.html` indicates a homepage of a website.
 
 ### Required HTML Tags
 
