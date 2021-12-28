@@ -2,7 +2,7 @@
 
 An attribute is a parameter in a tag that causes the element to behave in specific way. 
 
-Attributes are written inside the opening tag. They precede then tag name are are followed by a `=` and the value of the attribute.
+Attributes are written inside the opening tag. They precede the tag name and are followed by a `=` and the value of the attribute.
 
 Here is an example:
 
