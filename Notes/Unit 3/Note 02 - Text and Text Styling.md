@@ -1,4 +1,4 @@
-### HTML Text
+### Text
 
 So far we've seen the following HTML tags:
 * `<html>` and `</html>`
@@ -42,6 +42,8 @@ If we want to put headers on our webpage, we can use the **header** tags: `<h1>`
 ```
 
 ![](../../Images/HTML_Headers.png)
+
+### Text Styling
 
 We can style text in `<p>` tags using these tags:
 * `<strong>` or `<b>` for bold
