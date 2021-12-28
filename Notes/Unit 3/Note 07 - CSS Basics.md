@@ -39,6 +39,8 @@ On the left is text without any styling and on the right is text that uses the s
 
 ![](../../Images/CSS_Basics_1.png)
 
+## IDs
+
 If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once in different elemetns.
 
 ```html
@@ -65,6 +67,8 @@ In the CSS file, instead of writing the tag name, we put a hash `#` followed by 
   font-size: 24px;
 }
 ```
+
+### Classes
 
 If we want to apply styling to a specific set of elements, we can add a `class` attribute to the elements in the HTML file. This will group them together so that we can apply a styling to all of them at once.
 
