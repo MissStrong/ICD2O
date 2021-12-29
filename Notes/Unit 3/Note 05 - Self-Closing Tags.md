@@ -14,6 +14,7 @@ The forward slash `/` at the end is optional, but it is conventional to put them
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Self-Closing Tags</title>
   </head>
   <body>
@@ -24,3 +25,5 @@ The forward slash `/` at the end is optional, but it is conventional to put them
 ![](../../Images/HTML_Self_Closing_Tags.png)
 
 The line `<meta charset="utf-8" />` allows all Unicode characters to display correctly on the webpage. Without this line, some symbols might not show up or might show up as just a □.
+
+The line `<meta name="viewport" content="width=device-width" />` modifies the webpage so that it fits the dimensions of the device to make it look better.
