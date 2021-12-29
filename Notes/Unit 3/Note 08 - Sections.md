@@ -35,10 +35,26 @@ The `&lt;` (the less than symbol) and `&gt;` (the greater than symbol) are used 
 }
 ```
 
-By default, `<div>` elements take up the entire width of the webpage. If we want it to take up only as much width as it needs, we can add `float: left;` in the CSS property.
+Here are all the values for (border-style)[https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#syntax] and (border-width)[https://developer.mozilla.org/en-US/docs/Web/CSS/border-width#syntax]. The margin is the amount of space outside the border of the element.
 
+By default, `<div>` elements take up the entire width of the webpage. If we want it to take up only as much width as it needs, we can add `float: left;` to the CSS.
 
 ![](../../Images/HTML_Div_2.png)
+
+```css
+#section1 {
+  border-color: black;
+  border-style: dotted;
+  border-width: thin;
+  color: red;
+  margin: 5px;
+  float: left;
+}
+```
+
+Putting `float: left;` also allows us to put something directly to the right of a section. Otherwise, it would appear underneath it.
+
+![](../../Images/HTML_Div_3.png)
 
 
 ### Spans
