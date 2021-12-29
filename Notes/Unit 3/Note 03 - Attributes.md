@@ -6,7 +6,7 @@ Attributes are written inside the opening tag. They precede the tag name and are
 
 ### Language of a Website
 
-The attribute `lang` within an `<html>` tag specifies the language of the webpage. The value for English is `"en"`. We can find values of other languages by looking up the [ISO 639-1 Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+The attribute `lang` within an `<html>` tag specifies the main language of the webpage. The value for English is `"en"`. We can find values of other languages by looking up the [ISO 639-1 Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
 ```html
 <html lang="en">
