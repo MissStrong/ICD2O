@@ -18,7 +18,7 @@ The forward slash `/` at the end is optional, but it is conventional to put them
     <title>Self-Closing Tags</title>
   </head>
   <body>
-    <p>This is a paragraph with a break<br /> and a horizontal rule <hr /> in it.</p>
+    <p>This is a paragraph with a break<br /> and a horizontal rule<hr />in it.</p>
   </body>
 </html>
 ```
@@ -26,4 +26,4 @@ The forward slash `/` at the end is optional, but it is conventional to put them
 
 The line `<meta charset="utf-8" />` allows all Unicode characters to display correctly on the webpage. Without this line, some symbols might not show up or might show up as just a □.
 
-The line `<meta name="viewport" content="width=device-width" />` modifies the webpage so that it fits the dimensions of the device to make it look better.
+The line `<meta name="viewport" content="width=device-width" />` modifies the webpage so that it fits the dimensions of the device you're using to make it look better. This is helpful for viewing webpages on phones and tablets.
