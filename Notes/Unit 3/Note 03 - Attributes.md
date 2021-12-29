@@ -23,14 +23,14 @@ If the language of the webpage doesn't match the language of your browser, you m
     <title>Esperanto</title>
   </head>
   <body>
-   <p>Saluton, Mondo!</p>
-   </body>
+    <p>Saluton, Mondo!</p>
+  </body>
 </html>
 ```
 
 ### Aligning Text
 
-The attribute `align` within a `<p>` tag indicates the alignning of the text in the paragraph. Some of the values we can use are `left` (left-aligned), `right` (right-aligned), `center` (centered), and `justify` (the letters are stretched to fit the page, like in a book or newspaper).
+The attribute `align` within a `<p>` tag indicates the alignment of the text in the paragraph. Some of the values we can use include `left` (left-aligned), `right` (right-aligned), `center` (centered), and `justify` (the letters are stretched to fit the page, like in a book or newspaper).
 
 ```html
 <!DOCTYPE html>
@@ -48,4 +48,4 @@ The attribute `align` within a `<p>` tag indicates the alignning of the text in 
 
  ```
 
-![](../../Images/HTML_Alignment.png)
+![](../../Images/HTML_Alignment_.png)
