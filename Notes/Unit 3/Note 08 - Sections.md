@@ -1,4 +1,4 @@
-### Divisions
+### Sections
 
 We can use `<div>` (division) tag to separate a webpage into sections. This allows us to group elements together and style them accordingly.
 
@@ -22,20 +22,19 @@ Here is an example:
 </html>
 ```
 
-The `&lt;` (the less than symbol) and `&gt;` (the greater than symbol) are used instead of `<` and `>` since otherwise it would be interpretted as a tag.
-
+The `&lt;` (the less than symbol) and `&gt;` (the greater than symbol) are used instead of `<` and `>` since otherwise they would be interpretted as tags.
 
 ```css
 #section1 {
   border-color: black;
   border-style: dotted;
-  border-width: thin;
+  border-width: 2px;
   color: red;
   margin: 5px;
 }
 ```
 
-Here are all the values for (border-style)[https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#syntax] and (border-width)[https://developer.mozilla.org/en-US/docs/Web/CSS/border-width#syntax]. The margin is the amount of space outside the border of the element.
+Some of the values for `border-style` include `dotted`, `dashed`, `solid`, `double`, and `groove`. The `margin` is the amount of space outside the border of the element.
 
 By default, `<div>` elements take up the entire width of the webpage. If we want it to take up only as much width as it needs, we can add `float: left;` to the CSS.
 
@@ -55,8 +54,3 @@ By default, `<div>` elements take up the entire width of the webpage. If we want
 Putting `float: left;` also allows us to put something directly to the right of a section. Otherwise, it would appear underneath it.
 
 ![](../../Images/HTML_Div_3.png)
-
-
-### Spans
-
-We can also use a <span> tag to separate a webpace into sections. The main difference between <div> and <span> is that browsers automatially put a line break before and after a <div> element whereas they do not do this for <span> elements.
