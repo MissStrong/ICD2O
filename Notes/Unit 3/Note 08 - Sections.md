@@ -1,6 +1,6 @@
 ### Sections
 
-We can use `<div>` (division) tag to separate a webpage into sections. This allows us to group elements together and style them accordingly.
+We can use the `<div>` (division) tag to separate a webpage into sections. This allows us to group elements together and style them accordingly.
 
 Here is an example:
 
