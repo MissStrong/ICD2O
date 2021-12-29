@@ -14,17 +14,38 @@ The attribute `lang` within an `<html>` tag specifies the language of the webpag
 
 If the language of the webpage doesn't match the language of your browser, you might get a pop-up from Google Translate offering to translate the page for you.
 
-![](../../Images/HTMl_Esperanto.png)
+![](../../Images/HTML_Esperanto.png)
+
+```html
+<!DOCTYPE html>
+<html lang="eo">
+  <head>
+    <title>Esperanto</title>
+  </head>
+  <body>
+   <p>Saluton, Mondo!</p>
+   </body>
+</html>
+```
 
 ### Aligning Text
 
 The attribute `align` within a `<p>` tag indicates the alignning of the text in the paragraph. Some of the values we can use are `left` (left-aligned), `right` (right-aligned), `center` (centered), and `justify` (the letters are stretched to fit the page, like in a book or newspaper).
 
 ```html
-<p align="left">This sentence is left-aligned.</p>
-<p align="right">This sentence is right-aligned.</p>
-<p align="center">This sentence is centered.</p>
-<p align="justify">This sentence is jusitified. If the line is long, the letters get stretched to fit the line. If the line is too short, the letters don't get stretched.</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Alignment</title>
+  </head>
+  <body>
+   <p align="left">This sentence is left-aligned.</p>
+    <p align="right">This sentence is right-aligned.</p>
+    <p align="center">This sentence is centered.</p>
+    <p align="justify">This sentence is jusitified. If the line is long, the letters get stretched to fit the line. If the line is too short, the letters don't get stretched.</p>>
+  </body>
+</html>
+
  ```
 
-![](../../Images/HTMl_Alignment.png)
+![](../../Images/HTML_Alignment.png)
