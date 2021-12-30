@@ -2,6 +2,8 @@
 
 **Ordered lists** are lists with numbered items whereas **unordered lists** are lists with bulleted items. We can create an ordered list with the `<ol>` tag and an unordered list with the `<ul>` tag. The items within either type of list use `<li>` (list item) tags.
 
+![](../../Images/HTML_List_1.png)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -25,11 +27,11 @@
 </html>
 ```
 
-![](../../Images/HTML_List_1.png)
-
 The symbols in front of each item is called a **list marker**. By default, the list markers for unordered lists are closed circles • and the list markers for ordered lists are Hindu-Arabic numerals (0, 1, 2, ..., 9).
 
 We can change the list marker using the `list-style-type` property in `ul` or `ol`. 
+
+![](../../Images/HTML_List_2.png)
 
 ```html
 <!DOCTYPE html>
@@ -65,11 +67,11 @@ ul {
 }
 ```
 
-![](../../Images/HTML_List_2.png)
-
 Here is the [full list of values for `list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#values).
 
 We can place lists inside of sectioned elements such as `<div>` or `<table>`.
+
+![](../../Images/HTML_List_3.png)
 
 ```html
 <!DOCTYPE html>
@@ -98,13 +100,14 @@ We can place lists inside of sectioned elements such as `<div>` or `<table>`.
 </html>
 ```
 
-![](../../Images/HTML_List_3.png)
-
 Let's add some styling to the webpage above.
+
+
+![](../../Images/HTML_List_4.png)
 
 ```css
 h4 {
-  margin: 0px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -125,5 +128,3 @@ li {
   margin: 20px;
 }
 ```
-
-![](../../Images/HTML_List_4.png)
