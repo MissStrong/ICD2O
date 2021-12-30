@@ -28,13 +28,13 @@ The `&lt;` (the less than symbol) and `&gt;` (the greater than symbol) are used 
 #section1 {
   border-color: black;  /* the border will be black */
   border-style: dotted; /* the border will be dotted */
-  border-width: 2px; /* the border will have a thickness of 2px */
+  border-width: 2px; /* the border will have a thickness of 2 pixels */
   color: red; /* the text will be red */
-  margin: 5px; /* there will be 5px of space around all sides of the section */
+  margin: 5px; /* there will be 5px of space outside the all sides of the border of the section */
 }
 ```
 
-Some of the values for `border-style` include `dotted`, `dashed`, `solid`, `double`, and `groove`. The `margin` is the amount of space outside the border of the element.
+Here is [the full list of values for `border-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#values).
 
 By default, `<div>` elements take up the entire width of the webpage. If we want it to take up only as much width as it needs, we can add `float: left;` to the CSS.
 
@@ -42,11 +42,11 @@ By default, `<div>` elements take up the entire width of the webpage. If we want
 
 ```css
 #section1 {
-  border-color: black;  /* the border will be black */
-  border-style: dotted; /* the border will be dotted */
-  border-width: 2px; /* the border will have a thickness of 2px */
-  color: red; /* the text will be red */
-  margin: 5px; /* there will be 5px of space around all sides of the section */
+  border-color: black;  
+  border-style: dotted;†
+  border-width: 2px; 
+  color: red;
+  margin: 5px; 
   float: left; /* the section's width will be minimal and not stretch the entire width of the webpage */
 }
 ```
