@@ -21,7 +21,7 @@ This line goes in the header.
 </html>
 ```
 
-Within a CSS file, we can specify the styling we want to apply to specific tags. We start by writing the name of the tag without the angular brackets. Then we put a set of curly braces `{}` after it and put the styling inside these braces. The syntax for each styling is `property: value;`. We can use `\\` to begin a line comment.
+Within a CSS file, we can specify the styling we want to apply to specific tags. We start by writing the name of the tag without the angular brackets. Then we put a set of curly braces `{}` after it and put the styling inside these braces. The syntax for each styling is `property: value;`. We can use `/*`  and `*/ to begin and ened a line comment.
 
 Here is [a list of the most common properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference). We can click on a property to find the list of its possible values. 
 
@@ -29,9 +29,9 @@ For example, here's how we can make all the text within a `<p>` tag use the Taho
 
 ```css
 p {
-  color: blue;  // the colour of the text is blue
-  font-family: Tahoma;  // the text will use the font Tahoma if the browser has it
-  font-size: 24px; // the text will have a font size of 24
+  color: blue;  /* the colour of the text is blue */
+  font-family: Tahoma;  /* the text will use the font Tahoma if the browser has it */
+  font-size: 24px; /* the text will have a font size of 24 */
 }
 ```
 
@@ -62,9 +62,9 @@ In the CSS file, instead of writing the tag name, we put a hash `#` followed by 
 
 ```css
 #big-blue {
-  color: blue;  // the colour of the text is blue
-  font-family: Tahoma;  // the text will use the font Tahoma if the browser has it
-  font-size: 24px; // the text will have a font size of 24
+  color: blue;  /* the colour of the text is blue */
+  font-family: Tahoma;  /* the text will use the font Tahoma if the browser has it */
+  font-size: 24px;  /* the text will have a font size of 24 */
 }
 ```
 
@@ -96,21 +96,21 @@ In the CSS file, we put a dot `.` followed by the class.
 
 ```css
 .big-blue {
-  color: blue;  // the colour of the text is blue
-  font-family: Tahoma;  // the text will use the font Tahoma if the browser has it
-  font-size: 24px; // the text will have a font size of 24
+  color: blue;  /* the colour of the text is blue */
+  font-family: Tahoma;  /* the text will use the font Tahoma if the browser has it */
+  font-size: 24px;  /* the text will have a font size of 24 */
 }
 
 .small-orange {
-  color: orange;  // the colour of the text is orange
-  font-family: Verdana;  // the text will use the font Verdana if the browser has it
-  font-size: 8px;  // the text will have a font size of 8
+  color: orange;  /* the colour of the text is orange */
+  font-family: Verdana;  /* the text will use the font Verdana if the browser has it */
+  font-size: 8px;  /* the text will have a font size of 8 */
 }
 
 .bold-green {
-  color: green;   // the colour of the text is green
-  font-family: Garamond;  // the text will use the font Garamond if the browser has it
-  font-weight: bold;  // the text will be bolded
+  color: green;   /* the colour of the text is green */
+  font-family: Garamond;  /* the text will use the font Garamond if the browser has it */
+  font-weight: bold;  /* the text will be bolded */
 }
 ```
 
