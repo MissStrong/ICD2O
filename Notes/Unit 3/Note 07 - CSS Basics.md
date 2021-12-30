@@ -62,9 +62,9 @@ In the CSS file, instead of writing the tag name, we put a hash `#` followed by 
 
 ```css
 #big-blue {
-  color: blue;  /* the colour of the text is blue */
-  font-family: Tahoma;  /* the text will use the font Tahoma if the browser has it */
-  font-size: 24px;  /* the text will have a font size of 24 */
+  color: blue; 
+  font-family: Tahoma;  
+  font-size: 24px; 
 }
 ```
 
@@ -96,20 +96,20 @@ In the CSS file, we put a dot `.` followed by the class.
 
 ```css
 .big-blue {
-  color: blue;  /* the colour of the text is blue */
-  font-family: Tahoma;  /* the text will use the font Tahoma if the browser has it */
-  font-size: 24px;  /* the text will have a font size of 24 */
+  color: blue; 
+  font-family: Tahoma; 
+  font-size: 24px;
 }
 
 .small-orange {
-  color: orange;  /* the colour of the text is orange */
-  font-family: Verdana;  /* the text will use the font Verdana if the browser has it */
-  font-size: 8px;  /* the text will have a font size of 8 */
+  color: orange; 
+  font-family: Verdana; 
+  font-size: 8px; 
 }
 
 .bold-green {
-  color: green;   /* the colour of the text is green */
-  font-family: Garamond;  /* the text will use the font Garamond if the browser has it */
+  color: green; 
+  font-family: Garamond; 
   font-weight: bold;  /* the text will be bolded */
 }
 ```
