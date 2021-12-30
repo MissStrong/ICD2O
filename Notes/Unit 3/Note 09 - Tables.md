@@ -72,20 +72,15 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
 We can change the properties of the table in the CSS file.
 
 ```css
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
+table, th, td {  /* We can apply the same styling to different tags by combining them one one line and separating them by commas */
+  border: 1px solid black;  /* This is a combination of border-width, border-style and border-color */
+  border-collapse: collapse;  /* This merges all the double borders */
+  text-align: center; /* This centers the text */
 }
 
 th {
-  width: 80px;
+  width: 80px; /* This makes the width of all the columns 80 pixels*/
 }
 ```
-
-When we want to apply the same styling to different tags, we can combine them on one line separated by commas (e.g. `table, th, td`).
-
-The `border` property is a combination of `border-width`, `border-style` and `border-color`. We can put them all on one line instead of separating them. The `border-collapse` property merges all the double borders.
-
 
 ![](../../Images/HTML_Tables_2.png)
