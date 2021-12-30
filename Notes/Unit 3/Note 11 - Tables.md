@@ -83,7 +83,7 @@ th {
 }
 ```
 
-When we want to apply the same styling to different tags, we can combine them on one line separated by commas.
+When we want to apply the same styling to different tags, we can combine them on one line separated by commas (e.g. `table, th, td`).
 
 The `border` property is a combination of `border-width`, `border-style` and `border-color`. We can put them all on one line instead of separating them. The `border-collapse` property merges all the double borders.
 
