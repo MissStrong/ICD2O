@@ -59,11 +59,11 @@ We can change the list marker using the `list-style-type` property in `ul` or `o
 
 ```css
 ol {
-  list-style-type: lower-roman;
+  list-style-type: lower-roman; /* Makes the list marker for ordered lists lowercase Roman numerals*/
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: square;  /* Makes the list marker for unordered lists closed squares */
 }
 ```
 
@@ -107,24 +107,23 @@ Let's add some styling to the webpage above.
 
 ```css
 h4 {
-  margin-top: 0px;
-  text-align: center;
+  margin-top: 0px; /* Puts the text to the very top of the section */
+  text-align: center; /* Centers the text */
 }
 
 div {
-  float: left;
-  border: 1px solid black;
-  margin: 10px;
-  vertical-align: top;
+  float: left; /* Makes the div elements go next to each other */
+  border: 1px solid black; /* The border around the div */
+  margin: 10px; /* Puts a space of 10 pixels around each section */
+  vertical-align: top; /* Aligns the text to the top of the section */
 }
 
-
 ol, ul {
-  padding-left: 0px;
-  list-style-position: inside;
+  padding-left: 0px; /* Removes the space to the left of each marker */
+  list-style-position: inside; /* Attaches the marker to the text in the list item */
 }
 
 li {
-  margin: 20px;
+  margin: 20px; /* Puts a space of 20 pixels around each list item */
 }
 ```
