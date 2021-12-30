@@ -41,7 +41,7 @@ On the left is text without any styling and on the right is text that uses the s
 
 ### IDs
 
-If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once on different elements.
+If we want to apply styling to a specific element, we can add an `id` attribute to the element in the HTML file. IDs are unique, so we cannot use the same ID more than once on different elements. IDs are written in **caterpillar case**,  meaning every letter is lower case and separate words are separted by hyphens.
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ In the CSS file, instead of writing the tag name, we put a hash `#` followed by 
 
 ### Classes
 
-If we want to apply styling to a specific set of elements, we can add a `class` attribute to the elements in the HTML file. This will group them together so that we can apply a styling to all of them at once.
+If we want to apply styling to a specific set of elements, we can add a `class` attribute to the elements in the HTML file. This will group them together so that we can apply a styling to all of them at once. Classes are also written caterpillar case, just like IDs.
 
 ```html
 <!DOCTYPE html>
