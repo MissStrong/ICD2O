@@ -26,11 +26,11 @@ The `&lt;` (the less than symbol) and `&gt;` (the greater than symbol) are used 
 
 ```css
 #section1 {
-  border-color: black;
-  border-style: dotted;
-  border-width: 2px;
-  color: red;
-  margin: 5px;
+  border-color: black;  // the border will be black
+  border-style: dotted; // the border will be dotted
+  border-width: 2px; // the border will have a thickness of 2px
+  color: red; // the text will be red
+  margin: 5px; // there will be 5px of space around all sides of the section
 }
 ```
 
@@ -42,12 +42,12 @@ By default, `<div>` elements take up the entire width of the webpage. If we want
 
 ```css
 #section1 {
-  border-color: black;
-  border-style: dotted;
-  border-width: thin;
-  color: red;
-  margin: 5px;
-  float: left;
+  border-color: black;  // the border will be black
+  border-style: dotted; // the border will be dotted
+  border-width: 2px; // the border will have a thickness of 2px
+  color: red; // the text will be red
+  margin: 5px; // there will be 5px of space around all sides of the section
+  float: left; // the section's width will be minimal and not stretch the entire width of the webpage
 }
 ```
 
