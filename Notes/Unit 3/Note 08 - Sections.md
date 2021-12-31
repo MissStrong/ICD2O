@@ -51,6 +51,6 @@ By default, `<div>` elements take up the entire width of the webpage. If we want
 }
 ```
 
-Putting `float: left;` also allows us to put something directly to the right of a section. Otherwise, it would appear underneath it.
+Putting `float: left;` also allows us to put something directly to the right of a section if there's space for it. Otherwise, it would appear underneath it.
 
 ![](../../Images/HTML_Div_3.png)
