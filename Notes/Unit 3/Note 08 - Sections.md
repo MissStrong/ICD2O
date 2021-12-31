@@ -43,7 +43,7 @@ By default, `<div>` elements take up the entire width of the webpage. If we want
 ```css
 #section1 {
   border-color: black;  
-  border-style: dotted;†
+  border-style: dotted;
   border-width: 2px; 
   color: red;
   margin: 5px; 
