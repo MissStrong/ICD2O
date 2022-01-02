@@ -16,7 +16,7 @@ Here is an example:
   <body>
     <div id="section1">
       <p>This is a &lt;p&gt; element inside a &lt;div&gt; element</p>
-      <p>This is another &lt;p&gt; elemen inside the same &lt;div&gt; element</p>
+      <p>This is another &lt;p&gt; element inside the same &lt;div&gt; element</p>
     </div>
   </body>
 </html>
