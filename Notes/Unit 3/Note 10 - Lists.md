@@ -59,7 +59,7 @@ We can change the list marker using the `list-style-type` property on `ul` or `o
 
 ```css
 ol {
-  list-style-type: lower-roman; /* Makes the list marker for ordered lists lowercase Roman numerals*/
+  list-style-type: lower-roman; /* Makes the list marker for ordered lists lowercase Roman numerals */
 }
 
 ul {
