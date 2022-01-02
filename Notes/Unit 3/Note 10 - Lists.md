@@ -29,7 +29,7 @@
 
 The symbols in front of each item is called a **list marker**. By default, the list markers for unordered lists are closed circles • and the list markers for ordered lists are Hindu-Arabic numerals (0, 1, 2, ..., 9).
 
-We can change the list marker using the `list-style-type` property in `ul` or `ol`. 
+We can change the list marker using the `list-style-type` property on `ul` or `ol`. 
 
 ![](../../Images/HTML_List_2.png)
 
