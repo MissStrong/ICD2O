@@ -1,6 +1,6 @@
 ### Tables
 
-Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. Each cell in the first row should use `<th>` (table header) tags if the first row is a header and all the cells should use `<td>` (table data) tags.
+Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. Each cell in the first row should use `<th>` (table header) tags if the first row is a header and all other cells should use `<td>` (table data) tags.
 
 ```html
 <!DOCTYPE html>
@@ -72,14 +72,14 @@ Tables use `<table>` tags. Every row in the table uses `<tr>` (table row) tags. 
 We can change the properties of the table in the CSS file.
 
 ```css
-table, th, td {  /* We can apply the same styling to different tags by combining them one one line and separating them by commas */
+table, th, td {  /* We can apply the same styling to different tags by combining them on one line and separating them by commas */
   border: 1px solid black;  /* A combination of border-width, border-style and border-color */
   border-collapse: collapse;  /* Merges all the double borders */
   text-align: center; /* Centers the text */
 }
 
 th {
-  width: 80px; /* <akes the width of all the columns 80 pixels*/
+  width: 80px; /* takes the width of all the columns 80 pixels */
 }
 ```
 
