@@ -3,9 +3,9 @@
 A CSS file can be used to add styling to a webpage. CSS stands for Cascading Style Sheets.
 
 To link an HTML file to a CSS file, we use the self-closing `<link>` tag and the following attributes:
-* `href` (hypertext reference – the name of the CSS file, usually `style.css`)
+* `href` (hypertext reference – the path of the CSS file, often `style.css`)
 * `rel` (relationship – the connection between the HTML and CSS file, `stylesheet`)
-* `type` (filetype – the filetype of the CSS file `text/css`)
+* `type` (filetype – the filetype of the CSS file, `text/css`)
 
 This line goes in the header.
 
@@ -21,7 +21,7 @@ This line goes in the header.
 </html>
 ```
 
-Within a CSS file, we can specify the styling we want to apply to specific tags. We start by writing the name of the tag without the angular brackets. Then we put a set of curly braces `{}` after it and put the styling inside these braces. The syntax for each styling is `property: value;`. We can use `/*`  and `*/` to begin and end a line comment.
+Within a CSS file, we can specify the styling we want to apply to specific tags. We start by writing the name of the tag without the angular brackets. Then we put a set of curly braces `{}` after it and put the styling inside these braces. The syntax for each styling is `property: value;`. We can use `/*`  and `*/` to begin and end a comment. We can't use `//` for a line comment in CSS.
 
 Here is [a list of the most common properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference). We can click on a property to find the list of its possible values. 
 
