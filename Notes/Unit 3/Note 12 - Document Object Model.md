@@ -12,17 +12,17 @@ Here is an example of a DOM.
     <link href="style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h3>My Title</h3>
+    <h1>My Title</h1>
     <p>This is a sentence.</p>
   </body>
 </html>
 ```
 
-![](../Images/DOM.png)
+![](../../Images/DOM_Example.png)
 
 A model is automatically created by the browser when we load a webpage. This is what allows us to use JavaScript to modify the HTML elements and the CSS styles.
 
-To access a specific element, we can make an `id` attribute for it and the `document` method `.getElementById()`. This will return the element as an object. We can change the text inside a set of opening and closing tags by modifying the `innerHTML` property of the element object.
+To access a specific element, we can make an `id` attribute for it and the `document` method `.getElementById()`. This will return the element as an object. We can change the text inside a set of opening and closing tags by modifying the `innerText` property of the element object.
 
 ```html
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ To access a specific element, we can make an `id` attribute for it and the `docu
     <link href="style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h3>My Title</h3>
+    <h1>My Title</h1>
     <p id="sentence">This is a sentence.</p>
     <script src="script.js"></script>
   </body>
@@ -42,5 +42,15 @@ To access a specific element, we can make an `id` attribute for it and the `docu
 ```js
 // This is script.js
 
-document.getElementById("sentence").innerHTML = "This is a different sentence."; // changes the text in the <p> tag
+document.getElementById("sentence").innerText = "This is a different sentence."; // changes the text in the <p> tag
 ```
+
+If we want the text to contain HTML tags, we can use the `.innerHTML` property instead.
+
+
+```js
+// This is script.js
+
+document.getElementById("sentence").innerHTML = "This is a <em>different</em> sentence."; // changes the text in the <p> tag
+```
+
