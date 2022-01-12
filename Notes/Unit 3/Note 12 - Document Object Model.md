@@ -1,6 +1,6 @@
 ### Document Object Model
 
-A **Document Object Model** (DOM) of a webpage is model showing how all the HTML elements are connected. At the top is the **document**, which represents the entire webpage. Underneath the document we have the `<html>` element, and underneath that we have `<head>` element and `<body>` element. Under those we have all the other elements and their attributes and text.
+A **Document Object Model** (DOM) of a webpage is model showing how all the HTML elements are connected. At the top is the **document**, which represents the entire webpage. Below the document we have the `<html>` element, and below that we have `<head>` element and `<body>` element. Below those we have all the other elements and their attributes and text.
 
 Here is an example of a DOM.
 
@@ -52,5 +52,11 @@ If we want the text to contain HTML tags, we can use the `.innerHTML` property i
 // This is script.js
 
 document.getElementById("sentence").innerHTML = "This is a <em>different</em> sentence."; // changes the text in the <p> tag
+```
+
+To change the styling of an element, we can modify its `style` property.
+
+```
+document.getElementById("sentence").style = "color: red"; // changes the styling of the text in the <p> tag
 ```
 
