@@ -1,6 +1,6 @@
 ### Running JavaScript Programs
 
-We've been using P5.js, a JavaScript framework. All of the P5.js programs we've created have had this in `index.html`: 
+We've been using P5.js, a JavaScript framework. All of our P5.js programs had the code below in the `index.html` file.
 
 ```html
 <!DOCTYPE html>
@@ -18,14 +18,14 @@ We've been using P5.js, a JavaScript framework. All of the P5.js programs we've 
 </html>
 ```
 
-In a HTML file, `<script>` tags are used to run JavaScript programs. If we put a `src` attribute with a path to a JavaScript program, it runs that program. 
+In an HTML file, `<script>` tags are used to run JavaScript programs. If we put a `src` attribute with a path to a JavaScript program, it runs that program. 
 
 The line `<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>` is what loads all the code behind P5.js. The line `<script src="script.js"></script>` runs the P5.js program that we made.
 
 
 ### JavaScript Basics
 
-We've already seen plenty of JavaScript keywords, operators and data types when we were learning P5.js. Here's a summary of what we've seen so far.
+We've already seen plenty of JavaScript keywords, operators, and data types when we were learning P5.js. Here's a summary of what we've seen so far.
 
 Keywords:
 * `function`
