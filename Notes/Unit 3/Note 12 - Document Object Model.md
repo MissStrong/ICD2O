@@ -45,7 +45,7 @@ To access a specific element, we can make an `id` attribute for it and the `docu
 document.getElementById("sentence").innerText = "This is a different sentence."; // changes the text in the <p> tag
 ```
 
-If we want the text to contain HTML tags, we can use the `.innerHTML` property instead.
+If we want the text to contain HTML tags, we can change the `innerHTML` property instead.
 
 
 ```js
