@@ -22,7 +22,7 @@ Here is an example of a DOM.
 
 A model is automatically created by the browser when we load a webpage. This is what allows us to use JavaScript to modify the HTML elements and the CSS styles.
 
-To access a specific element, we can make an `id` attribute for it and the `document` method `.getElementById()`. This will return the element as an object. We can change the text inside a set of opening and closing tags by modifying the `innerText` property of the element object.
+To access a specific element, we can make an `id` attribute for it and the `document` method `.getElementById()`. This will return the element as an object. We can change the text inside a set of opening and closing tags by modifying the `innerText` property of the element object. It's important that we run the JavaScript code after the HTML elements have been created.
 
 ```html
 <!DOCTYPE html>
