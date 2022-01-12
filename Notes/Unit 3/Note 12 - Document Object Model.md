@@ -58,6 +58,7 @@ To change the styling of an element, we can modify its `style` property.
 
 ```js
 // This is script.js
+
 document.getElementById("sentence").style = "color: red"; // changes the styling of the text in the <p> tag
 ```
 
