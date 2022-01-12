@@ -9,16 +9,16 @@ Here is an example of a DOM.
 <html lang='en'>
   <head>
     <title>My Webpage</title>
-    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>My Title</h1>
+    <h1>My Header</h1>
     <p>This is a sentence.</p>
   </body>
 </html>
 ```
 
-![](../../Images/DOM_Example.png)
+![](../../Images/DOM_Example1.png)
 
 A model is automatically created by the browser when we load a webpage. This is what allows us to use JavaScript to modify the HTML elements and the CSS styles.
 
@@ -29,10 +29,10 @@ To access a specific element, we can make an `id` attribute for it and the `docu
 <html lang='en'>
   <head>
     <title>My Webpage</title>
-    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>My Title</h1>
+    <h1>My Header</h1>
     <p id="sentence">This is a sentence.</p>
     <script src="script.js"></script>
   </body>
