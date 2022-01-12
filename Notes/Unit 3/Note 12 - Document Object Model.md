@@ -1,6 +1,6 @@
 ### Document Object Model
 
-A **Document Object Model** (DOM) of a webpage is model showing how all the HTML elements are connected. At the top is the **document**, which represents the entire webpage. Underneath the document we have the `<html>` element, and underneath that we have `<head>` element and `<body>` element. 
+A **Document Object Model** (DOM) of a webpage is model showing how all the HTML elements are connected. At the top is the **document**, which represents the entire webpage. Underneath the document we have the `<html>` element, and underneath that we have `<head>` element and `<body>` element. Under those we have all the other elements and their attributes and text.
 
 Here is an example of a DOM.
 
