@@ -54,6 +54,8 @@ Data Types:
 * arrays: `[1, 2, 3]`
 * objects
 
+One new thing is that `print()` doesn't print text to the console –– it opens your printer settings! If we want to print text to the console, we use `console.log()` instead.
+
 ### Browser Consoles
 
 Every browser has a built-in console that we can use to write JavaScript code. To access it, right click on a webpage and go to "Inspect" (depending on the browser it might be "Inspect Element" or something similar). You should under a heading called *Elements* which shows you the HTML and CSS for the webpage you're on. In the navigation you should see *Console* for the console and *Sources* for the file tree for the webpage you're on. We can play with the console here just like we can in Replit.
