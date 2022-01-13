@@ -54,7 +54,7 @@ Data Types:
 * arrays: `[1, 2, 3]`
 * objects
 
-One new thing is that `print()` doesn't print text to the console –– it opens your printer settings! If we want to print text to the console, we use `console.log()` instead.
+One new thing is that `print()` doesn't print text to the console – it opens your printer settings! If we want to print text to the console, we use `console.log()` instead.
 
 ### Browser Consoles
 
