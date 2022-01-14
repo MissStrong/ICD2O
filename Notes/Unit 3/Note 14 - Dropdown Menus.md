@@ -86,6 +86,8 @@ A `<select>` object is actually an array, so we can access the selected `<option
 ```
 
 ```js
+// This is in the script.js file
+
 function sayFruit() {
   let fruitMenu = document.getElementById("fruit-menu");
   let index = fruitMenu.selectedIndex;
