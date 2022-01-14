@@ -27,7 +27,7 @@ A **radio button** is a group of boxes in which only one box is supposed be chec
 
 If we want to make something happen when we select a radio button, we can use the `onclick` attribute in each button. This allows us to call a function whenever the checkbox is checked or unchecked.
 
-We can get a list of all the radio button objects using `document.getElementsByName()` and we can find out which one is selected based on whether the `checked` property is `true` or `false`.
+We can get an array of all the radio button objects using `document.getElementsByName()` and we can find out which one is selected based on whether the `checked` property of each button is `true` or `false`.
 
 ```html
 <!DOCTYPE html>
