@@ -25,7 +25,7 @@ We can create checkboxes using an `<input>` tag with `type="checkbox"`.
 
 ![](../../Images/JS_Checkbox_1.png)
 
-If we want to make something happen when we check off the box, we can we can use the `onclick` attribute. This allows us to call a function whenever the checkbox is checked or unchecked.
+If we want to make something happen when we check off the box, we can use the `onclick` attribute. This allows us to call a function whenever the checkbox is checked or unchecked.
 
 ```html
 <!DOCTYPE html>
