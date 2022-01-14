@@ -60,7 +60,7 @@ function sayOption() {
 
 ![](../../Images/JS_Dropdown_2.png)
 
-If we want to see the name of the option that was selected, we can add a `value` attribute to each `<option>`. 
+If we want to see the name of the option that was selected, we can add a `value` attribute to each `<option>` and access the `value` property of the `<option>` object. 
 
 A `<select>` object is actually an array, so we can access the selected `<option>` object using the index.
 
