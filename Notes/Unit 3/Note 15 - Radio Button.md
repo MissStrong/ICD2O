@@ -1,0 +1,69 @@
+### Radio Button
+
+A **radio button** is a group of boxes in which only one box is supposed be checked a time.  We can create radio buttons using an `<input>` tag with `type="radio"`. To group radio buttons together, pick a name or the group and use the `name` attribute in each button.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Radio Buttons</title>
+  </head>
+  <body>
+    <form>
+      <input type="radio" id="apple" name="fruit" />
+      <label for="apple">Apple</label>
+      <br />
+      <input type="radio" id="banana" name="fruit" />
+      <label for="banana">Banana</label>
+      <br />
+      <input type="radio" id="strawberry" name="fruit" />
+      <label for="strawberry">Strawberry</label>
+    </form>
+  </body>
+</html>
+```
+
+![](../../Images/JS_Radio_Buttons_1.png)
+
+If we want to make something happen when we select a radio button, we can use the `onclick` attribute in each button. This allows us to call a function whenever the checkbox is checked or unchecked.
+
+We can get a list of all the radio button objects using `document.getElementsByName()` and we can find out which one is selected based on whether the `checked` property is `true` or `false`.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Radio Buttons</title>
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form>
+      <input type="radio" id="apple" name="fruits" onclick="sayFruit()" />
+      <label for="apple">Apple</label>
+      <br />
+      <input type="radio" id="banana" name="fruits" onclick="sayFruit()"/>
+      <label for="banana">Banana</label>
+      <br />
+      <input type="radio" id="strawberry" name="fruits" onclick="sayFruit()"/>
+      <label for="strawberry">Strawberry</label>
+    </form>
+  </body>
+</html>
+```
+
+```js
+// This is in the script.js file
+
+function sayFruit() {
+  let fruits = document.getElementsByName("fruits");
+  for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i].checked) {
+      fruit = fruits[i].id
+      console.log("You chose " + fruit);
+    }
+  }
+}
+
+```
+
+![](../../Images/JS_Radio_Buttons_2.png)
