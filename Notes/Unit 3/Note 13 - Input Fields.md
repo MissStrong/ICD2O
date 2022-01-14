@@ -6,7 +6,7 @@ We can create input fields for users to enter information into. We start by usin
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title></title>
+    <title>User Input</title>
   </head>
   <body>
     <form>
@@ -35,7 +35,7 @@ We can add labels to each input field to make it clear what each one is for. The
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title></title>
+    <title>User Input</title>
   </head>
   <body>
     <form>
@@ -72,7 +72,7 @@ We'll also want to add the attribute `onsubmit="return false;"` to the `form` ta
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title></title>
+    <title>User Input</title>
   </head>
   <body>
     <form onsubmit="return false;">
@@ -108,7 +108,7 @@ If we want to access the information from the fields that were entered, we can u
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title></title>
+    <title>User Input</title>
     <script src='script.js' charset='utf-8'></script>
   </head>
   <body>
