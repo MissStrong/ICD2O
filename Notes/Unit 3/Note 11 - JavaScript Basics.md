@@ -20,7 +20,7 @@ We've been using P5.js, a JavaScript framework. All of our P5.js programs had th
 
 In an HTML file, `<script>` tags are used to run JavaScript programs. If we put a `src` attribute with a path to a JavaScript program, it runs that program. 
 
-The line `<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>` is what loads all the code behind P5.js. The line `<script src="script.js"></script>` runs the P5.js program that we made.
+The line `<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>` is what loads all the code behind P5.js. The line `<script src="script.js"></script>` runs the program that we made.
 
 
 ### JavaScript Basics
