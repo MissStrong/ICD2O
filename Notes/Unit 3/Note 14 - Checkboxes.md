@@ -24,7 +24,7 @@ We can create checkboxes using an `<input>` tag with `type="checkbox"`.
 
 ![](../../Images/JS_Checkbox_1.png)
 
-If we want to make something happen when we check off the box, we can use the `onclick` attribute. This allows us to call a function whenever the checkbox is checked or unchecked.
+If we want to make something happen when we check off the box, we can use the `onclick` attribute. This allows us to call a function whenever the checkbox is checked or unchecked. The `checked` property will be `true` when the checkbox is checked off and `false` when it's unchecked.
 
 ```html
 <!DOCTYPE html>
@@ -54,10 +54,10 @@ If we want to make something happen when we check off the box, we can use the `o
 function togglePassword() {
   let passwordCheckbox = document.getElementById("show-password");
   let passwordField= document.getElementById("user-password");
-  if (passwordCheckbox.checked) { // password goes from showing to not showing
-    passwordField.type = "text";
-  } else { // password goes from not showing to showing
-    passwordField.type = "password";
+  if (passwordCheckbox.checked) { // checkbox is checked
+    passwordField.type = "text"; // password goes from showing to not showing
+  } else { // checkbox is unchecked
+    passwordField.type = "password"; // password goes from not showing to showing
   }
 }
 ```
