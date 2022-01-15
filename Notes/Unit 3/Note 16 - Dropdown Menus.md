@@ -62,7 +62,7 @@ function sayOption() {
 
 If we want to see the name of the option that was selected, we can add a `value` attribute to each `<option>` and access the `value` property of the `<option>` object. 
 
-A `<select>` object is actually an array, so we can access the selected `<option>` object using the index.
+A `<select>` object is similar to an array. We can access the selected `<option>` object using the index.
 
 ```html
 <!DOCTYPE html>
