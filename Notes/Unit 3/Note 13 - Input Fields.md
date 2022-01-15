@@ -4,7 +4,7 @@ We can create input fields for users to enter information into. We start by usin
 
 ```html
 <!DOCTYPE html>
-<html lang="en>
+<html lang="en">
   <head>
     <title>User Input</title>
   </head>
@@ -70,7 +70,7 @@ We'll also want to add the attribute `onsubmit="return false;"` to the `form` ta
 
 ```html
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
     <title>User Input</title>
   </head>
