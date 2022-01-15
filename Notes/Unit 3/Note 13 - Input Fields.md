@@ -64,9 +64,9 @@ We can add labels to each input field to make it clear what each one is for. The
 
 ![](../../Images/JS_Input_2.png)
 
-Another type of `<input>` is `button`, which we can put so that the user can indicate that they're done entering the information. This tag has an attribute `value` for the text to display on the button and an attribute `onclick` for the code to run when the user clicks the button.
+Another `type` of `<input>` is `button`, which we can put so that the user can indicate that they're done entering the information. This tag has an attribute `value` for the text to display on the button and an attribute `onclick` for the code to run when the user clicks the button.
 
-We'll also want to add the attribute `onsubmit="return false;"` to the `form` tag to prevent the page from relaoding when we submit the form.
+We'll also want to add the attribute `onsubmit="return false;"` to the `form` tag to prevent the page from sending the information to a server (which reloads the page in Replit).
 
 ```html
 <!DOCTYPE html>
