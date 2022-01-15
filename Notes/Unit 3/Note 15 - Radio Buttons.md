@@ -55,9 +55,9 @@ We can get an array of all the radio button objects using `document.getElementsB
 // This is in the script.js file
 
 function sayFruit() {
-  let fruits = document.getElementsByName("fruits");
-  for (let i = 0; i < fruits.length; i++) {
-    if (fruits[i].checked) {
+  let fruitButtons = document.getElementsByName("fruits");
+  for (let i = 0; i < fruitButtons.length; i++) {
+    if (fruitButtons[i].checked) {
       fruit = fruits[i].id
       console.log("You chose " + fruit);
     }
