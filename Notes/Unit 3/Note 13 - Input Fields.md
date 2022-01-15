@@ -1,6 +1,6 @@
 ### User Input
 
-We can create input fields for users to enter information into. We start by using `<form>` tags to indicate an section that of input fields and inside it we use   `<input>` (self-closing) tags for each input field. The `<input>` tag has an attribute called `type` which indicates what type of input field it is.
+We can create input fields for users to enter information into. We start by using `<form>` tags to indicate a section of input fields and inside it we use   `<input>` (self-closing) tags for each input field. The `<input>` tag has an attribute called `type` which indicates what type of input field it is.
 
 ```html
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ We can create input fields for users to enter information into. We start by usin
 
 ![](../../Images/JS_Input_1.png)
 
-We can add labels to each input field to make it clear what each one is for. The `<label>` tag has an attribute `for` which is used to show which element it labels based on its `id`. The `for` attribute allows the user to click on the label to get the cursor the field and makes it clearer for screen readers.
+We can add labels to each input field to make it clear what each one is for. The `<label>` tag has an attribute `for` which is used to show which element it labels based on its `id`. The `for` attribute allows the user to click on the label to get the cursor into the field and allows to screen readers to read the page aloud more accurately.
 
 ```html
 <!DOCTYPE html>
