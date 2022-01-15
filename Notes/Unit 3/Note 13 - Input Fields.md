@@ -29,7 +29,7 @@ We can create input fields for users to enter information into. We start by usin
 
 ![](../../Images/JS_Input_1.png)
 
-We can add labels to each input field to make it clear what each one is for. The `<label>` tag has an attribute `for` which is used to show which element it labels based on its `id`.
+We can add labels to each input field to make it clear what each one is for. The `<label>` tag has an attribute `for` which is used to show which element it labels based on its `id`. The `for` attribute allows the user to click on the label to get the cursor the field and makes it clearer for screen readers.
 
 ```html
 <!DOCTYPE html>
