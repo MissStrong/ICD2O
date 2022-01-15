@@ -34,7 +34,7 @@ We can get an array of all the radio button objects using `document.getElementsB
 <html lang="en">
   <head>
     <title>Radio Buttons</title>
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <form>
