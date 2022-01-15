@@ -40,7 +40,7 @@ If we want to make something happen when we check off the box, we can use the `o
       <input type="text" id="name" />
       <br />
       <label for="password">Enter your password:</label>
-      <input type="password" id="password" />
+      <input type="password" id="user-password" />
       <br />
       <label for="show-password">Show Password</label>
       <input type="checkbox" id="show-password" onclick="togglePassword()";/>
@@ -53,7 +53,7 @@ If we want to make something happen when we check off the box, we can use the `o
 // This is in the script.js file
 
 function togglePassword() {
-  let passwordField = document.getElementById("password");
+  let passwordField = document.getElementById("user-password");
   if (passwordField.type == "password") { // password goes from showing to not showing
     passwordField.type = "text";
   } else if (passwordField.type == "text") { // password goes from not showing to showing
