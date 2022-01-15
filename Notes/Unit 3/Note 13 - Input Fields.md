@@ -4,7 +4,7 @@ We can create input fields for users to enter information into. We start by usin
 
 ```html
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en>
   <head>
     <title>User Input</title>
   </head>
@@ -33,7 +33,7 @@ We can add labels to each input field to make it clear what each one is for. The
 
 ```html
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
     <title>User Input</title>
   </head>
