@@ -1,6 +1,6 @@
 ### Radio Button
 
-A **radio button** is a group of boxes in which only one box is supposed be checked a time.  We can create radio buttons using an `<input>` tag with `type="radio"`. To group radio buttons together, pick a name or the group and use the `name` attribute in each button.
+A **radio button** is a group of boxes in which only one box is supposed be checked at a time.  We can create radio buttons using an `<input>` tag with `type="radio"`. To group radio buttons together, pick a name for the group and use the `name` attribute in each button.
 
 ```html
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ A **radio button** is a group of boxes in which only one box is supposed be chec
 
 ![](../../Images/JS_Radio_Buttons_1.png)
 
-If we want to make something happen when we select a radio button, we can use the `onclick` attribute in each button. This allows us to call a function whenever the checkbox is checked or unchecked.
+If we want to make something happen when we select a radio button, we can use the `onclick` attribute on each button. This allows us to call a function whenever the checkbox is checked or unchecked.
 
 We can get an array of all the radio button objects using `document.getElementsByName()` and we can find out which one is selected based on whether the `checked` property of each button is `true` or `false`.
 
@@ -55,11 +55,11 @@ We can get an array of all the radio button objects using `document.getElementsB
 // This is in the script.js file
 
 function sayFruit() {
-  let fruitButtons = document.getElementsByName("fruits");
+  let fruitButtons = document.getElementsByName("fruits"); // gets an array of all the radio buttons
   for (let i = 0; i < fruitButtons.length; i++) {
     if (fruitButtons[i].checked) {
-      fruit = fruits[i].id
-      console.log("You chose " + fruit);
+      let chosenFruit = fruits[i].id
+      console.log("You chose " + chosenFruit);
     }
   }
 }
