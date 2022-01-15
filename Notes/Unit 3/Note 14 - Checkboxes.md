@@ -32,7 +32,7 @@ If we want to make something happen when we check off the box, we can use the `o
 <html lang="en">
   <head>
     <title>User Input</title>
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <form>
