@@ -53,11 +53,11 @@ If we want to make something happen when we check off the box, we can use the `o
 
 function togglePassword() {
   let passwordCheckbox = document.getElementById("show-password");
-  let passwordField= document.getElementById("user-password");
+  let passwordField = document.getElementById("user-password");
   if (passwordCheckbox.checked) { // checkbox is checked
-    passwordField.type = "text"; // password goes from showing to not showing
+    passwordField.type = "text"; // password goes from not showing to showing
   } else { // checkbox is unchecked
-    passwordField.type = "password"; // password goes from not showing to showing
+    passwordField.type = "password"; // password goes from showing to showing
   }
 }
 ```
