@@ -7,17 +7,16 @@ We can create checkboxes using an `<input>` tag with `type="checkbox"`.
 <html lang="en">
   <head>
     <title>User Input</title>
-  </head>
   <body>
     <form>
       <label for="name">Enter your username:</label>
       <input type="text" id="name" />
       <br />
-      <label for="password">Enter your password:</label>
-      <input type="password" id="password" />
+      <label for="user-password">Enter your password:</label>
+      <input type="password" id="user-password" />
       <br />
       <label for="show-password">Show Password</label>
-      <input type="checkbox" id="show-password" />
+      <input type="checkbox" id="show-password"/>
     </form>
   </body>
 </html>
@@ -39,11 +38,11 @@ If we want to make something happen when we check off the box, we can use the `o
       <label for="name">Enter your username:</label>
       <input type="text" id="name" />
       <br />
-      <label for="password">Enter your password:</label>
+      <label for="user-password">Enter your password:</label>
       <input type="password" id="user-password" />
       <br />
       <label for="show-password">Show Password</label>
-      <input type="checkbox" id="show-password" onclick="togglePassword()";/>
+      <input type="checkbox" id="show-password" onclick="togglePassword()"; />
     </form>
   </body>
 </html>
@@ -53,10 +52,11 @@ If we want to make something happen when we check off the box, we can use the `o
 // This is in the script.js file
 
 function togglePassword() {
-  let passwordField = document.getElementById("user-password");
-  if (passwordField.type == "password") { // password goes from showing to not showing
+  let passwordCheckbox = document.getElementById("show-password");
+  let passwordField= document.getElementById("user-password");
+  if (passwordCheckbox.checked) { // password goes from showing to not showing
     passwordField.type = "text";
-  } else if (passwordField.type == "text") { // password goes from not showing to showing
+  } else { // password goes from not showing to showing
     passwordField.type = "password";
   }
 }
