@@ -109,7 +109,7 @@ If we want to access the information from the fields that were entered, we can u
 <html lang="en">
   <head>
     <title>User Input</title>
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <form onsubmit="return false;">
