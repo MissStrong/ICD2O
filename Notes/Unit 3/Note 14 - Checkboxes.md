@@ -53,11 +53,11 @@ If we want to make something happen when we check off the box, we can use the `o
 // This is in the script.js file
 
 function togglePassword() {
-  let password = document.getElementById("password");
-  if (password.type === "password") { // password goes from showing to not showing
-    password.type = "text";
-  } else if (password.type === "text") { // password goes from not showing to showing
-    password.type = "password";
+  let passwordField = document.getElementById("password");
+  if (passwordField.type === "password") { // password goes from showing to not showing
+    passwordField.type = "text";
+  } else if (passwordField.type === "text") { // password goes from not showing to showing
+    passwordField.type = "password";
   }
 }
 ```
