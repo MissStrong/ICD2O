@@ -100,7 +100,7 @@ Another way of hiding an element is to set the `display` property to `None` in t
 }
 ```
 
-If we want to change the display to make it visible again, we set it to `default` instead of `none`.
+If we want to change the display to make it visible again, we set it to `block` or `inline` instead of `none`. The difference between `block` and `inline` is that block elements begin on a new line whereas inline elements do not.
 
 ```html
 <!DOCTYPE html>
