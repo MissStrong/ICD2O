@@ -53,7 +53,7 @@ We can also modify the styling using JavaScript.
 ```js
 // This is in the script.js file
 
-let sentence = document.getElementById("element");
+let sentence = document.getElementById("sentence");
 sentence.style.visibility = "hidden";
 ```
 
@@ -72,11 +72,10 @@ If we want to unhide a hidden element, we set the visibility to `visible` instea
 </html>
 ```
 
-```css
 ```js
 // This is in the script.js file
 
-let sentence = document.getElementById("element");
+let sentence = document.getElementById("sentence");
 sentence.style.visibility = "visible"; // changes the element from hidden to visible
 ```
 
@@ -99,6 +98,28 @@ Another way of hiding an element is to set the `display` property to `None` in t
 #sentence {
   display: none;
 }
+```
+
+If we want to change the display to make it visible again, we set it to `default` instead of `none`.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hiding Elements</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="sentence" style="display:none;">This sentence is actually visible!</p>
+  </body>
+</html>
+```
+
+```js
+// This is in the script.js file
+
+let sentence = document.getElementById("sentence");
+sentence.style.display = "default"; // changes the element from hidden to visible
 ```
 
 The difference between using `visibility: hidden` and `display: none` is that when we change the `visibility` the element still takes up space whereas if we change the `display` it makes it seem like the element is not there at all.
