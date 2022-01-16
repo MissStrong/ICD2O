@@ -57,7 +57,7 @@ function togglePassword() {
   if (passwordCheckbox.checked) { // checkbox is checked
     passwordField.type = "text"; // password goes from not showing to showing
   } else { // checkbox is unchecked
-    passwordField.type = "password"; // password goes from showing to showing
+    passwordField.type = "password"; // password goes from showing to not showing
   }
 }
 ```
