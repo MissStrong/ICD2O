@@ -39,23 +39,23 @@ We can add labels to each input field to make it clear what each one is for. The
   </head>
   <body>
     <form>
-      <label for="name">Enter your username:</label>
-      <input type="text" id="name" />
+      <label for="user-name">Enter your username:</label>
+      <input type="text" id="user-name" />
       <br />
-      <label for="password">Enter your password:</label>
-      <input type="password" id="password" />
+      <label for="user-password">Enter your password:</label>
+      <input type="password" id="user-password" />
       <br />
-      <label for="date" >Pick a date:</label>
-      <input type="date" id="date" />
+      <label for="user-date" >Pick a date:</label>
+      <input type="date" id="user-date" />
       <br />
-      <label for="time">Pick a time:</label>
-      <input type="time" id="time" />
+      <label for="user-time">Pick a time:</label>
+      <input type="time" id="user=time" />
       <br />
-      <label for="cell">Enter your cell number:</label>
-      <input type="tel" id="cell" />
+      <label for="user-cell">Enter your cell number:</label>
+      <input type="tel" id="user-cell" />
       <br />
-      <label for="email">Enter your email address:</label>
-      <input type="email" id="email" />
+      <label for="user-email">Enter your email address:</label>
+      <input type="email" id="user-email" />
       <br />
     </form>
   </body>
@@ -76,23 +76,23 @@ We'll also want to add the attribute `onsubmit="return false;"` to the `form` ta
   </head>
   <body>
     <form onsubmit="return false;">
-      <label for="name">Enter your username:</label>
-      <input type="text" id="name" />
+      <label for="user-name">Enter your username:</label>
+      <input type="text" id="user-name" />
       <br />
-      <label for="password">Enter your password:</label>
-      <input type="password" id="password" />
+      <label for="user-password">Enter your password:</label>
+      <input type="password" id="user-password" />
       <br />
-      <label for="date" >Pick a date:</label>
-      <input type="date" id="date" />
+      <label for="user-date" >Pick a date:</label>
+      <input type="date" id="user-date" />
       <br />
-      <label for="time">Pick a time:</label>
-      <input type="time" id="time" />
+      <label for="user-time">Pick a time:</label>
+      <input type="time" id="user=time" />
       <br />
-      <label for="cell">Enter your cell number:</label>
-      <input type="tel" id="cell" />
+      <label for="user-cell">Enter your cell number:</label>
+      <input type="tel" id="user-cell" />
       <br />
-      <label for="email">Enter your email address:</label>
-      <input type="email" id="email" />
+      <label for="user-email">Enter your email address:</label>
+      <input type="email" id="user-email" />
       <br />
       <input type="button" value="Done" onclick="console.log('Thanks');">
     </form>
@@ -113,23 +113,23 @@ If we want to access the information from the fields that were entered, we can u
   </head>
   <body>
     <form onsubmit="return false;">
-      <label for="name">Enter your username:</label>
-      <input type="text" id="name" />
+      <label for="user-name">Enter your username:</label>
+      <input type="text" id="user-name" />
       <br />
-      <label for="password">Enter your password:</label>
-      <input type="password" id="password" />
+      <label for="user-password">Enter your password:</label>
+      <input type="password" id="user-password" />
       <br />
-      <label for="date" >Pick a date:</label>
-      <input type="date" id="date" />
+      <label for="user-date" >Pick a date:</label>
+      <input type="date" id="user-date" />
       <br />
-      <label for="time">Pick a time:</label>
-      <input type="time" id="time" />
+      <label for="user-time">Pick a time:</label>
+      <input type="time" id="user=time" />
       <br />
-      <label for="cell">Enter your cell number:</label>
-      <input type="tel" id="cell" />
+      <label for="user-cell">Enter your cell number:</label>
+      <input type="tel" id="user-cell" />
       <br />
-      <label for="email">Enter your email address:</label>
-      <input type="email" id="email" />
+      <label for="user-email">Enter your email address:</label>
+      <input type="email" id="user-email" />
       <br />
       <input type="button" value="Done" onclick="recap();">
     </form>
@@ -141,10 +141,10 @@ If we want to access the information from the fields that were entered, we can u
 // This is in the script.js file
 
 function recap() {
-  let name = document.getElementById("name").value;
-  let time = document.getElementById("time").value;
-  let cell = document.getElementById("cell").value;
-  let email = document.getElementById("email").value;
+  let name = document.getElementById("user-name").value;
+  let time = document.getElementById("user-time").value;
+  let cell = document.getElementById("user-cell").value;
+  let email = document.getElementById("user-email").value;
   console.log("Name: " + name);
   console.log("Time: " + time);
   console.log("Cell: " + cell);
