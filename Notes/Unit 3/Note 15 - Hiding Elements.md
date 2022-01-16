@@ -147,4 +147,4 @@ The difference between using `visibility: hidden` and `display: none` is that wh
 </html>
 ```
 
-![](../../Images/HTML_Hiding_1.png)
+![](../../Images/HTML_Hiding.png)
