@@ -1,41 +1,129 @@
 ### Hiding Elements
 
-There are a few days of hiding elements. One is to add the `hidden` attribute in the tag, which doesn't take any value.
+There is more than one way to hide elements. One way is to set the `visibility` property to `hidden` in the CSS file.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>User Input</title>
+    <title>Hiding Elements</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <p hidden>This sentence is invisible!</p>
+    <p id="sentence">This sentence is invisible!</p>
   </body>
 </html>
 ```
 
-If we want to change the element to being visible, we can 
+```css
+#sentence {
+  visibility: hidden;
+}
+```
+
+We can also put the styling in the HTML tag directly.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>User Input</title>
+    <title>Hiding Elements</title>
+  </head>
+  <body>
+    <p id="sentence" style="visibility:hidden;">This sentence is invisible!</p>
+  </body>
+</html>
+```
+
+We can also modify the styling using JavaScript.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hiding Elements</title>
+  </head>
+  <body>
+    <p id="sentence">This sentence is invisible!</p>    
     <script src="script.js"></script>
-  </head>
-  <body>
-    <p hidden id="sentence">This sentence is actually visible!</p>
   </body>
 </html>
-```
 ```
 
 ```js
 // This is in the script.js file
 
-document.getElementById("sentence").removeAttribute("hidden"); // makes the sentence visible
+let sentence = document.getElementById("element");
+sentence.style.visibility = "hidden";
 ```
 
-A more common way is to use the `visibility` property in the CSS.
+If we want to unhide a hidden element, we set the visibility to `visible` instead of `hidden`.
 
-TODO
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hiding Elements</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="sentence" style="visibility:hidden;">This sentence is actually visible!</p>
+  </body>
+</html>
+```
+
+```css
+```js
+// This is in the script.js file
+
+let sentence = document.getElementById("element");
+sentence.style.visibility = "visible"; // changes the element from hidden to visible
+```
+
+Another way of hiding an element is to set the `display` property to `None` in the CSS.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hiding Elements</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="sentence">This sentence is invisible!</p>
+  </body>
+</html>
+```
+
+```css
+#sentence {
+  display: none;
+}
+```
+
+The difference between using `visibility: hidden` and `display: none` is that when we change the `visibility` the element still takes up space whereas if we change the `display` it makes it seem like the element is not there at all.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hiding Elements</title>
+  </head>
+  <body>
+    <p>This list has a hidden item!</p>
+    <ol>
+      <li>One</li>
+      <li style="visibility:hidden;">Two</li>
+      <li>Three</li>
+    </ol>
+    <p>This list also has a hidden item!</p>
+    <ol>
+      <li>One</li>
+      <li style="display:none;">Two</li>
+      <li>Three</li>
+    </ol>
+  </body>
+</html>
+```
+
+![](../../Images/HTML_Hiding_1.png)
