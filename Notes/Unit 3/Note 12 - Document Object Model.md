@@ -9,7 +9,6 @@ Here is an example of an html file and its DOM.
 <html lang="en">
   <head>
     <title>My Webpage</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>My Header</h1>
