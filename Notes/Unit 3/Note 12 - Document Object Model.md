@@ -9,6 +9,7 @@ Here is an example of an html file and its DOM.
 <html lang="en">
   <head>
     <title>My Webpage</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>My Header</h1>
@@ -28,6 +29,7 @@ To access a specific element, we can make an `id` attribute for it and use the `
 <html lang="en">
   <head>
     <title>My Webpage</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>My Header</h1>
