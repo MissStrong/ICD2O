@@ -119,7 +119,7 @@ If we want to change the display to make it visible again, we set it to `block` 
 // This is in the script.js file
 
 let sentence = document.getElementById("sentence");
-sentence.style.display = "default"; // changes the element from hidden to visible
+sentence.style.display = "inline"; // changes the element from hidden to visible
 ```
 
 The difference between using `visibility: hidden` and `display: none` is that when we change the `visibility` the element still takes up space whereas if we change the `display` it makes it seem like the element is not there at all.
