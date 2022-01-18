@@ -64,10 +64,10 @@ If we want to unhide a hidden element, we set the visibility to `visible` instea
 <html lang="en">
   <head>
     <title>Hiding Elements</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <p id="sentence" style="visibility:hidden;">This sentence is actually visible!</p>
+    <script src="script.js"></script>
   </body>
 </html>
 ```
@@ -107,10 +107,10 @@ If we want to change the display to make it visible again, we set it to `block` 
 <html lang="en">
   <head>
     <title>Hiding Elements</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <p id="sentence" style="display:none;">This sentence is actually visible!</p>
+    <script src="script.js"></script>
   </body>
 </html>
 ```
