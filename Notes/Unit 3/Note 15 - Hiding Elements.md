@@ -44,7 +44,7 @@ We can also modify the styling using JavaScript.
     <title>Hiding Elements</title>
   </head>
   <body>
-    <p id="sentence">This sentence is invisible!</p>    
+    <p id="sentence">This sentence will be invisible when the JavaScript runs!</p>    
     <script src="script.js"></script>
   </body>
 </html>
@@ -66,7 +66,7 @@ If we want to unhide a hidden element, we set the visibility to `visible` instea
     <title>Hiding Elements</title>
   </head>
   <body>
-    <p id="sentence" style="visibility:hidden;">This sentence is actually visible!</p>
+    <p id="sentence" style="visibility:hidden;">This sentence will be visible when the JavaScript runs!</p>
     <script src="script.js"></script>
   </body>
 </html>
@@ -79,7 +79,7 @@ let sentence = document.getElementById("sentence");
 sentence.style.visibility = "visible"; // changes the element from hidden to visible
 ```
 
-Another way of hiding an element is to set the `display` property to `None` in the CSS.
+Another way of hiding an element is to set the `display` property to `none` in the CSS.
 
 ```html
 <!DOCTYPE html>
@@ -109,7 +109,7 @@ If we want to change the display to make it visible again, we set it to `block` 
     <title>Hiding Elements</title>
   </head>
   <body>
-    <p id="sentence" style="display:none;">This sentence is actually visible!</p>
+    <p id="sentence" style="display:none;">This sentence will be visible when the JavaScript runs!</p>
     <script src="script.js"></script>
   </body>
 </html>
