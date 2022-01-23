@@ -1,6 +1,6 @@
 ### Functions
 
-A **function** is a set of instruction that achieves something specific. When we want these set of instructions to run, we **call** the function. Every function has a name and the name is followed by a set of parentheses. 
+A **function** is a set of instruction that achieves something specific. When we want these instructions to run, we **call** the function. Every function has a name and the name is followed by a set of parentheses. 
 
 There are two types of functions in programming: **built-in functions** and **custom functions**. Built-in functions are built into the programming language whereas custom functions are functions that we create ourselves. 
 
