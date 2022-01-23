@@ -10,7 +10,7 @@ P5.js is a JavaScript **library**. A library is a collection of files that makes
 
 ### What does P5.js Code Look Like?
 
-Here is an example of a P5.js program in Replit. We'll be deconstructing it little by little thoughtout the first week of the course.
+Here is an example of a P5.js program in Replit. We'll be deconstructing it little by little thoughtout the first few days of the course.
 
 ```javascript
 function setup() {
@@ -27,4 +27,4 @@ function draw() {
 
 ### Where to Lookup Information about P5.js
 
-*Everything* about P5.js can be found on the site https://p5js.org/.
+*Everything* about P5.js can be found on the its official site: https://p5js.org/.
