@@ -2,14 +2,14 @@
 
 There are two **Boolean values**: `true` and `false`. Although they are words, they are not strings (there are no quotation marks around them). The word "Boolean" is named after George Boole, a logician from the 1800s. 
 
- `mouseIsPressed` and `keyIsPressed` are some examples of built-in Boolean variables in P5.js:
+The variables `mouseIsPressed` and `keyIsPressed` are some examples of built-in Boolean variables in P5.js.
 
 *  `mouseIsPressed` is `true` when the mouse is currently being pressed down and `false` otherwise.
 *  `keyIsPressed` is `true` when any key on the keyboard is currently being pressed down and `false` otherwise.
 
 ```js
 function draw() {
- print(mouseIsPressed); // continuously prints true or false depending on whether the mouse is being pressing down
+  print(mouseIsPressed); // continuously prints true or false depending on whether the mouse is being pressing down
 }
 ```
 ![](../../Images/Boolean.png)
