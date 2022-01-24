@@ -12,7 +12,7 @@ function setup() {
 }
 
 function keyPressed() {
-  ellipse(random(width + 1), random(height + 1), 50);
+  ellipse(random(width), random(height), 50);
 }
 ```
 
@@ -32,4 +32,4 @@ function keyReleased() {
 
 ![](../../Images/Key_Released_1.png)
 
-Next unit we'll see how to detect specific keys.
+Later, we'll see how to detect specific keys.
