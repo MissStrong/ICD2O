@@ -85,4 +85,4 @@ function draw() {
 
 ![](../../Images/Proportional_Rectangle.png)
 
-This will draw a rectangle with side lengths proportaional to the coordinates of its center. For example, if you move the mouse towards the origin, it will be a small rectangle and if you move it towards the bottom-right corner, it will be large rectangle.
+This will draw a rectangle with side lengths proportaional to the coordinates of its center. For example, if you move the mouse towards the origin, it will be a small rectangle; if you move it towards the bottom-right corner, it will be large rectangle.
