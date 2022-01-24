@@ -44,7 +44,7 @@ function setup() {
 
 ### The `triangle()` Function
 
-The `triangle()` function draws a triangle using three points. It takes six parameters: the *x* and *y* coordinates of the first point, the *x* and *y* coordinates of the second point, and the *x* and *y* coordinates of the third point.
+The `triangle()` function draws a triangle using three points representing the corners of the triangle. It takes six parameters: the *x* and *y* coordinates of the first point, the *x* and *y* coordinates of the second point, and the *x* and *y* coordinates of the third point.
 
 ```javascript
 function setup() {
@@ -58,7 +58,7 @@ function setup() {
 
 ### The `quad()` Function
 
-The `quad()` function draws a quadrilateral using four points. It takes four parameters: the *x* and *y* coordinates of the first point, the *x* and *y* coordinates of the second point, the *x* and *y* coordinates of the third point, and the *x* and *y* coordinates of the fourth point.
+The `quad()` function draws a quadrilateral using four points representing the four corners of the quadrilateral. It takes four parameters: the *x* and *y* coordinates of the first point, the *x* and *y* coordinates of the second point, the *x* and *y* coordinates of the third point, and the *x* and *y* coordinates of the fourth point.
 
 ```javascript
 function setup() {
