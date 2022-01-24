@@ -11,7 +11,7 @@ However, we can also make our own **custom variables** too. Custom variables nee
 
 ### Variable Declaration
 
-When we declare a custom variable, we have to give it a name. Ideally, the name is a descriptive word or a few descriptive words. In Javascript, the convention is to name variables using **camel case**. If the name is just one word, it is all lowercase. If the name is multiple words, the first word is all lower case and all other words are lower case except for the first letter. The idea is that the capital letters look like humps on a camel: `thisIsCamelCase`. All built-in variables and functions follow this convention.
+When we declare a custom variable, we have to give it a name. Ideally, the name is a descriptive word or a few descriptive words. In JavaScript, the convention is to name variables using **camel case**. If the name is just one word, it is all lowercase. If the name is multiple words, the first word is all lower case and all other words are lower case except for the first letter. The idea is that the capital letters look like humps on a camel: `thisIsCamelCase`. All built-in variables and functions follow this convention.
 
 ![](../../Images/Camel_Case.png)
 
@@ -30,12 +30,12 @@ function setup() {
 ```
 ![](../../Images/Coordinate300.png)
 
-When we declare and assign a value to a custom variable. We must put the name to the left of the assignment operator and the value to the right of the assignment operator. If we swap the positions it won't work.
+When we declare and assign a value to a custom variable. We must put the name to the left of the assignment operator and the value to the right of the assignment operator. If we swap the positions, it won't work.
 
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
   300 = coordinate; // // this doesn't work; the program will crash
-  ellipse(coordinate, coordinate, 200); // a circle centered at (300, 300) is drawn
+  ellipse(coordinate, coordinate, 200);
 }
 ```
