@@ -1,6 +1,6 @@
 ### RGB Values
 
-All colours that can be displayed on a computer can be expressed using a combination of 24 zeros and ones (i.e. binary digits, or bits). One of the most common way of indicating a colour is to use its  red-green-blue (**RGB**) value. An RGB value shows how to create the colour using combinations of red, green, and blue light. It is often represented as a **tuple** in which each number is an 8-bit integer ranging from 0 to 255. Like a coordinate, a tuple is an ordered sequence of numbers surrounded by parentheses.
+All colours that can be displayed on a computer can be expressed using a combination of 24 zeros and ones (i.e. binary digits, a.k.a. bits). One of the most common ways of indicating a colour is to use its red-green-blue (**RGB**) value. An RGB value shows how to create the colour using combinations of red, green, and blue light. It is often represented as a **tuple** in which each number is an 8-bit integer ranging from 0 (no light) to 255 (a lot of light). Like a coordinate, a tuple is an ordered sequence of numbers surrounded by parentheses.
 
 Here are the RGB values of common colours.
 
@@ -18,7 +18,7 @@ Here are the RGB values of common colours.
 
 ### The `background()` Function
 
-We can use `background()` to change the colour of the canvas. If we give it one argument between 0 and 255, the background will be a monochrome colour. If we give it three arguments between 0 and 255, the background will be an RBG colour.
+We can use `background()` to change the colour of the canvas. If we give it one argument between 0 and 255, the background will be a black, white, or grey colour. If we give it three arguments between 0 and 255, the background will be an RGB colour.
 
 ```javascript
 function setup() {
@@ -43,8 +43,6 @@ function setup() {
 }
 ```
 
-Here is the result:
-
 ![](../../Images/Fill.png)
 
 ### The `stroke()` Function
@@ -60,7 +58,5 @@ function setup() {
   ellipse(370, 190, 140, 200); // ellipse
 }
 ```
-
-Here is the result:
 
 ![](../../Images/Stroke.png)
