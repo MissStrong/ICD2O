@@ -5,6 +5,8 @@ We can upload images and display them on the canvas.
 After we drag an image file under Files, we can call `loadImage()` in `preload()` and `image()` in `setup()`.
 
 ```js
+let doge; // declaring a variable that will later hold an image file
+
 function preload() {
   doge = loadImage("doge.png"); // doge.png is the name of the image file
 }
@@ -20,8 +22,10 @@ function setup() {
 By default, the coordinates we call in `image()` will be the top-left corner. If we want the coordinates to be the center of the image, we can call `imageMode(CENTER)`.
 
 ```js
+let doge;
+
 function preload() {
-  doge = loadImage("doge.png"); // doge.png is the name of the image file
+  doge = loadImage("doge.png"); 
 }
 
 function setup() {
@@ -36,6 +40,8 @@ function setup() {
 By default, the image keeps its original dimensions. If we want to change the dimensions of the image, we can pass them as the fourth and fifth arugments in `image()`.
 
 ```js
+let doge;
+
 function preload() {
   doge = loadImage("doge.png");
 }
