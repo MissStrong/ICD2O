@@ -10,6 +10,7 @@ The `print()` function prints information to the console. It's useful for printi
 * Subtraction operator: `-`
 * Multiplication operator: `*`
 * Division operator: `/`
+* Exponent operator: `**` (*not* `^`)
 
 ### Order of Operations
 
@@ -23,4 +24,3 @@ function setup() {
 ```
 
 ![](../../Images/Print.png)
-
