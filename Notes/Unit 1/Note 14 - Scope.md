@@ -73,6 +73,21 @@ function draw() {
 }
 ```
 
+Whenever we have a global variable that is assigned a value later in the program, it's good practice to declare it at the top of the file to make our program more easily readable.
+
+```javascript
+let coordinate; // declaring a global variable but not assigning a value to it yet
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  coordinate = 300; // assigning a value to the global variable from before
+}
+
+function draw() {
+  ellipse(coordinate, coordinate, 200); // this works
+}
+```
+
 However, we can't just put anything we want at the very top of the file. For example, we can only call P5.js functions from within other P5.js functions such as `setup()` and `draw()`.
 
 ```javascript
