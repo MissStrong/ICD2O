@@ -21,12 +21,12 @@ If we don't specify the mode, it will default to `OPEN`.
 
 ```javascript
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 
-	angleMode(DEGREES);
-	arc(150, 50, 100, 100, 0, 270, CHORD);
-	arc(250, 200, 100, 100, 0, 270, PIE);
-	arc(350, 350, 100, 100, 0, 270, OPEN);
+  angleMode(DEGREES);
+  arc(150, 50, 100, 100, 0, 270, CHORD);
+  arc(250, 200, 100, 100, 0, 270, PIE);
+  arc(350, 350, 100, 100, 0, 270, OPEN);
 }
 ```
 
