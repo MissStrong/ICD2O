@@ -2,7 +2,7 @@
 
 **Scope** refers to the places within a program where a variable can be accessed. In JavaScript, variables can have **block scope**, **function scope**, or **global scope**.
 
-A **keyword** is a reserved word that has a special purpose. The keyword for declaring a variable with block scope is `let`. This is a fairly new keyword (it was added to JavaScript in 2015) and it is the preferred way of making a local variable. When we declare a variable using `let`, that variable can only be used within the same block after it's declared. 
+A **keyword** is a reserved word that has a special purpose. The keyword for declaring a variable with block scope is `let`. This keyword was added to JavaScript in 2015 and it is currently the preferred way of making a local variable. When we declare a variable using `let`, that variable can only be used within the same block after it's declared. 
 
 ```javascript
 function setup() {
@@ -24,7 +24,7 @@ function setup() {
 }
 ```
 
-The keyword for declaring a variable with function scope is `var`, which is short for "variable". When we look at other people's JavaScript code online, we will likely see the keyword `var` a lot. It's actually an outdated keyword as of 2015 and now the preferred keyword is `let`. 
+The keyword for declaring a variable with function scope is `var`, which is short for "variable". When we look at other people's JavaScript code online, we will likely see the keyword `var` a lot. It's actually an outdated keyword as of 2015 and now the preferred keyword is `let` since it's uncommon to want a variable with function scope as opposed to block scope. 
 
 An interesting result of using function scope is that we can use variable before we declare them. However, this is usually undesired behaviour (if we wanted to use the variale earlier, we would just declare them earlier). If you're curious about how this works, it's because `var` variables are **hoisted** (you can look up what this means if you're curious).
 
@@ -59,7 +59,7 @@ function draw() {
 }
 ```
 
-We can also consider the entire file to be one large block, so we can declare variables at the top of the file.
+We can also consider the entire file to be one large block, so we can declare variables at the top of the file. When we do this, the convention is to use `let`, although the program will still works without `let`.
 
 ```javascript
 let coordinate = 300; // declaring a global variable (this also works if we omit "let")
@@ -73,7 +73,7 @@ function draw() {
 }
 ```
 
-However, we can't just put anything we want at the very top of the file. For example, we can only call P5.js functions from within other P5.js functions like `setup()` and `draw()`.
+However, we can't just put anything we want at the very top of the file. For example, we can only call P5.js functions from within other P5.js functions such as `setup()` and `draw()`.
 
 ```javascript
 print(height); // this doesn't work
