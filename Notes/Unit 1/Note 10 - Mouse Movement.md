@@ -1,6 +1,6 @@
 ### The `draw()` Function
 
-The `draw()` is a built-in function that is overridable, just like the  `setup()` function. The difference between the two of them is `setup()` is called before `draw()` and `draw()` is called repeatedly at a rate of 60 times per second. 
+The `draw()` is a built-in function that is overridable. The difference between `setup()` and `draw()` is that `setup()` is called before `draw()` and `draw()` is called repeatedly at a rate of 60 times per second. 
 
 To override `draw()`, we write the following:
 
@@ -44,7 +44,9 @@ function draw() {
 
 ![](../../Images/Mouse_Circle.png)
 
-The reason this works is that the `draw()` function repeatedly redraws the background and covers up the previous circle. The reason the circle isn't flickering is that the canvas updates at the end of each cycle of `draw()`, so we see the changes to the screen all at once instead of one after the other.
+The reason this works is that the `draw()` function repeatedly redraws the background and covers up the previous circle. 
+
+The reason the circle isn't flickering is that the canvas updates at the end of each cycle of `draw()`, so we see the changes to the screen all at once instead of one after the other.
 
 ### `pmouseX` and `pmouseY`
 
