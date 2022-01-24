@@ -52,9 +52,10 @@ function setup() {
 We can also use any commercial-use font by uploading the **.ttf** (TrueType Font) or **.otf** (OpenType Font) file for it. We can use sites like [Google Fonts](https://fonts.google.com) to legally download these files. Once we download one we can drag it under **Files** on our Replit project. Then we load by calling `loadFont()` in the body of the `preload()` function. The `preload()` function is a function that we override, just like`setup()` and `draw()`. The `preload()` function runs only once (right befores `setup()`)and it is used to load external files smoothly. The  `setup()` function isn't called until all the files in `preload()` are done loading. To use the font on a specific string and set the font size, we call `textFont()` in `setup()`.
 
 ```js
+let ephesis; // we're declaring a variable that will be used later to store the font
+
 function preload() {
   ephesis = loadFont("ephesis.ttf"); // "ephesis.ttf" is a file from Google Font
-  // there's no "let" because we need to access this in variable in setup()
 }
 
 function setup() {
