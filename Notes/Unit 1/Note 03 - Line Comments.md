@@ -1,7 +1,7 @@
 
 ### Line Comments
 
-We can annotate our code by using line comments. Line comments begin with two forward slashes `//` and can be places after a line or code or on a blank line.
+We can annotate our code with **line comments**. Line comments begin with two forward slashes `//` and can be placed after a line or code or on a blank line.
 They can provide explanations and reminders for us so that our code is easier to read and understand.
 
 ```js
