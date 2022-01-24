@@ -1,6 +1,6 @@
 ### Mouse Buttons
 
-Recall that when we want something to happen when we do a single mouse click we use the `mousePressed()` or `mouseReleased()` functions and when we want something to happen while the mouse is being pressed down we use the Boolean variable `mouseIsPressed` in a conditional.
+Recall that when we want something to happen when we do a single mouse click we use the `mousePressed()` or `mouseReleased()` functions and when we want something to happen while the mouse is being pressed down we use the Boolean variable `mouseIsPressed` in a conditional statement.
 
 If we want to know which mouse button was pressed, we can use the string variable `mouseButton`. It stores the values of `LEFT` (equivalent to `"left"`), `CENTER` (equivalent to `"center"`), or `RIGHT` (equivalent to `"right"`), depending on which one was most recently pressed. On a trackpad, a left click is the same as a one-finger click, a right click is the same as a two-finger click, and a middle click is the same as a three-finger click. 
 
