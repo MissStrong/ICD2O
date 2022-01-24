@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-  ellipse(mouseX, mouseY, 50);
+  ellipse(mouseX, mouseY, 50); // follows the mouse
 }
 ```
 
@@ -38,7 +38,7 @@ function setup() {
 
 function draw() {
   background(100);
-  ellipse(mouseX, mouseY, 50);
+  ellipse(mouseX, mouseY, 50); // follows the mouse
 }
 ```
 
@@ -60,7 +60,7 @@ function setup() {
 }
 
 function draw() {
-  line(pmouseX, pmouseY, mouseX, mouseY);
+  line(pmouseX, pmouseY, mouseX, mouseY); // draws a line from the two most recent mouse coordinartes
 }
 ```
 
@@ -79,7 +79,7 @@ function setup() {
 function draw() {
   background(255);
   rectMode(CENTER);
-  rect(mouseX, mouseY, mouseX/2, mouseY/2);
+  rect(mouseX, mouseY, mouseX/2, mouseY/2); // this rectangle moves and changes sizes when you move the mosue
 }
 ```
 
