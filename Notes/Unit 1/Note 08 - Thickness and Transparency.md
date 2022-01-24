@@ -16,7 +16,7 @@ function setup() {
 
 ### The `noStroke()` Function
 
-If we want the inside of a shape to be transparent, we can use `noStroke()`.
+If we want the outline of a shape to be transparent, we can use `noStroke()`.
 
 ```javascript
 function setup() {
@@ -33,7 +33,7 @@ function setup() {
 
 ### The `noFill()` Function
 
-If we want the outline of a shape to be transparent, we can use `noFill()`.
+If we want the inside of a shape to be transparent, we can use `noFill()`.
 
 ```js
 function setup() {
