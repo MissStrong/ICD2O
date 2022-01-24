@@ -22,15 +22,15 @@ Inside the curly braces `{}` we write the code we want to run during the setup.
 
 The second built-in function we'll be looking at is the `createCanvas()`. This function creates the canvas for us to draw our sketch, but before it can do that it needs to know how big to make the canvas. Whenever a function requires additional information called **parameters**, we put the values of the parameters inside the parentheses, separated by commas. These values are called **arguments**.
 
-The `createCanvas()` function requires two parameters: the width of the canvas and the height of the canvas, in pixels.  Let's suppose we want a canvas that is 500px by 300px. We can do that with this line of code:
+The `createCanvas()` function requires two parameters: the width of the canvas and the height of the canvas, in pixels. Let's suppose we want a canvas that is 500px by 300px. We can do that with this line of code:
 
 ```javascript
 createCanvas(500, 300);
 ```
 
-The semicolon `;` at the end indicates the end of a **statement**. A function call is one example of a statement.
+The semicolon `;` at the end indicates the end of a **statement**. Calling a function is one example of a statement.
 
-We always want to create the canvas during the setup, so we put this line in the **body** of `setup()`. The body is the space between the braces.
+We always want to create the canvas during the setup, so we put this line in the **body** of `setup()`. The body of a function is the space between the braces.
 
 ```javascript
 function setup() {
@@ -52,7 +52,7 @@ function setup() {
 
 ### `width` and `height`
 
-The next two built-in variables we'll be looking at are `width` and `height`. Once we call `createCanvas()`, these two variables store the width and height of the canvas. We can use these values throughout the rest of the program.
+The next two built-in variables we'll be looking at are `width` and `height`. Once we call `createCanvas()`, these two variables store the width and height of the canvas. We can use these values throughout the program.
 
 ### The Console
 
