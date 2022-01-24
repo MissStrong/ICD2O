@@ -40,7 +40,7 @@ In JavaScript, we also have `===` and `!==` when we want to ensure that the two 
 
 ![](../../Images/Equality_Operator.png)
 
-**Boolean operators** combine two or more boolean expressions to produce a `true` or `false` statement. By convention, their names are written in capital letters.
+**Boolean operators** combine two or more Boolean expressions to produce a `true` or `false` statement. By convention, their names are written in capital letters.
 
 | Operator Name | Operator Symbol | Example | Explanation |
 | --- | --- | --- | --- |
