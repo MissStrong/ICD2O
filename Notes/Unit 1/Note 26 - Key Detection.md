@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   if (keyIsPressed) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up while a key is being pressed down
+    ellipse(random(width), random(height), 50); // the circles only show up while a key is being pressed down
   }
 }
 ```
@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
   if (keyIsDown(ENTER)) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up when the ENTER key is being pressed down
+    ellipse(random(width), random(height), 50); // the circles only show up when the ENTER key is being pressed down
   }
 }
 ```
@@ -51,9 +51,9 @@ function setup() {
 
 function keyPressed() {
   if (keyIsDown(ENTER)) {
-    ellipse(random(width + 1), random(height + 1), 50);
+    ellipse(random(width), random(height), 50);
   } if (keyIsDown(SPACE_BAR)) {
-    rect(random(width + 1), random(height + 1), 50);
+    rect(random(width), random(height), 50);
   }
 }
 ```
