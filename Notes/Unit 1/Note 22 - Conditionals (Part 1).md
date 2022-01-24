@@ -1,10 +1,10 @@
 ### Conditionals
 
-A **conditional structure** is a section of code in which certain blocks are only run when certain conditions are met. We use Booleans to create these conditions.
+In a **conditional structure**, certain blocks are run only when certain conditions are met. We use Booleans to create these conditions.
 
 The simplest type of conditional structure is called an **if statement**, which use the keyword `if`.
 
-For an `if` statement, we have the keyword `if` followed by a Boolean value or expression in parenthesis, followed by a block of code enclosed in curly braces. In the block, we write the code that we want to run when the condition is met. 
+An `if` statement uses keyword `if` followed by a Boolean value or Boolean expression enclosed in parenthesis, followed by a block of code enclosed in curly braces. In the block, we write the code that we want to run when the condition is met. 
 
 Here is an example of an `if` statement. This draws circles where the cursor is, but only when the mouse is pressed down.
 
@@ -22,7 +22,6 @@ function draw() {
 
 ![](../../Images/Conditional1.png)
 
-
 Here's another example. This keeps drawing circles when we are pressing down on a key and it stops drawing them when we let go of all the keys.
 
 ```js
@@ -32,7 +31,7 @@ function setup() {
 
 function draw() {
   if (keyIsPressed) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up while a key is being pressed down
+    ellipse(random(width), random(height), 50); // the circles only show up while a key is being pressed down
   }
 }
 ```
@@ -40,7 +39,7 @@ function draw() {
 ![](../../Images/Conditional2.png)
 
 
-If we want the opposite value of a Boolean, we can use the **not operator**, which is the exclamation mark symbol `!`.
+If we want the opposite value of a Boolean, we can use the **NOT operator**, which is the exclamation mark symbol `!`.
 
 This is a slight modification of the first example. This draws a circle where the cursor is, but only when the mouse is NOT pressed down.
 
@@ -67,7 +66,7 @@ function setup() {
 
 function draw() {
   if (!keyIsPressed) { 
-    ellipse(random(width + 1), random(height + 1), 50); // the circles only show up while a key is NOT being pressed down
+    ellipse(random(width), random(height), 50); // the circles only show up while a key is NOT being pressed down
   }
 }
 ```
