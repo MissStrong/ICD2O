@@ -46,9 +46,9 @@ function setup() {
 
 ### While Loop
 
-What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: **while* loops* and **for* loops*.
+What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: ***while* loops** and ***for* loops**.
 
-The structure of a *while* loop is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is true.
+The structure of a *while* loop is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is `true`.
 
 In the previous example, each line is almost identical with the exception of the coordinates. What we can do is store the coordinate as a variable and repeatedly call `rect(coordinate, coordinate, 50)` and `coordinate += 50`.
 
@@ -69,10 +69,9 @@ function setup() {
 
 ![](../../Images/Diagonal_Squares1.png)
 
-
 Now the program will show the diagonal squares all at once. This is because the canvas is updated once all the lines in `setup()` have been executed.
 
-When we are creating our own loops, one thing to be aware of is to avoid **infinite loops**. These loops run indefinitely and anything that is supposed to happen after it will not run. They happen when the boolean expression is never false. 
+When we are creating our own loops, one thing to be aware of is avoiding **infinite loops**. These loops run indefinitely and anything that is supposed to happen after it will not run. They happen when the boolean expression is never `false`. 
 
 Here is an example of an infinite loop. This program will not show anything on the screen.
 
