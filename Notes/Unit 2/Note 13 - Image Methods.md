@@ -6,6 +6,8 @@ We can get update the colours of the individual pixels in an image object using 
 The example below gets the colour of the pixel the mouse is on and magnifies it.
 
 ```js
+let doge;
+
 function preload() {
   doge = loadImage("doge.png");
 }
@@ -30,6 +32,8 @@ function draw() {
 The example below inverts the colours of all the pixels in the image by changing its RGB values to their inverses (255 minus the original number). There are two more image methods here: `loadPixels()` and `updatePixels()`.
 
 ```js
+let doge;
+
 function preload() {
   doge = loadImage("doge.png");
 }
