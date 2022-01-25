@@ -6,11 +6,11 @@ Here is the [full list of colour names](https://www.w3schools.com/colors/colors_
 
 ```js
 let colours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+let index = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(10);
-  index = 0;
   noStroke();
 }
 
