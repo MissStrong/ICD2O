@@ -31,6 +31,8 @@ We can access the properties within an object using **dot notation** (a.k.a. **d
 We can use `.width` and `.height` to scale the size of an image.
 
 ```js
+let doge;
+
 function preload() {
   doge = loadImage("doge.png");
 }
