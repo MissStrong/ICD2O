@@ -16,11 +16,11 @@ We've also seen built-in strings that represent a variety of [colours recognized
 
 ```js
 let colours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+let index = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(10);
-  index = 0;
   noStroke();
 }
 
