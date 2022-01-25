@@ -4,6 +4,8 @@ A method is a function that is performed on an object. Methods use dot notation:
 
 We can create our own methods inside of our own objects. Inside the object, we write the the name of the method followed by a set of parentheses and a set of curly braces. Inside the parentheses we put any parameters and inside the curly braces we write the body of the method.
 
+To access the properties of the object inside the method, we use the keyword `this`, which gives us a copy of the object for us to use dot notation on. If we don't use `this`, then we will make a new variable instead of modifying the old one.
+
 ```js
 let circle = { 
   coordinate: 0,
