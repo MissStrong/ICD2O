@@ -5,9 +5,10 @@ Custom objects are useful when we have many variables that are better off groupe
 Here is a program we saw earlier.
 
 ```js
+let coordinate = 0;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  coordinate = 0; 
 }
 
 function draw() {
