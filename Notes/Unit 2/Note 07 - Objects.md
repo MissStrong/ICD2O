@@ -3,6 +3,8 @@
 Here is a program we saw earlier that displays an image onto the canvas.
 
 ```js
+let doge;
+
 function preload() {
   doge = loadImage("doge.png");
 }
