@@ -16,6 +16,20 @@ The idea is that this is similar to how we would refer to cells in a table: The 
 
 The coordinate (0, 0) is referred to as the **origin**. In P5.js, the origin is the top-left corner, not the center like in math.
 
+### The `rect()` Function
+
+We use `rect()` to draw squares and rectangles. This function takes three or four parameter: an *x*-value, a *y*-value, a width, and an optional height. If the height is excluded or the width and height are the same, so it will draw a square. By default, (*x*, *y*) is the top-left vertex of the rectangle.
+
+```javascript
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+
+  rect(130, 90, 260, 120); // rectangle
+}
+```
+
+![](../../Images/Rectangle1.png)
+
 ### The `ellipse()` Function
 
 We use `ellipse()` to draw circles and ellipses. Ellipses are like circles except they have a the horizontal diameter and the vertical diameter. This function takes three or four parameters: an *x*-value, a *y*-value, a horizontal diameter, and an optional vertical diameter. By default, (*x*, *y*) is the center of the circle or ellipse using the coordinate system described above
