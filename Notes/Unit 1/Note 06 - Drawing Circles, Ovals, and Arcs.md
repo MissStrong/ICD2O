@@ -1,3 +1,18 @@
+### The `ellipse()` Function
+
+We use `ellipse()` to draw circles and ellipses. Ellipses are like circles except they have a the horizontal diameter and the vertical diameter. This function takes three or four parameters: an *x*-value, a *y*-value, a horizontal diameter, and an optional vertical diameter. By default, (*x*, *y*) is the center of the circle or ellipse using the coordinate system described above
+
+```javascript
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+
+  ellipse(150, 270, 140); // circle
+  ellipse(370, 190, 140, 200); // ellipse
+}
+```
+
+![](../..//Images/Ellipse1.png)
+
 ### The `arc()` Function
 
 An **arc** is a curve along the circumference of a circle. We use the `arc()` function to draw arcs. This function takes the same four parameters as `ellipse()`, but it also takes three more: the starting point, the ending point, and the mode. 
