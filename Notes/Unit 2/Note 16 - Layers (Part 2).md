@@ -140,29 +140,29 @@ function setup() {
   topLeft = {
     graphic: createGraphics(halfWidth, halfHeight),
     bg: color(255, 255, 0), // yellow background for top left quadrant
-    xPos: 0,
-    yPos: 0
+    xValue: 0,
+    yValue: 0
   }
 
   topRight = {
     graphic: createGraphics(halfWidth, halfHeight),
     bg: color(255, 0, 255), // magenta background for top right quadrant
-    xPos: halfWidth,
-    yPos: 0
+    xValue: halfWidth,
+    yValue: 0
   }
   
   bottomLeft = {
     graphic: createGraphics(halfWidth, halfHeight),
     bg: color(0, 255, 255), // teal background for bottom left quadrant
-    xPos: 0,
-    yPos: halfHeight
+    xValue: 0,
+    yValue: halfHeight
   }
 
   bottomRight = {
     graphic: createGraphics(halfWidth, halfHeight),
     bg: color(255, 0, 0), // red background for bottom right quadrant
-    xPos: halfWidth,
-    yPos: halfHeight
+    xValue: halfWidth,
+    yValue: halfHeight
   }
 
   sections = [topLeft, topRight, bottomLeft, bottomRight];
@@ -175,8 +175,7 @@ function setup() {
 function draw() {
   for (section of sections) {
     section.graphic.ellipse(mouseX, mouseY, 30); // puts the circle on all the graphics
-    image(section.graphic, section.xPos, section.yPos); // displays all the graphics in the correct location
+    image(section.graphic, section.xValue, section.yValue); // displays all the graphics in the correct location
   }
 }
 ```
-
