@@ -12,8 +12,8 @@ function setup() {
   createCanvas(500, 500);
   for (let index = 0; index < numCircles; index++) { // makes 20 random circles
     let circle = {
-      x: random(width + 1), // random x and y coordinates
-      y: random(height + 1),
+      x: random(width), // random x and y coordinates
+      y: random(height),
       diameter: random([25, 50, 75]) // random diameter among these three numbers
     }
     circles.push(circle); // puts the circle into the array
