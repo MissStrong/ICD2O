@@ -39,7 +39,7 @@ function setup() {
 }
 
 function draw() {
-  ellipse(random(width + 1), random(height + 1), random(sizes));
+  ellipse(random(width), random(height), random(sizes));
 }
 ```
 
