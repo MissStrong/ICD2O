@@ -1,7 +1,6 @@
 /* 
  * This is just a suggested template. 
  * Feel free to completely change it if you want.
- * To use this file, change line 11 in index.html
  */
 
 function setup() {
