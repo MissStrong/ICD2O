@@ -1,5 +1,5 @@
-# ICS2O
-My course content in the 2022-2023 school year for the programming topics in ICS2OI. The programming language is JavaScript (mainly the P5.js framework) and the IDE is Replit.
+# ICD2O
+My course content in the 2023-2024 school year for the programming topics in ICD2OI. The programming language is JavaScript (mainly the P5.js framework) and the IDE is Replit.
 
 ### Unit 1
 
