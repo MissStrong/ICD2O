@@ -1,5 +1,5 @@
 # ICS2O
-My course content in the 2020-2021 school year for the programming topics in ICS2OI. The programming language is JavaScript (mainly the P5.js framework) and the IDE is Replit.
+My course content in the 2022-2023 school year for the programming topics in ICS2OI. The programming language is JavaScript (mainly the P5.js framework) and the IDE is Replit.
 
 ### Unit 1
 
