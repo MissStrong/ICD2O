@@ -26,7 +26,7 @@ The salutation (opening line) of an email consists of three parts.
 
    If recipient is a woman and are unsure whether they are married, use *Ms* or *Ms.* instead guessing whether they prefer *Miss*, *Mrs.*, or different title. If the recipient uses a less common title such as *Dr.*, be sure to use that if that is how they address themself.  
 
-3. **Final punctuation**. There are three commonly used punctuation marks that terminate the salutation. Colons are more formal than commas and en dashes, and typically used only when the greeting is *Dear.* Note that an en dash is not the same as a hyphen (-), as it is slightly longer. **
+3. **Final punctuation**. There are three commonly used punctuation marks that terminate the salutation. Colons are more formal than commas and en dashes, and typically used only when the greeting is *Dear*. Note that an en dash is not the same as a hyphen (-), as it is slightly longer.
 
    - Comma (,)
    - Colon (:)
